@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.3 — Responsive dashboard pre-release
+
+- Lower the dash minimum from 240 × 280 to 160 × 180.
+- Adapt to the app's own dimensions, with a compact layout for small/short apps and scaled medium/large views.
+- Allow independent width/height resizing in the UI Apps editor.
+- Keep temperature, three tread bands and pressure visible at small sizes; keep units in the header.
+- Fix the back arrow returning from tyre details.
+- Retain grip, audio, telemetry and wheel construction unchanged.
+
 ## 0.2.2 — Slipline initial public pre-release
 
 - Publish the project as Slipline, retaining existing runtime identifiers.

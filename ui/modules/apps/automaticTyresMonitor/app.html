@@ -1,11 +1,11 @@
 <section class="tdash" ng-class="{'tdash-stale':!live}" aria-label="Tyre dash">
   <link rel="stylesheet" href="/ui/modules/apps/automaticTyresMonitor/app.css">
   <header class="tdash-header">
-    <div><button class="tdash-back" type="button" ng-if="selected" ng-click="selected=null" aria-label="Back to all tyres">←</button><span>{{selected ? selected.name : 'TYRES'}}</span></div>
+    <div><button class="tdash-back" type="button" ng-if="selected" ng-click="back()" aria-label="Back to all tyres">←</button><span>{{selected ? selected.name : 'TYRES'}}</span></div>
     <div class="tdash-controls"><span class="tdash-state" ng-if="!live">NO DATA</span><button type="button" ng-click="toggleTemperature()" aria-label="Change temperature unit">{{tempUnit}}</button><button type="button" ng-click="togglePressure()" aria-label="Change pressure unit">{{pressureUnit}}</button></div>
   </header>
   <div class="tdash-body" ng-if="!selected">
-    <div class="tdash-plan">
+    <div class="tdash-plan" ng-class="{'tdash-extra':displayWheels.length>4}">
       <svg class="tdash-car" viewBox="0 0 90 230" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M45 14l-3 5h6z" fill="currentColor" stroke="none"/><path d="M22 24Q45 15 68 24L75 66L75 190Q73 213 65 217H25Q17 213 15 190V66Z"/><path d="M25 71Q45 66 65 71L67 98H23Z M23 155H67L65 185Q45 190 25 185Z M24 104V148 M66 104V148"/><path class="tdash-axle" d="M3 60H87 M3 193H87"/></svg>
       <div class="tdash-wheels">
         <button type="button" class="tdash-wheel" ng-repeat="w in displayWheels track by w.name" ng-click="select(w)" ng-disabled="w.placeholder" ng-class="{'tdash-flat':w.deflated}" ng-attr-aria-label="{{w.label + ', open tyre details'}}">

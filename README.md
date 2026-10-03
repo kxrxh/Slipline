@@ -2,7 +2,7 @@
 
 Automatic tyre grip response, clearer tyre audio and a compact racing dash for **BeamNG.drive 0.39.x**.
 
-**Version 0.2.2 is experimental.** Tested with BeamNG.drive 0.39.4.0 (build 20972). It is a bounded handling modifier, not a validated replacement for the native tyre physics model.
+**Version 0.2.3 is experimental.** Tested with BeamNG.drive 0.39.4.0 (build 20972). It is a bounded handling modifier, not a validated replacement for the native tyre physics model.
 
 ![Tyre Dash with sample readings](docs/images/tyre-dash.png)
 
@@ -12,10 +12,14 @@ Automatic tyre grip response, clearer tyre audio and a compact racing dash for *
 
 - Automatic per-wheel grip response driven by slip and short relaxation history. No tuning part or activation required.
 - Native tyre audio grows with measured slip, helping make sliding more audible.
-- **Tyre Dash:** four tyre silhouettes, three temperature bands per tyre and live pressure. Tap a tyre for more readings; switch between °C/°F and PSI/kPa.
+- **Tyre Dash:** three tread-temperature bands per tyre and live pressure, with compact and larger layouts. Tap a tyre for details; switch between °C/°F and PSI/kPa.
 - Optional integration with [Tyre Wear and Thermals Redux](https://www.beamng.com/resources/tyre-wear-and-thermals-redux.29934/). Redux supplies temperature, wear and base grip; Slipline applies its response afterwards.
 
 Wheel construction stays stock. Slipline does not increase polygon or physics-node counts.
+
+## Resizing the dash
+
+Drag the app resize handle in BeamNG's UI Apps editor. Suggested sizes: **small 160 × 180**, **medium 300 × 360**, **large 440 × 500**. Small or short apps use compact two-column readings; larger apps scale the car outline and tyre graphics. Width and height are independent, and temperature/pressure stay visible. Small detail views scroll vertically.
 
 ## Readings and behaviour
 

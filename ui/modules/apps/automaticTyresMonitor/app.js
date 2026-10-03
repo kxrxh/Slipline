@@ -1,7 +1,7 @@
 (function () {
   'use strict';
   angular.module('beamng.apps').directive('automaticTyresMonitor', ['$interval', function ($interval) {
-    return {restrict:'EA',replace:true,templateUrl:'/ui/modules/apps/automaticTyresMonitor/app.html',link:function(scope){
+    return {restrict:'EA',replace:true,templateUrl:'/ui/modules/apps/automaticTyresMonitor/app.html',link:function(scope,element){
       var streams=['TyreWearThermals','AutomaticTyresTelemetry'];
       var thermal={},telemetry={},thermalTime=0,telemetryTime=0;
       var positions=['FL','FR','RL','RR'];
@@ -10,6 +10,24 @@
       function mean(values){var a=values.filter(function(x){return x!==null;});return a.length?a.reduce(function(x,y){return x+y;},0)/a.length:null;}
       function blank(name){return {name:name,label:labels[name]||name,temps:[null,null,null],average:null,pressure:null,placeholder:true,status:{tone:'neutral'}};}
       scope.selected=null;scope.live=false;scope.wheels=[];scope.displayWheels=positions.map(blank);
+      // Measure the app itself: the game viewport does not change when a UI app resizes.
+      var host=element[0],lastWidth=0,lastHeight=0,resizeObserver;
+      function resize(){
+        var width=host.clientWidth,height=host.clientHeight;
+        if(!width||!height||(width===lastWidth&&height===lastHeight))return;
+        lastWidth=width;lastHeight=height;
+        var compact=width<230||height<270;
+        var scale=compact?Math.max(.7,Math.min(1,(width-14)/216,(height-38)/196)):
+          Math.max(.65,Math.min(2,(width-24)/276,(height-32)/319));
+        host.classList.toggle('tdash-compact',compact);
+        host.classList.toggle('tdash-large',!compact&&scale>=1.3);
+        host.style.setProperty('--td-scale',scale.toFixed(4));
+      }
+      if(typeof ResizeObserver!=='undefined'){
+        resizeObserver=new ResizeObserver(resize);resizeObserver.observe(host);
+      }
+      resize();
+      scope.$on('app:resized',resize);
       try{scope.tempUnit=localStorage.getItem('automaticTyres.tempUnit')==='°F'?'°F':'°C';scope.pressureUnit=localStorage.getItem('automaticTyres.pressureUnit')==='kPa'?'kPa':'PSI';}catch(e){scope.tempUnit='°C';scope.pressureUnit='PSI';}
       scope.number=function(n,d){return numeric(n)===null?'—':n.toFixed(d);};
       scope.temperature=function(n){return numeric(n)===null?'—':Math.round(scope.tempUnit==='°F'?n*1.8+32:n);};
@@ -42,6 +60,7 @@
         scope.selected=scope.wheels.find(function(w){return w.name===selected;})||null;
       }
       scope.select=function(w){if(!w.placeholder)scope.selected=w;};
+      scope.back=function(){scope.selected=null;};
       function clear(){thermal={};telemetry={};thermalTime=0;telemetryTime=0;scope.wheels=[];scope.displayWheels=positions.map(blank);scope.selected=null;scope.live=false;}
       StreamsManager.add(streams);
       scope.$on('streamsUpdate',function(event,values){
@@ -50,8 +69,9 @@
         build();
       });
       scope.$on('VehicleFocusChanged',clear);scope.$on('VehicleReset',clear);
-      var clock=$interval(build,500);
-      scope.$on('$destroy',function(){StreamsManager.remove(streams);$interval.cancel(clock);});
+      // Also provides a resize fallback for older game browser runtimes.
+      var clock=$interval(function(){build();resize();},500);
+      scope.$on('$destroy',function(){StreamsManager.remove(streams);$interval.cancel(clock);if(resizeObserver)resizeObserver.disconnect();});
     }};
   }]);
 })();
