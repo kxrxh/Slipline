@@ -15,21 +15,7 @@ Automatic tyre grip response, clearer tyre audio and a compact racing dash for *
 - **Tyre Dash:** four tyre silhouettes, three temperature bands per tyre and live pressure. Tap a tyre for more readings; switch between °C/°F and PSI/kPa.
 - Optional integration with [Tyre Wear and Thermals Redux](https://www.beamng.com/resources/tyre-wear-and-thermals-redux.29934/). Redux supplies temperature, wear and base grip; Slipline applies its response afterwards.
 
-Wheel construction stays stock. Slipline does not increase polygon or physics-node counts. The early Automatic Tyres prototype's density increase was withdrawn after tyre failures.
-
-## Install
-
-1. Download `slipline_beamng_039_v0.2.2.zip` from [Releases](https://github.com/kxrxh/Slipline/releases).
-2. Open BeamNG's current user folder through its launcher. Place the ZIP in `mods` and keep it zipped.
-3. Remove or disable previous Slipline / Automatic Tyres ZIPs, and disable GGT before using Slipline. Keep only one copy enabled.
-4. Fully restart BeamNG and spawn a fresh vehicle. The grip and audio extensions load automatically.
-5. To display readings, add **Tyre Dash** through the game's UI Apps editor. The dash is optional; its placement is a one-time UI choice.
-
-GitHub's **Source code** archives are for development. Install the release ZIP listed above.
-
-Without Redux, the dash still shows live pressure and Slipline runs its grip response. Temperature and remaining tyre life require Redux; unavailable readings appear as dashes.
-
-To uninstall, remove the ZIP, restart BeamNG and respawn the vehicle. Remove Tyre Dash from your UI layout if desired. No base-game files are changed.
+Wheel construction stays stock. Slipline does not increase polygon or physics-node counts.
 
 ## Readings and behaviour
 
