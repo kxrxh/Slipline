@@ -1,0 +1,1191 @@
+{
+  "runs": 168,
+  "completed_conditions": [
+    "stock",
+    "slipline"
+  ],
+  "safety": {
+    "failed_tyre_samples": 0,
+    "minimum_pressure_psi": 25.488569434985
+  },
+  "paired": [
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "Covet_race_sport",
+      "maneuver": "corner",
+      "metric": "high_lat_g",
+      "baseline_mean": 0.8329499382143228,
+      "modified_mean": 0.8274364829051163,
+      "baseline_sd": 0.00012088072140568368,
+      "modified_sd": 2.118390071608075e-06,
+      "delta_mean": -0.005513455309206512,
+      "delta_min": -0.005613138515199401,
+      "delta_max": -0.005381495723749241,
+      "delta_percent": -0.6619191689990699,
+      "max_entry_speed_difference_kmh": 0.017928603982809932,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "low_lat_g": {
+          "baseline": 0.524439850065704,
+          "modified": 0.5232221970989336,
+          "delta": -0.001217652966770455
+        },
+        "high_radius_m": {
+          "baseline": 49.87615519007431,
+          "modified": 50.18011513471076,
+          "delta": 0.30395994463645337
+        },
+        "high_speed_kmh": {
+          "baseline": 72.67790962819508,
+          "modified": 72.67964837702539,
+          "delta": 0.0017387488303057808
+        },
+        "high_beta_deg": {
+          "baseline": 1.2955260867153997,
+          "modified": 1.304896575978552,
+          "delta": 0.009370489263152315
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "Covet_race_sport",
+      "maneuver": "steering",
+      "metric": "step_peak_yaw_deg_s",
+      "baseline_mean": 31.227445023650322,
+      "modified_mean": 31.15458284231423,
+      "baseline_sd": 0.31030000383904854,
+      "modified_sd": 0.13568972540457347,
+      "delta_mean": -0.0728621813360905,
+      "delta_min": -0.46053916516698834,
+      "delta_max": 0.19352999503792745,
+      "delta_percent": -0.23332738647336604,
+      "max_entry_speed_difference_kmh": 0.04003535642038969,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "rise_time_s": {
+          "baseline": 0.2666666706399994,
+          "modified": 0.250000003724999,
+          "delta": -0.016666666915000405
+        },
+        "recovery_yaw_rms_deg_s": {
+          "baseline": 0.4081854172195524,
+          "modified": 0.4574642764270284,
+          "delta": 0.04927885920747599
+        },
+        "peak_beta_deg": {
+          "baseline": 1.914470550097,
+          "modified": 1.9666575030903,
+          "delta": 0.052186952993299895
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "Covet_race_sport",
+      "maneuver": "brake",
+      "metric": "brake_distance_m",
+      "baseline_mean": 46.273058846632,
+      "modified_mean": 48.23452092369364,
+      "baseline_sd": 0.25236308955717196,
+      "modified_sd": 0.21630409661360103,
+      "delta_mean": 1.9614620770616422,
+      "delta_min": 1.6591948343735723,
+      "delta_max": 2.3223263252903408,
+      "delta_percent": 4.2388857057467,
+      "max_entry_speed_difference_kmh": 0.06662272377600686,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "distance_at_100_kmh_m": {
+          "baseline": 46.66378620846244,
+          "modified": 48.63207525113355,
+          "delta": 1.9682890426711097
+        },
+        "stop_time_s": {
+          "baseline": 3.1666667138540006,
+          "modified": 3.333333383004,
+          "delta": 0.1666666691499996
+        },
+        "stop_speed_kmh": {
+          "baseline": 1.1246243410985508,
+          "modified": 0.3574450637702976,
+          "delta": -0.7671792773282532
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "Covet_race_sport",
+      "maneuver": "drift",
+      "metric": "slide_duration_s",
+      "baseline_mean": 0,
+      "modified_mean": 0,
+      "baseline_sd": 0.0,
+      "modified_sd": 0.0,
+      "delta_mean": 0,
+      "delta_min": 0,
+      "delta_max": 0,
+      "delta_percent": null,
+      "max_entry_speed_difference_kmh": 0.03496932373319339,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": false,
+      "secondary": {
+        "spin_duration_s": {
+          "baseline": 0,
+          "modified": 0,
+          "delta": 0
+        },
+        "slide_beta_deg": {
+          "baseline": null,
+          "modified": null,
+          "delta": null
+        },
+        "slide_speed_kmh": {
+          "baseline": null,
+          "modified": null,
+          "delta": null
+        },
+        "peak_beta_deg": {
+          "baseline": 5.956960717704034,
+          "modified": 9.114918696992167,
+          "delta": 3.157957979288133
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "Covet_race_standard",
+      "maneuver": "corner",
+      "metric": "high_lat_g",
+      "baseline_mean": 0.7515601185263961,
+      "modified_mean": 0.7472636981774605,
+      "baseline_sd": 2.5625059781164264e-05,
+      "modified_sd": 6.298425278081393e-05,
+      "delta_mean": -0.004296420348935663,
+      "delta_min": -0.004359861771207174,
+      "delta_max": -0.004201500810045444,
+      "delta_percent": -0.5716668890520386,
+      "max_entry_speed_difference_kmh": 0.04323113299800241,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "low_lat_g": {
+          "baseline": 0.485298959010231,
+          "modified": 0.4836537498136607,
+          "delta": -0.0016452091965702964
+        },
+        "high_radius_m": {
+          "baseline": 55.304898305375495,
+          "modified": 55.614809006843956,
+          "delta": 0.30991070146846056
+        },
+        "high_speed_kmh": {
+          "baseline": 72.68878482008863,
+          "modified": 72.69017374195546,
+          "delta": 0.0013889218668339254
+        },
+        "high_beta_deg": {
+          "baseline": 1.434563134477212,
+          "modified": 1.4486231130164375,
+          "delta": 0.01405997853922547
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "Covet_race_standard",
+      "maneuver": "steering",
+      "metric": "step_peak_yaw_deg_s",
+      "baseline_mean": 29.864595749624982,
+      "modified_mean": 29.93915295624028,
+      "baseline_sd": 0.41402978507446664,
+      "modified_sd": 0.2575050148523611,
+      "delta_mean": 0.0745572066153007,
+      "delta_min": -0.3425988736731149,
+      "delta_max": 0.3343172693050711,
+      "delta_percent": 0.2496508147652959,
+      "max_entry_speed_difference_kmh": 0.011503160283595548,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "rise_time_s": {
+          "baseline": 0.2666666706399994,
+          "modified": 0.250000003724999,
+          "delta": -0.016666666915000405
+        },
+        "recovery_yaw_rms_deg_s": {
+          "baseline": 0.49867967387771,
+          "modified": 0.435824924196401,
+          "delta": -0.062854749681309
+        },
+        "peak_beta_deg": {
+          "baseline": 2.2047244460591,
+          "modified": 2.2601748040838,
+          "delta": 0.05545035802470011
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "Covet_race_standard",
+      "maneuver": "brake",
+      "metric": "brake_distance_m",
+      "baseline_mean": 50.30164644583676,
+      "modified_mean": 53.00216570277631,
+      "baseline_sd": 0.07233256638775112,
+      "modified_sd": 0.06130345833803809,
+      "delta_mean": 2.7005192569395526,
+      "delta_min": 2.570851291271552,
+      "delta_max": 2.7957607687591377,
+      "delta_percent": 5.368649831069421,
+      "max_entry_speed_difference_kmh": 0.5530164834059974,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "distance_at_100_kmh_m": {
+          "baseline": 50.59287617781617,
+          "modified": 52.78828078352259,
+          "delta": 2.1954046057064147
+        },
+        "stop_time_s": {
+          "baseline": 3.4333333844940004,
+          "modified": 3.600000053643999,
+          "delta": 0.16666666914999873
+        },
+        "stop_speed_kmh": {
+          "baseline": 1.032302546260008,
+          "modified": 1.656527031551664,
+          "delta": 0.6242244852916561
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "Covet_race_standard",
+      "maneuver": "drift",
+      "metric": "slide_duration_s",
+      "baseline_mean": 0.450000006705522,
+      "modified_mean": 0.5000000074505799,
+      "baseline_sd": 0.0,
+      "modified_sd": 0.0,
+      "delta_mean": 0.05000000074505795,
+      "delta_min": 0.05000000074505795,
+      "delta_max": 0.05000000074505795,
+      "delta_percent": 11.111111111111102,
+      "max_entry_speed_difference_kmh": 0.016720359210012248,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": false,
+      "secondary": {
+        "spin_duration_s": {
+          "baseline": 0,
+          "modified": 0,
+          "delta": 0
+        },
+        "slide_beta_deg": {
+          "baseline": 12.500056318123852,
+          "modified": 13.720965425824934,
+          "delta": 1.2209091077010825
+        },
+        "slide_speed_kmh": {
+          "baseline": 63.0352904016272,
+          "modified": 63.21677042165988,
+          "delta": 0.18148002003268005
+        },
+        "peak_beta_deg": {
+          "baseline": 14.04328769752,
+          "modified": 15.614265407802,
+          "delta": 1.5709777102819995
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "ETK800_track_drift",
+      "maneuver": "corner",
+      "metric": "high_lat_g",
+      "baseline_mean": 0.854281384481953,
+      "modified_mean": 0.8462322670857259,
+      "baseline_sd": 9.994962894378171e-05,
+      "modified_sd": 0.00010171014607320885,
+      "delta_mean": -0.008049117396227193,
+      "delta_min": -0.008275265790729236,
+      "delta_max": -0.007899403850287312,
+      "delta_percent": -0.9422091529137416,
+      "max_entry_speed_difference_kmh": 0.06988047257880226,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "low_lat_g": {
+          "baseline": 0.6105431241342639,
+          "modified": 0.6101800721234399,
+          "delta": -0.0003630520108239832
+        },
+        "high_radius_m": {
+          "baseline": 47.66077847865242,
+          "modified": 48.11992821339124,
+          "delta": 0.4591497347388227
+        },
+        "high_speed_kmh": {
+          "baseline": 71.95966796750353,
+          "modified": 71.95202299166334,
+          "delta": -0.007644975840193524
+        },
+        "high_beta_deg": {
+          "baseline": 1.367131916658727,
+          "modified": 1.4156650504870993,
+          "delta": 0.04853313382837232
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "ETK800_track_drift",
+      "maneuver": "steering",
+      "metric": "step_peak_yaw_deg_s",
+      "baseline_mean": 36.61574710892752,
+      "modified_mean": 36.77095632762678,
+      "baseline_sd": 0.33885790915071334,
+      "modified_sd": 0.19055738422940605,
+      "delta_mean": 0.1552092186992553,
+      "delta_min": -0.28639324699327773,
+      "delta_max": 0.6212466861476287,
+      "delta_percent": 0.42388652684738676,
+      "max_entry_speed_difference_kmh": 0.0872588893572015,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "rise_time_s": {
+          "baseline": 0.3000000044700002,
+          "modified": 0.3000000044700002,
+          "delta": 0.0
+        },
+        "recovery_yaw_rms_deg_s": {
+          "baseline": 0.5501094301872791,
+          "modified": 0.681840386900402,
+          "delta": 0.13173095671312296
+        },
+        "peak_beta_deg": {
+          "baseline": 5.0819412202814,
+          "modified": 5.7219031253014,
+          "delta": 0.6399619050199998
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "ETK800_track_drift",
+      "maneuver": "brake",
+      "metric": "brake_distance_m",
+      "baseline_mean": 46.827364897285044,
+      "modified_mean": 48.174400596759696,
+      "baseline_sd": 0.1744731362697096,
+      "modified_sd": 0.1663967693194088,
+      "delta_mean": 1.3470356994746548,
+      "delta_min": 0.9577980424304684,
+      "delta_max": 1.5786225639137967,
+      "delta_percent": 2.876599403851472,
+      "max_entry_speed_difference_kmh": 0.030070392919213873,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "distance_at_100_kmh_m": {
+          "baseline": 46.59817708584452,
+          "modified": 47.91341211544277,
+          "delta": 1.3152350295982487
+        },
+        "stop_time_s": {
+          "baseline": 3.266666715344,
+          "modified": 3.3833333837489996,
+          "delta": 0.11666666840499973
+        },
+        "stop_speed_kmh": {
+          "baseline": 0.8045859953773152,
+          "modified": 0.6979569373488697,
+          "delta": -0.10662905802844558
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "ETK800_track_drift",
+      "maneuver": "drift",
+      "metric": "slide_duration_s",
+      "baseline_mean": 1.2166666847964112,
+      "modified_mean": 1.3166666862865273,
+      "baseline_sd": 0.02886751388964076,
+      "modified_sd": 0.05773502777928139,
+      "delta_mean": 0.10000000149011597,
+      "delta_min": 0.0,
+      "delta_max": 0.15000000223517396,
+      "delta_percent": 8.219178082191778,
+      "max_entry_speed_difference_kmh": 0.06503332910401127,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "spin_duration_s": {
+          "baseline": 2.0166666967173392,
+          "modified": 2.150000032037494,
+          "delta": 0.13333333532015468
+        },
+        "slide_beta_deg": {
+          "baseline": 26.504399013790035,
+          "modified": 25.587150450681957,
+          "delta": -0.9172485631080782
+        },
+        "slide_speed_kmh": {
+          "baseline": 59.395662544219356,
+          "modified": 58.854586567824285,
+          "delta": -0.5410759763950708
+        },
+        "peak_beta_deg": {
+          "baseline": 179.47785952457,
+          "modified": 178.51461551929,
+          "delta": -0.9632440052799893
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "ETK800_track_race",
+      "maneuver": "corner",
+      "metric": "high_lat_g",
+      "baseline_mean": 0.9261683033737521,
+      "modified_mean": 0.9221153765905055,
+      "baseline_sd": 9.464177542035876e-05,
+      "modified_sd": 7.353076114310328e-05,
+      "delta_mean": -0.004052926783246609,
+      "delta_min": -0.004141909175592429,
+      "delta_max": -0.003979360931713027,
+      "delta_percent": -0.4376015426659515,
+      "max_entry_speed_difference_kmh": 0.03306801021119554,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "low_lat_g": {
+          "baseline": 0.6285144709593189,
+          "modified": 0.6268119767870842,
+          "delta": -0.0017024941722346698
+        },
+        "high_radius_m": {
+          "baseline": 44.06655110441239,
+          "modified": 44.28636436535345,
+          "delta": 0.21981326094105924
+        },
+        "high_speed_kmh": {
+          "baseline": 72.02940311686896,
+          "modified": 72.03316776798478,
+          "delta": 0.003764651115815809
+        },
+        "high_beta_deg": {
+          "baseline": 0.29656051263947536,
+          "modified": 0.30801366712573475,
+          "delta": 0.011453154486259387
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "ETK800_track_race",
+      "maneuver": "steering",
+      "metric": "step_peak_yaw_deg_s",
+      "baseline_mean": 31.17051653528298,
+      "modified_mean": 30.77408666403106,
+      "baseline_sd": 0.4758442792102234,
+      "modified_sd": 0.09976550016990345,
+      "delta_mean": -0.3964298712519228,
+      "delta_min": -1.0568078495191493,
+      "delta_max": -0.00121918876713778,
+      "delta_percent": -1.2718104007137325,
+      "max_entry_speed_difference_kmh": 0.05601921139080446,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "rise_time_s": {
+          "baseline": 0.3000000044700002,
+          "modified": 0.2666666706399994,
+          "delta": -0.03333333383000081
+        },
+        "recovery_yaw_rms_deg_s": {
+          "baseline": 0.6564292768926278,
+          "modified": 0.6776090290159684,
+          "delta": 0.021179752123340667
+        },
+        "peak_beta_deg": {
+          "baseline": 1.3529528674820668,
+          "modified": 1.3827328288542666,
+          "delta": 0.029779961372199848
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "ETK800_track_race",
+      "maneuver": "brake",
+      "metric": "brake_distance_m",
+      "baseline_mean": 29.83081402126532,
+      "modified_mean": 30.63113100991165,
+      "baseline_sd": 0.06480067789531191,
+      "modified_sd": 0.11237546044988328,
+      "delta_mean": 0.8003169886463285,
+      "delta_min": 0.6671212323268314,
+      "delta_max": 0.9489188108909836,
+      "delta_percent": 2.6828533343937955,
+      "max_entry_speed_difference_kmh": 0.026042934794404005,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "distance_at_100_kmh_m": {
+          "baseline": 29.567892459668748,
+          "modified": 30.3604602159009,
+          "delta": 0.7925677562321525
+        },
+        "stop_time_s": {
+          "baseline": 2.083333364377,
+          "modified": 2.1333333651219992,
+          "delta": 0.05000000074499944
+        },
+        "stop_speed_kmh": {
+          "baseline": 1.066572610377588,
+          "modified": 0.709369530627876,
+          "delta": -0.3572030797497121
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "ETK800_track_race",
+      "maneuver": "drift",
+      "metric": "slide_duration_s",
+      "baseline_mean": 0,
+      "modified_mean": 0,
+      "baseline_sd": 0.0,
+      "modified_sd": 0.0,
+      "delta_mean": 0,
+      "delta_min": 0,
+      "delta_max": 0,
+      "delta_percent": null,
+      "max_entry_speed_difference_kmh": 0.07142197005001094,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": false,
+      "secondary": {
+        "spin_duration_s": {
+          "baseline": 0,
+          "modified": 0,
+          "delta": 0
+        },
+        "slide_beta_deg": {
+          "baseline": null,
+          "modified": null,
+          "delta": null
+        },
+        "slide_speed_kmh": {
+          "baseline": null,
+          "modified": null,
+          "delta": null
+        },
+        "peak_beta_deg": {
+          "baseline": 2.169483012803467,
+          "modified": 2.1839587170253667,
+          "delta": 0.014475704221899921
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "ETK800_track_sport",
+      "maneuver": "corner",
+      "metric": "high_lat_g",
+      "baseline_mean": 0.9282984804456629,
+      "modified_mean": 0.9226881822261108,
+      "baseline_sd": 0.00022154047300606397,
+      "modified_sd": 0.00012308232895279927,
+      "delta_mean": -0.0056102982195520195,
+      "delta_min": -0.005724929980574167,
+      "delta_max": -0.0055471433497633615,
+      "delta_percent": -0.6043636112448008,
+      "max_entry_speed_difference_kmh": 0.04291073534879786,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "low_lat_g": {
+          "baseline": 0.6147274324987372,
+          "modified": 0.6147127665085346,
+          "delta": -1.466599020261139e-05
+        },
+        "high_radius_m": {
+          "baseline": 43.97169526959674,
+          "modified": 44.2615972808108,
+          "delta": 0.28990201121406045
+        },
+        "high_speed_kmh": {
+          "baseline": 72.04608240750382,
+          "modified": 72.04771933066915,
+          "delta": 0.001636923165335702
+        },
+        "high_beta_deg": {
+          "baseline": 0.5623200047578057,
+          "modified": 0.5790194109337092,
+          "delta": 0.016699406175903486
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "ETK800_track_sport",
+      "maneuver": "steering",
+      "metric": "step_peak_yaw_deg_s",
+      "baseline_mean": 32.74286364826022,
+      "modified_mean": 32.83294928995333,
+      "baseline_sd": 0.11159195916372595,
+      "modified_sd": 0.13139669904901266,
+      "delta_mean": 0.09008564169311246,
+      "delta_min": -0.05554992851990903,
+      "delta_max": 0.17828842790517996,
+      "delta_percent": 0.275130613683813,
+      "max_entry_speed_difference_kmh": 0.030766524487191305,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "rise_time_s": {
+          "baseline": 0.3000000044700002,
+          "modified": 0.3000000044700002,
+          "delta": 0.0
+        },
+        "recovery_yaw_rms_deg_s": {
+          "baseline": 0.5998963824965431,
+          "modified": 0.684948498621249,
+          "delta": 0.08505211612470587
+        },
+        "peak_beta_deg": {
+          "baseline": 1.7144787537880333,
+          "modified": 1.7179897104756,
+          "delta": 0.0035109566875666243
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "ETK800_track_sport",
+      "maneuver": "brake",
+      "metric": "brake_distance_m",
+      "baseline_mean": 38.386511858155274,
+      "modified_mean": 39.004637211658604,
+      "baseline_sd": 0.10397504750572589,
+      "modified_sd": 0.04302313642443065,
+      "delta_mean": 0.6181253535033306,
+      "delta_min": 0.5395250176140394,
+      "delta_max": 0.763766733934709,
+      "delta_percent": 1.6102670536656458,
+      "max_entry_speed_difference_kmh": 0.011641508549999458,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "distance_at_100_kmh_m": {
+          "baseline": 38.032130988511355,
+          "modified": 38.64722169014034,
+          "delta": 0.6150907016289864
+        },
+        "stop_time_s": {
+          "baseline": 2.6666667064030007,
+          "modified": 2.7500000409779997,
+          "delta": 0.08333333457499892
+        },
+        "stop_speed_kmh": {
+          "baseline": 1.1505736021490796,
+          "modified": 0.2679368330227824,
+          "delta": -0.8826367691262972
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "ETK800_track_sport",
+      "maneuver": "drift",
+      "metric": "slide_duration_s",
+      "baseline_mean": 1.2166666847964112,
+      "modified_mean": 1.0000000149011599,
+      "baseline_sd": 0.02886751388964076,
+      "modified_sd": 0.0,
+      "delta_mean": -0.21666666989525138,
+      "delta_min": -0.2500000037252901,
+      "delta_max": -0.20000000298023202,
+      "delta_percent": -17.808219178082197,
+      "max_entry_speed_difference_kmh": 0.06581654893079758,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "spin_duration_s": {
+          "baseline": 2.25000003352761,
+          "modified": 2.2166666996975715,
+          "delta": -0.03333333383003856
+        },
+        "slide_beta_deg": {
+          "baseline": 31.318194147250633,
+          "modified": 31.089618911241768,
+          "delta": -0.2285752360088651
+        },
+        "slide_speed_kmh": {
+          "baseline": 82.18620916858177,
+          "modified": 74.05061310486,
+          "delta": -8.135596063721763
+        },
+        "peak_beta_deg": {
+          "baseline": 178.70403226482333,
+          "modified": 177.82304278440665,
+          "delta": -0.8809894804166731
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "SBR4_S_AWD_race",
+      "maneuver": "corner",
+      "metric": "high_lat_g",
+      "baseline_mean": 1.0118546906712642,
+      "modified_mean": 1.009229711590477,
+      "baseline_sd": 0.0004840588502959331,
+      "modified_sd": 0.00011634380414536889,
+      "delta_mean": -0.002624979080787367,
+      "delta_min": -0.0029266518810759923,
+      "delta_max": -0.0021355807749821043,
+      "delta_percent": -0.25942253418284367,
+      "max_entry_speed_difference_kmh": 0.028988353342811024,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "low_lat_g": {
+          "baseline": 0.7084562811550773,
+          "modified": 0.7076753939171369,
+          "delta": -0.000780887237940453
+        },
+        "high_radius_m": {
+          "baseline": 40.32224939748812,
+          "modified": 40.478441930974036,
+          "delta": 0.156192533485914
+        },
+        "high_speed_kmh": {
+          "baseline": 72.04019941820887,
+          "modified": 72.0382637867436,
+          "delta": -0.001935631465272536
+        },
+        "high_beta_deg": {
+          "baseline": 0.5789423073214486,
+          "modified": 0.554865568235677,
+          "delta": -0.02407673908577157
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "SBR4_S_AWD_race",
+      "maneuver": "steering",
+      "metric": "step_peak_yaw_deg_s",
+      "baseline_mean": 35.69615434473893,
+      "modified_mean": 35.42849744500389,
+      "baseline_sd": 0.3500590402820116,
+      "modified_sd": 0.279436140762739,
+      "delta_mean": -0.26765689973503726,
+      "delta_min": -0.3420046472153828,
+      "delta_max": -0.1864778247199581,
+      "delta_percent": -0.7498199866296965,
+      "max_entry_speed_difference_kmh": 0.008606216282402102,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "rise_time_s": {
+          "baseline": 0.250000003724999,
+          "modified": 0.250000003724999,
+          "delta": 0.0
+        },
+        "recovery_yaw_rms_deg_s": {
+          "baseline": 0.3186069652442021,
+          "modified": 0.312833472069171,
+          "delta": -0.005773493175031119
+        },
+        "peak_beta_deg": {
+          "baseline": 2.1672525612477664,
+          "modified": 2.1727020333569,
+          "delta": 0.005449472109133602
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "SBR4_S_AWD_race",
+      "maneuver": "brake",
+      "metric": "brake_distance_m",
+      "baseline_mean": 29.474014166641933,
+      "modified_mean": 29.900048856141396,
+      "baseline_sd": 0.005977622661568908,
+      "modified_sd": 0.05234302746992148,
+      "delta_mean": 0.4260346894994657,
+      "delta_min": 0.3675359169907395,
+      "delta_max": 0.47437850717073005,
+      "delta_percent": 1.4454586575507682,
+      "max_entry_speed_difference_kmh": 0.09743264349840786,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "distance_at_100_kmh_m": {
+          "baseline": 29.662503761199172,
+          "modified": 30.095880271316563,
+          "delta": 0.433376510117391
+        },
+        "stop_time_s": {
+          "baseline": 2.0166666967169995,
+          "modified": 2.0500000305470003,
+          "delta": 0.03333333383000081
+        },
+        "stop_speed_kmh": {
+          "baseline": 1.28197975583712,
+          "modified": 0.845912060461272,
+          "delta": -0.436067695375848
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "SBR4_S_AWD_race",
+      "maneuver": "drift",
+      "metric": "slide_duration_s",
+      "baseline_mean": 0,
+      "modified_mean": 0,
+      "baseline_sd": 0.0,
+      "modified_sd": 0.0,
+      "delta_mean": 0,
+      "delta_min": 0,
+      "delta_max": 0,
+      "delta_percent": null,
+      "max_entry_speed_difference_kmh": 0.018034244546399236,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": false,
+      "secondary": {
+        "spin_duration_s": {
+          "baseline": 0,
+          "modified": 0,
+          "delta": 0
+        },
+        "slide_beta_deg": {
+          "baseline": null,
+          "modified": null,
+          "delta": null
+        },
+        "slide_speed_kmh": {
+          "baseline": null,
+          "modified": null,
+          "delta": null
+        },
+        "peak_beta_deg": {
+          "baseline": 7.128037934991,
+          "modified": 7.261884694433033,
+          "delta": 0.13384675944203295
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "SBR4_S_AWD_sport",
+      "maneuver": "corner",
+      "metric": "high_lat_g",
+      "baseline_mean": 0.9293440041796887,
+      "modified_mean": 0.9250118677417031,
+      "baseline_sd": 0.00011417115659252775,
+      "modified_sd": 0.00017146864229029574,
+      "delta_mean": -0.004332136437985579,
+      "delta_min": -0.004488168785813373,
+      "delta_max": -0.004069452888016856,
+      "delta_percent": -0.4661499314034376,
+      "max_entry_speed_difference_kmh": 0.018261386956794468,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "low_lat_g": {
+          "baseline": 0.6752927122783869,
+          "modified": 0.6742773897145835,
+          "delta": -0.0010153225638034336
+        },
+        "high_radius_m": {
+          "baseline": 44.07504299318029,
+          "modified": 44.187346408501206,
+          "delta": 0.11230341532091614
+        },
+        "high_speed_kmh": {
+          "baseline": 72.09630660387158,
+          "modified": 72.09555121641355,
+          "delta": -0.0007553874580281672
+        },
+        "high_beta_deg": {
+          "baseline": 0.12990598243039636,
+          "modified": 0.09960477499041112,
+          "delta": -0.03030120743998524
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "SBR4_S_AWD_sport",
+      "maneuver": "steering",
+      "metric": "step_peak_yaw_deg_s",
+      "baseline_mean": 36.05774342103454,
+      "modified_mean": 35.96774201834113,
+      "baseline_sd": 0.05712994011443,
+      "modified_sd": 0.15460223444288101,
+      "delta_mean": -0.09000140269341017,
+      "delta_min": -0.29083286995389557,
+      "delta_max": 0.1308971603483684,
+      "delta_percent": -0.24960353631255588,
+      "max_entry_speed_difference_kmh": 0.033176886605986056,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "rise_time_s": {
+          "baseline": 0.3000000044700002,
+          "modified": 0.3000000044700002,
+          "delta": 0.0
+        },
+        "recovery_yaw_rms_deg_s": {
+          "baseline": 0.3052749089150095,
+          "modified": 0.3116735901450242,
+          "delta": 0.006398681230014691
+        },
+        "peak_beta_deg": {
+          "baseline": 2.2935000153566,
+          "modified": 2.2882665172632,
+          "delta": -0.005233498093399902
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "SBR4_S_AWD_sport",
+      "maneuver": "brake",
+      "metric": "brake_distance_m",
+      "baseline_mean": 36.25041168268714,
+      "modified_mean": 36.98011010196033,
+      "baseline_sd": 0.10266101524188678,
+      "modified_sd": 0.05769441282127214,
+      "delta_mean": 0.7296984192731912,
+      "delta_min": 0.6199150572938024,
+      "delta_max": 0.8458191237944916,
+      "delta_percent": 2.0129382961509608,
+      "max_entry_speed_difference_kmh": 0.22888932380639915,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "distance_at_100_kmh_m": {
+          "baseline": 36.57942978011937,
+          "modified": 37.318763540667646,
+          "delta": 0.739333760548277
+        },
+        "stop_time_s": {
+          "baseline": 2.5166667041680006,
+          "modified": 2.5833333718279996,
+          "delta": 0.06666666765999896
+        },
+        "stop_speed_kmh": {
+          "baseline": 0.9238754095862665,
+          "modified": 0.8106339950632309,
+          "delta": -0.1132414145230356
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "SBR4_S_AWD_sport",
+      "maneuver": "drift",
+      "metric": "slide_duration_s",
+      "baseline_mean": 4.583333401630317,
+      "modified_mean": 3.700000055134292,
+      "baseline_sd": 0.02886751388964076,
+      "modified_sd": 0.08660254166892202,
+      "delta_mean": -0.883333346496025,
+      "delta_min": -0.9500000141561022,
+      "delta_max": -0.8000000119209285,
+      "delta_percent": -19.27272727272728,
+      "max_entry_speed_difference_kmh": 0.02314713803039581,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "spin_duration_s": {
+          "baseline": 0,
+          "modified": 1.0666666825612372,
+          "delta": 1.0666666825612372
+        },
+        "slide_beta_deg": {
+          "baseline": 35.025036649633144,
+          "modified": 36.98151170181953,
+          "delta": 1.9564750521863843
+        },
+        "slide_speed_kmh": {
+          "baseline": 57.844143644036016,
+          "modified": 52.817744333618016,
+          "delta": -5.026399310418
+        },
+        "peak_beta_deg": {
+          "baseline": 49.224881001256996,
+          "modified": 63.51346462721033,
+          "delta": 14.288583625953336
+        }
+      }
+    }
+  ],
+  "unqualified_runs": [
+    {
+      "condition": "stock",
+      "car": "Covet_race_standard",
+      "maneuver": "drift",
+      "repeat": 0
+    },
+    {
+      "condition": "stock",
+      "car": "Covet_race_sport",
+      "maneuver": "drift",
+      "repeat": 0
+    },
+    {
+      "condition": "stock",
+      "car": "ETK800_track_race",
+      "maneuver": "drift",
+      "repeat": 0
+    },
+    {
+      "condition": "stock",
+      "car": "SBR4_S_AWD_race",
+      "maneuver": "drift",
+      "repeat": 0
+    },
+    {
+      "condition": "stock",
+      "car": "Covet_race_standard",
+      "maneuver": "drift",
+      "repeat": 1
+    },
+    {
+      "condition": "stock",
+      "car": "Covet_race_sport",
+      "maneuver": "drift",
+      "repeat": 1
+    },
+    {
+      "condition": "stock",
+      "car": "ETK800_track_race",
+      "maneuver": "drift",
+      "repeat": 1
+    },
+    {
+      "condition": "stock",
+      "car": "SBR4_S_AWD_race",
+      "maneuver": "drift",
+      "repeat": 1
+    },
+    {
+      "condition": "stock",
+      "car": "Covet_race_standard",
+      "maneuver": "drift",
+      "repeat": 2
+    },
+    {
+      "condition": "stock",
+      "car": "Covet_race_sport",
+      "maneuver": "drift",
+      "repeat": 2
+    },
+    {
+      "condition": "stock",
+      "car": "ETK800_track_race",
+      "maneuver": "drift",
+      "repeat": 2
+    },
+    {
+      "condition": "stock",
+      "car": "SBR4_S_AWD_race",
+      "maneuver": "drift",
+      "repeat": 2
+    },
+    {
+      "condition": "slipline",
+      "car": "Covet_race_sport",
+      "maneuver": "drift",
+      "repeat": 0
+    },
+    {
+      "condition": "slipline",
+      "car": "ETK800_track_race",
+      "maneuver": "drift",
+      "repeat": 0
+    },
+    {
+      "condition": "slipline",
+      "car": "SBR4_S_AWD_race",
+      "maneuver": "drift",
+      "repeat": 0
+    },
+    {
+      "condition": "slipline",
+      "car": "Covet_race_sport",
+      "maneuver": "drift",
+      "repeat": 1
+    },
+    {
+      "condition": "slipline",
+      "car": "ETK800_track_race",
+      "maneuver": "drift",
+      "repeat": 1
+    },
+    {
+      "condition": "slipline",
+      "car": "SBR4_S_AWD_race",
+      "maneuver": "drift",
+      "repeat": 1
+    },
+    {
+      "condition": "slipline",
+      "car": "Covet_race_sport",
+      "maneuver": "drift",
+      "repeat": 2
+    },
+    {
+      "condition": "slipline",
+      "car": "ETK800_track_race",
+      "maneuver": "drift",
+      "repeat": 2
+    },
+    {
+      "condition": "slipline",
+      "car": "SBR4_S_AWD_race",
+      "maneuver": "drift",
+      "repeat": 2
+    }
+  ]
+}

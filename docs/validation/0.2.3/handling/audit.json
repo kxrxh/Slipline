@@ -1,0 +1,18 @@
+{
+  "runs": 144,
+  "vehicle_samples": 196800,
+  "wheel_samples": 787200,
+  "tyre_failure_samples": 0,
+  "sample_dt_min": 0.02000000141561,
+  "sample_dt_max": 0.02000000141561,
+  "ray_counts": [
+    16
+  ],
+  "factor_violations": 0,
+  "all_wheel_geometry_available": true,
+  "matched_active_parts": true,
+  "max_paired_entry_speed_difference_kmh": 0.26848473390720073,
+  "max_paired_entry_beta_difference_deg": 0.17615720828649994,
+  "esc_active_samples": 0,
+  "tc_active_samples": 0
+}

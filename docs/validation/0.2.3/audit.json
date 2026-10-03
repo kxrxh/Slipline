@@ -1,0 +1,55 @@
+{
+  "samples": 77334,
+  "wheel_samples": 309336,
+  "factor_violations": 0,
+  "nonfinite_samples": 0,
+  "wheel_ray_counts": [
+    16
+  ],
+  "part_config_matches": true,
+  "thermal_bridge_active": true,
+  "thermal_bridge_failed": false,
+  "composition_max_abs_error": 1.432187701766452e-14,
+  "redux_base_max_abs_error": 0,
+  "composition_samples": 69896,
+  "esc_active_samples": 0,
+  "tc_active_samples": 0,
+  "max_entry_speed_difference_kmh": 0.29652673178878786,
+  "max_entry_temp_difference_c": 0.04472234838465283,
+  "factor_observed_min": 0.92023454097941,
+  "factor_observed_max": 1,
+  "recorded_dt_min": 0.050000000745058,
+  "recorded_dt_max": 0.050000000745058,
+  "redux_initial_tread_ranges": {
+    "BX_track": [
+      83.00392494505,
+      84.881279998231
+    ],
+    "ETK_drift": [
+      15,
+      21.18483805133667
+    ],
+    "Vivace_track": [
+      83.12188998953425,
+      84.881279998231
+    ],
+    "Sunburst_RS": [
+      15,
+      21.0544607025445
+    ]
+  },
+  "redux_peak_tread_zone_c": {
+    "redux": {
+      "BX_track": 268.36211628424,
+      "ETK_drift": 431.52225866688,
+      "Vivace_track": 91.43997562704,
+      "Sunburst_RS": 27.820161999129
+    },
+    "redux_slipline": {
+      "BX_track": 272.22990627624,
+      "ETK_drift": 441.79363499745,
+      "Vivace_track": 92.766369526446,
+      "Sunburst_RS": 27.750166746414
+    }
+  }
+}

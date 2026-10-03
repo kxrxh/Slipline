@@ -1,0 +1,1289 @@
+{
+  "runs": 192,
+  "completed_conditions": [
+    "stock",
+    "slipline",
+    "redux",
+    "redux_slipline"
+  ],
+  "safety": {
+    "failed_tyre_samples": 0,
+    "minimum_pressure_psi": 23.171775138075
+  },
+  "paired": [
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "BX_track",
+      "maneuver": "corner",
+      "metric": "high_lat_g",
+      "baseline_mean": 0.9780884691320577,
+      "modified_mean": 0.975074004248473,
+      "baseline_sd": 0.00042267870852600843,
+      "modified_sd": 0.0002224494598152978,
+      "delta_mean": -0.003014464883584663,
+      "delta_min": -0.0031592169242755652,
+      "delta_max": -0.002784197402441846,
+      "delta_percent": -0.3081996137077107,
+      "max_entry_speed_difference_kmh": 0.02390698585080031,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "low_lat_g": {
+          "baseline": 0.661820764853626,
+          "modified": 0.6597910642936584,
+          "delta": -0.00202970055996754
+        },
+        "high_radius_m": {
+          "baseline": 42.42752722986549,
+          "modified": 42.55950465162658,
+          "delta": 0.13197742176109273
+        },
+        "high_speed_kmh": {
+          "baseline": 72.63618000715002,
+          "modified": 72.63594598902621,
+          "delta": -0.00023401812380541287
+        },
+        "high_beta_deg": {
+          "baseline": 0.4746776788014158,
+          "modified": 0.48897255113064286,
+          "delta": 0.014294872329227049
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "BX_track",
+      "maneuver": "steering",
+      "metric": "step_peak_yaw_deg_s",
+      "baseline_mean": 32.416148379501756,
+      "modified_mean": 32.19362650816723,
+      "baseline_sd": 0.48311477477056564,
+      "modified_sd": 0.47488212816652214,
+      "delta_mean": -0.2225218713345273,
+      "delta_min": -1.1594792531229352,
+      "delta_max": 0.7069109187181652,
+      "delta_percent": -0.6864537659731291,
+      "max_entry_speed_difference_kmh": 0.03227560000199503,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "rise_time_s": {
+          "baseline": 0.2833333375549998,
+          "modified": 0.3000000044700002,
+          "delta": 0.016666666915000405
+        },
+        "recovery_yaw_rms_deg_s": {
+          "baseline": 0.46593638743065596,
+          "modified": 0.48041158811696255,
+          "delta": 0.014475200686306589
+        },
+        "peak_beta_deg": {
+          "baseline": 1.4200572528567332,
+          "modified": 1.4151324730440666,
+          "delta": -0.004924779812666591
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "BX_track",
+      "maneuver": "brake",
+      "metric": "brake_distance_m",
+      "baseline_mean": 28.41567208485069,
+      "modified_mean": 28.979669355220636,
+      "baseline_sd": 0.05566425991459892,
+      "modified_sd": 0.07100346806172657,
+      "delta_mean": 0.5639972703699444,
+      "delta_min": 0.4258728992197014,
+      "delta_max": 0.6680323269161832,
+      "delta_percent": 1.98481059566643,
+      "max_entry_speed_difference_kmh": 0.06855128216280093,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "distance_at_100_kmh_m": {
+          "baseline": 28.339930557420786,
+          "modified": 28.886016914181358,
+          "delta": 0.546086356760572
+        },
+        "stop_time_s": {
+          "baseline": 1.9500000290569997,
+          "modified": 2.000000029801999,
+          "delta": 0.05000000074499944
+        },
+        "stop_speed_kmh": {
+          "baseline": 0.1305373654829532,
+          "modified": 0.32951601175657685,
+          "delta": 0.19897864627362366
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "BX_track",
+      "maneuver": "drift",
+      "metric": "slide_duration_s",
+      "baseline_mean": 1.1166666833062953,
+      "modified_mean": 1.1166666833062953,
+      "baseline_sd": 0.02886751388964076,
+      "modified_sd": 0.02886751388964076,
+      "delta_mean": 0.0,
+      "delta_min": -0.05000000074505806,
+      "delta_max": 0.05000000074505806,
+      "delta_percent": 0.0,
+      "max_entry_speed_difference_kmh": 0.03380585169240646,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "spin_duration_s": {
+          "baseline": 1.6333333576718947,
+          "modified": 2.050000030547378,
+          "delta": 0.4166666728754831
+        },
+        "slide_beta_deg": {
+          "baseline": 30.34348713067129,
+          "modified": 29.445844219565352,
+          "delta": -0.8976429111059367
+        },
+        "slide_speed_kmh": {
+          "baseline": 97.98662580052306,
+          "modified": 93.51050071757592,
+          "delta": -4.476125082947135
+        },
+        "peak_beta_deg": {
+          "baseline": 179.23939806129331,
+          "modified": 177.69621848716668,
+          "delta": -1.5431795741266399
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "ETK_drift",
+      "maneuver": "corner",
+      "metric": "high_lat_g",
+      "baseline_mean": 0.8668997343189652,
+      "modified_mean": 0.8573571479873469,
+      "baseline_sd": 3.234572375993796e-05,
+      "modified_sd": 8.772903862916816e-05,
+      "delta_mean": -0.009542586331618272,
+      "delta_min": -0.009629104871482608,
+      "delta_max": -0.0094916579178016,
+      "delta_percent": -1.1007716295027947,
+      "max_entry_speed_difference_kmh": 0.07543992139559919,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "low_lat_g": {
+          "baseline": 0.6672062854430595,
+          "modified": 0.6657057376963418,
+          "delta": -0.0015005477467177064
+        },
+        "high_radius_m": {
+          "baseline": 46.75724629260915,
+          "modified": 47.27099227908678,
+          "delta": 0.5137459864776233
+        },
+        "high_speed_kmh": {
+          "baseline": 71.80918038113708,
+          "modified": 71.81836583824801,
+          "delta": 0.009185457110930884
+        },
+        "high_beta_deg": {
+          "baseline": 2.3220914953535154,
+          "modified": 2.345794418039199,
+          "delta": 0.023702922685683525
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "ETK_drift",
+      "maneuver": "steering",
+      "metric": "step_peak_yaw_deg_s",
+      "baseline_mean": 47.21605271335516,
+      "modified_mean": 46.44787385941705,
+      "baseline_sd": 0.4955008297923224,
+      "modified_sd": 0.5617562905896433,
+      "delta_mean": -0.768178853938115,
+      "delta_min": -1.154605913150391,
+      "delta_max": -0.16788263470470355,
+      "delta_percent": -1.6269442483929497,
+      "max_entry_speed_difference_kmh": 0.027564339974404106,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "rise_time_s": {
+          "baseline": 0.3000000044700002,
+          "modified": 0.2666666706399994,
+          "delta": -0.03333333383000081
+        },
+        "recovery_yaw_rms_deg_s": {
+          "baseline": 0.465057202967769,
+          "modified": 0.41374296034644464,
+          "delta": -0.051314242621324335
+        },
+        "peak_beta_deg": {
+          "baseline": 11.647081448210667,
+          "modified": 12.079815408994667,
+          "delta": 0.4327339607840006
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "ETK_drift",
+      "maneuver": "brake",
+      "metric": "brake_distance_m",
+      "baseline_mean": 51.017535635529626,
+      "modified_mean": 52.770226567979265,
+      "baseline_sd": 0.4462824379155567,
+      "modified_sd": 0.34915500736102434,
+      "delta_mean": 1.7526909324496387,
+      "delta_min": 0.9975998454968007,
+      "delta_max": 2.398597908257628,
+      "delta_percent": 3.435467649733026,
+      "max_entry_speed_difference_kmh": 0.08283076249681187,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "distance_at_100_kmh_m": {
+          "baseline": 50.490660565564085,
+          "modified": 52.272207483686586,
+          "delta": 1.7815469181225012
+        },
+        "stop_time_s": {
+          "baseline": 3.4833333852390003,
+          "modified": 3.6166667205589995,
+          "delta": 0.13333333531999925
+        },
+        "stop_speed_kmh": {
+          "baseline": 1.305440473468452,
+          "modified": 1.096464165374184,
+          "delta": -0.20897630809426793
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "ETK_drift",
+      "maneuver": "drift",
+      "metric": "slide_duration_s",
+      "baseline_mean": 2.316666701187687,
+      "modified_mean": 2.2666667004426295,
+      "baseline_sd": 0.028867513889640505,
+      "modified_sd": 0.02886751388964076,
+      "delta_mean": -0.050000000745057914,
+      "delta_min": -0.05000000074505806,
+      "delta_max": -0.050000000745057616,
+      "delta_percent": -2.158273381294961,
+      "max_entry_speed_difference_kmh": 0.021441916663192728,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "spin_duration_s": {
+          "baseline": 3.3166667160888474,
+          "modified": 3.3833333837489246,
+          "delta": 0.06666666766007712
+        },
+        "slide_beta_deg": {
+          "baseline": 28.45650468064143,
+          "modified": 28.300697273865588,
+          "delta": -0.1558074067758426
+        },
+        "slide_speed_kmh": {
+          "baseline": 60.42424292090556,
+          "modified": 61.19239198444107,
+          "delta": 0.7681490635355104
+        },
+        "peak_beta_deg": {
+          "baseline": 179.83129550651665,
+          "modified": 179.91290317631334,
+          "delta": 0.0816076697966821
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "Sunburst_RS",
+      "maneuver": "corner",
+      "metric": "high_lat_g",
+      "baseline_mean": 0.7961611705309091,
+      "modified_mean": 0.7916043171067902,
+      "baseline_sd": 0.000145819367961579,
+      "modified_sd": 5.379505675010729e-05,
+      "delta_mean": -0.004556853424118786,
+      "delta_min": -0.004667218746822632,
+      "delta_max": -0.004499566405101185,
+      "delta_percent": -0.5723531356195267,
+      "max_entry_speed_difference_kmh": 0.02429918866080527,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "low_lat_g": {
+          "baseline": 0.5492418431503616,
+          "modified": 0.548229884134623,
+          "delta": -0.0010119590157385838
+        },
+        "high_radius_m": {
+          "baseline": 51.50201843029693,
+          "modified": 51.82818873841985,
+          "delta": 0.3261703081229186
+        },
+        "high_speed_kmh": {
+          "baseline": 72.20058211891643,
+          "modified": 72.20352463533297,
+          "delta": 0.002942516416538865
+        },
+        "high_beta_deg": {
+          "baseline": 0.6786632161637584,
+          "modified": 0.6938166980802947,
+          "delta": 0.015153481916536315
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "Sunburst_RS",
+      "maneuver": "steering",
+      "metric": "step_peak_yaw_deg_s",
+      "baseline_mean": 30.823741000932234,
+      "modified_mean": 30.719599968292133,
+      "baseline_sd": 0.3057965137498431,
+      "modified_sd": 0.24787321655659442,
+      "delta_mean": -0.10414103264009948,
+      "delta_min": -0.18732135308190223,
+      "delta_max": -0.048747060106723694,
+      "delta_percent": -0.33785980954404543,
+      "max_entry_speed_difference_kmh": 0.020293883571611104,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "rise_time_s": {
+          "baseline": 0.3000000044700002,
+          "modified": 0.3000000044700002,
+          "delta": 0.0
+        },
+        "recovery_yaw_rms_deg_s": {
+          "baseline": 0.3354611153739793,
+          "modified": 0.3337261174935759,
+          "delta": -0.0017349978804034327
+        },
+        "peak_beta_deg": {
+          "baseline": 1.9540588148816334,
+          "modified": 1.9653860227234,
+          "delta": 0.011327207841766551
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "Sunburst_RS",
+      "maneuver": "brake",
+      "metric": "brake_distance_m",
+      "baseline_mean": 37.35734745143011,
+      "modified_mean": 38.1111434208725,
+      "baseline_sd": 0.03243901710395101,
+      "modified_sd": 0.06685626187949477,
+      "delta_mean": 0.7537959694423956,
+      "delta_min": 0.7189360942853753,
+      "delta_max": 0.7882609168446848,
+      "delta_percent": 2.0177984275313925,
+      "max_entry_speed_difference_kmh": 0.01296454463640373,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "distance_at_100_kmh_m": {
+          "baseline": 37.13000084467904,
+          "modified": 37.884734968660716,
+          "delta": 0.7547341239816774
+        },
+        "stop_time_s": {
+          "baseline": 2.6000000387429996,
+          "modified": 2.6833333733180003,
+          "delta": 0.0833333345750007
+        },
+        "stop_speed_kmh": {
+          "baseline": 1.0887401910857042,
+          "modified": 0.9649651682899943,
+          "delta": -0.12377502279570984
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "Sunburst_RS",
+      "maneuver": "drift",
+      "metric": "slide_duration_s",
+      "baseline_mean": 0,
+      "modified_mean": 0,
+      "baseline_sd": 0.0,
+      "modified_sd": 0.0,
+      "delta_mean": 0,
+      "delta_min": 0,
+      "delta_max": 0,
+      "delta_percent": null,
+      "max_entry_speed_difference_kmh": 0.1017705141000107,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": false,
+      "secondary": {
+        "spin_duration_s": {
+          "baseline": 0,
+          "modified": 0,
+          "delta": 0
+        },
+        "slide_beta_deg": {
+          "baseline": null,
+          "modified": null,
+          "delta": null
+        },
+        "slide_speed_kmh": {
+          "baseline": null,
+          "modified": null,
+          "delta": null
+        },
+        "peak_beta_deg": {
+          "baseline": 6.7606529704414005,
+          "modified": 6.840336374188433,
+          "delta": 0.07968340374703242
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "Vivace_track",
+      "maneuver": "corner",
+      "metric": "high_lat_g",
+      "baseline_mean": 1.0033060019452795,
+      "modified_mean": 1.0002922886894052,
+      "baseline_sd": 0.0002007215124995404,
+      "modified_sd": 0.00021187801381121363,
+      "delta_mean": -0.003013713255874443,
+      "delta_min": -0.003290722762273157,
+      "delta_max": -0.0026108648709863846,
+      "delta_percent": -0.3003782744278661,
+      "max_entry_speed_difference_kmh": 0.2786736478247889,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "low_lat_g": {
+          "baseline": 0.6488252740406965,
+          "modified": 0.6491231198713328,
+          "delta": 0.00029784583063630077
+        },
+        "high_radius_m": {
+          "baseline": 41.23672215466,
+          "modified": 41.35584463883433,
+          "delta": 0.11912248417432636
+        },
+        "high_speed_kmh": {
+          "baseline": 72.56664997399709,
+          "modified": 72.5674492900839,
+          "delta": 0.000799316086812496
+        },
+        "high_beta_deg": {
+          "baseline": 0.30648688323795625,
+          "modified": 0.3199515583942218,
+          "delta": 0.013464675156265538
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "Vivace_track",
+      "maneuver": "steering",
+      "metric": "step_peak_yaw_deg_s",
+      "baseline_mean": 34.734250835371874,
+      "modified_mean": 35.0658280604546,
+      "baseline_sd": 0.8426925666092369,
+      "modified_sd": 0.31475738158141514,
+      "delta_mean": 0.33157722508272985,
+      "delta_min": -0.5292611135002048,
+      "delta_max": 1.6438591935874527,
+      "delta_percent": 0.954611707775962,
+      "max_entry_speed_difference_kmh": 0.235481883051591,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "rise_time_s": {
+          "baseline": 0.21666666989499936,
+          "modified": 0.250000003724999,
+          "delta": 0.03333333382999962
+        },
+        "recovery_yaw_rms_deg_s": {
+          "baseline": 0.7686193864416393,
+          "modified": 0.7030255083242818,
+          "delta": -0.06559387811735751
+        },
+        "peak_beta_deg": {
+          "baseline": 1.4398954929673333,
+          "modified": 1.4383769090752667,
+          "delta": -0.001518583892066605
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "Vivace_track",
+      "maneuver": "brake",
+      "metric": "brake_distance_m",
+      "baseline_mean": 28.26766553375412,
+      "modified_mean": 29.075257992684037,
+      "baseline_sd": 0.09073968603460952,
+      "modified_sd": 0.30468588933554597,
+      "delta_mean": 0.8075924589299177,
+      "delta_min": 0.6353093987126179,
+      "delta_max": 1.0947470078539325,
+      "delta_percent": 2.8569478366212455,
+      "max_entry_speed_difference_kmh": 0.02687809085280435,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "distance_at_100_kmh_m": {
+          "baseline": 27.8763887755899,
+          "modified": 28.675055798163257,
+          "delta": 0.7986670225733583
+        },
+        "stop_time_s": {
+          "baseline": 1.9500000290569997,
+          "modified": 2.0166666967169995,
+          "delta": 0.06666666765999985
+        },
+        "stop_speed_kmh": {
+          "baseline": 0.5796282992677488,
+          "modified": 0.710931116643552,
+          "delta": 0.13130281737580318
+        }
+      }
+    },
+    {
+      "baseline": "stock",
+      "modified": "slipline",
+      "car": "Vivace_track",
+      "maneuver": "drift",
+      "metric": "slide_duration_s",
+      "baseline_mean": 0.6833333435157927,
+      "modified_mean": 0.8666666795810053,
+      "baseline_sd": 0.028867513889640695,
+      "modified_sd": 0.02886751388964076,
+      "delta_mean": 0.18333333606521263,
+      "delta_min": 0.15000000223517396,
+      "delta_max": 0.20000000298023202,
+      "delta_percent": 26.82926829268292,
+      "max_entry_speed_difference_kmh": 0.20381744090161646,
+      "max_entry_temp_difference_c": 0,
+      "all_runs_qualified": true,
+      "secondary": {
+        "spin_duration_s": {
+          "baseline": 0,
+          "modified": 0,
+          "delta": 0
+        },
+        "slide_beta_deg": {
+          "baseline": 17.177717979647383,
+          "modified": 19.85842800865016,
+          "delta": 2.6807100290027783
+        },
+        "slide_speed_kmh": {
+          "baseline": 51.84244041099539,
+          "modified": 51.47236503312743,
+          "delta": -0.3700753778679555
+        },
+        "peak_beta_deg": {
+          "baseline": 22.193487527592332,
+          "modified": 26.34567080577533,
+          "delta": 4.152183278182999
+        }
+      }
+    },
+    {
+      "baseline": "redux",
+      "modified": "redux_slipline",
+      "car": "BX_track",
+      "maneuver": "corner",
+      "metric": "high_lat_g",
+      "baseline_mean": 0.9774255648843965,
+      "modified_mean": 0.9743871221276248,
+      "baseline_sd": 0.00017597104302652554,
+      "modified_sd": 6.166131193550037e-05,
+      "delta_mean": -0.0030384427567717123,
+      "delta_min": -0.0033082026998755287,
+      "delta_max": -0.0028600777764687946,
+      "delta_percent": -0.3108618053315476,
+      "max_entry_speed_difference_kmh": 0.03432697101720805,
+      "max_entry_temp_difference_c": 0.012027438225331366,
+      "all_runs_qualified": true,
+      "secondary": {
+        "low_lat_g": {
+          "baseline": 0.6613256685651862,
+          "modified": 0.6593609211226346,
+          "delta": -0.0019647474425515954
+        },
+        "high_radius_m": {
+          "baseline": 42.46315239037177,
+          "modified": 42.6205772352935,
+          "delta": 0.15742484492173503
+        },
+        "high_speed_kmh": {
+          "baseline": 72.63658249898086,
+          "modified": 72.63608569014528,
+          "delta": -0.0004968088355781219
+        },
+        "high_beta_deg": {
+          "baseline": 0.47588758791768565,
+          "modified": 0.49045212879151184,
+          "delta": 0.014564540873826193
+        }
+      }
+    },
+    {
+      "baseline": "redux",
+      "modified": "redux_slipline",
+      "car": "BX_track",
+      "maneuver": "steering",
+      "metric": "step_peak_yaw_deg_s",
+      "baseline_mean": 32.82044321358308,
+      "modified_mean": 31.805441813608407,
+      "baseline_sd": 0.33634693840726815,
+      "modified_sd": 0.5349756276867852,
+      "delta_mean": -1.0150013999746779,
+      "delta_min": -1.3666764566899943,
+      "delta_max": -0.7223369009586165,
+      "delta_percent": -3.092588949422258,
+      "max_entry_speed_difference_kmh": 0.023043017239203323,
+      "max_entry_temp_difference_c": 0.009059558160842585,
+      "all_runs_qualified": true,
+      "secondary": {
+        "rise_time_s": {
+          "baseline": 0.2666666706399994,
+          "modified": 0.3000000044700002,
+          "delta": 0.03333333383000081
+        },
+        "recovery_yaw_rms_deg_s": {
+          "baseline": 0.4600851643383412,
+          "modified": 0.44706519281603246,
+          "delta": -0.013019971522308715
+        },
+        "peak_beta_deg": {
+          "baseline": 1.4178997906565334,
+          "modified": 1.4228171820801,
+          "delta": 0.00491739142356673
+        }
+      }
+    },
+    {
+      "baseline": "redux",
+      "modified": "redux_slipline",
+      "car": "BX_track",
+      "maneuver": "brake",
+      "metric": "brake_distance_m",
+      "baseline_mean": 28.47517825397187,
+      "modified_mean": 28.9652663820907,
+      "baseline_sd": 0.17205324930198,
+      "modified_sd": 0.06044918710696057,
+      "delta_mean": 0.49008812811883234,
+      "delta_min": 0.2644893242584878,
+      "delta_max": 0.6940146858332135,
+      "delta_percent": 1.7211064448752738,
+      "max_entry_speed_difference_kmh": 0.08373971636640931,
+      "max_entry_temp_difference_c": 0.005768501909003021,
+      "all_runs_qualified": true,
+      "secondary": {
+        "distance_at_100_kmh_m": {
+          "baseline": 28.398549876827857,
+          "modified": 28.884864307152814,
+          "delta": 0.48631443032495625
+        },
+        "stop_time_s": {
+          "baseline": 1.9500000290569997,
+          "modified": 2.0166666967169995,
+          "delta": 0.06666666765999985
+        },
+        "stop_speed_kmh": {
+          "baseline": 0.561528086961606,
+          "modified": 0.4308799197839904,
+          "delta": -0.13064816717761568
+        }
+      }
+    },
+    {
+      "baseline": "redux",
+      "modified": "redux_slipline",
+      "car": "BX_track",
+      "maneuver": "drift",
+      "metric": "slide_duration_s",
+      "baseline_mean": 1.1166666833062953,
+      "modified_mean": 1.1333333502213148,
+      "baseline_sd": 0.02886751388964076,
+      "modified_sd": 0.02886751388964076,
+      "delta_mean": 0.016666666915019352,
+      "delta_min": 0.0,
+      "delta_max": 0.05000000074505806,
+      "delta_percent": 1.4925373134328377,
+      "max_entry_speed_difference_kmh": 0.1253539188575985,
+      "max_entry_temp_difference_c": 0.004607535451327749,
+      "all_runs_qualified": true,
+      "secondary": {
+        "spin_duration_s": {
+          "baseline": 1.7166666922469913,
+          "modified": 2.0666666974623973,
+          "delta": 0.350000005215406
+        },
+        "slide_beta_deg": {
+          "baseline": 30.346036946420238,
+          "modified": 29.776614578681812,
+          "delta": -0.5694223677384258
+        },
+        "slide_speed_kmh": {
+          "baseline": 97.38404693957288,
+          "modified": 93.14742821257732,
+          "delta": -4.236618726995559
+        },
+        "peak_beta_deg": {
+          "baseline": 177.98671472967,
+          "modified": 178.44074990340334,
+          "delta": 0.454035173733331
+        }
+      }
+    },
+    {
+      "baseline": "redux",
+      "modified": "redux_slipline",
+      "car": "ETK_drift",
+      "maneuver": "corner",
+      "metric": "high_lat_g",
+      "baseline_mean": 0.8509867599574257,
+      "modified_mean": 0.8407321165136924,
+      "baseline_sd": 0.0009752988511668079,
+      "modified_sd": 0.0011624115113071799,
+      "delta_mean": -0.010254643443733244,
+      "delta_min": -0.0103875502115377,
+      "delta_max": -0.0100382916848607,
+      "delta_percent": -1.2050297285760683,
+      "max_entry_speed_difference_kmh": 0.039952633910402824,
+      "max_entry_temp_difference_c": 0.025289465015085,
+      "all_runs_qualified": true,
+      "secondary": {
+        "low_lat_g": {
+          "baseline": 0.6642618265071447,
+          "modified": 0.6622801828094037,
+          "delta": -0.001981643697741009
+        },
+        "high_radius_m": {
+          "baseline": 47.604584029295296,
+          "modified": 48.19398157756945,
+          "delta": 0.5893975482741567
+        },
+        "high_speed_kmh": {
+          "baseline": 71.82245287892384,
+          "modified": 71.83363757089728,
+          "delta": 0.011184691973440408
+        },
+        "high_beta_deg": {
+          "baseline": 2.37351166501998,
+          "modified": 2.3910394863301057,
+          "delta": 0.017527821310125535
+        }
+      }
+    },
+    {
+      "baseline": "redux",
+      "modified": "redux_slipline",
+      "car": "ETK_drift",
+      "maneuver": "steering",
+      "metric": "step_peak_yaw_deg_s",
+      "baseline_mean": 46.65485818875502,
+      "modified_mean": 46.42036982599443,
+      "baseline_sd": 0.2601534861715574,
+      "modified_sd": 0.3599397768908927,
+      "delta_mean": -0.23448836276059618,
+      "delta_min": -0.9139407826502008,
+      "delta_max": 0.2382711491959597,
+      "delta_percent": -0.5026022409325717,
+      "max_entry_speed_difference_kmh": 0.05733068910839734,
+      "max_entry_temp_difference_c": 0.018197847300335468,
+      "all_runs_qualified": true,
+      "secondary": {
+        "rise_time_s": {
+          "baseline": 0.2666666706399994,
+          "modified": 0.3000000044700002,
+          "delta": 0.03333333383000081
+        },
+        "recovery_yaw_rms_deg_s": {
+          "baseline": 0.4195427342753198,
+          "modified": 0.45958324429958247,
+          "delta": 0.04004051002426268
+        },
+        "peak_beta_deg": {
+          "baseline": 12.664451454650333,
+          "modified": 12.972431726138668,
+          "delta": 0.3079802714883346
+        }
+      }
+    },
+    {
+      "baseline": "redux",
+      "modified": "redux_slipline",
+      "car": "ETK_drift",
+      "maneuver": "brake",
+      "metric": "brake_distance_m",
+      "baseline_mean": 51.8118070029935,
+      "modified_mean": 53.55137281857909,
+      "baseline_sd": 0.6019855042867668,
+      "modified_sd": 0.6124748036237926,
+      "delta_mean": 1.7395658155855902,
+      "delta_min": 1.7150299014178643,
+      "delta_max": 1.7628440587710799,
+      "delta_percent": 3.3574698822704336,
+      "max_entry_speed_difference_kmh": 0.027836950744813294,
+      "max_entry_temp_difference_c": 0.030801674963498726,
+      "all_runs_qualified": true,
+      "secondary": {
+        "distance_at_100_kmh_m": {
+          "baseline": 51.32385127172914,
+          "modified": 53.03574828991454,
+          "delta": 1.7118970181853967
+        },
+        "stop_time_s": {
+          "baseline": 3.516666719069,
+          "modified": 3.650000054389,
+          "delta": 0.1333333353199997
+        },
+        "stop_speed_kmh": {
+          "baseline": 1.545569302733784,
+          "modified": 1.09374279283938,
+          "delta": -0.4518265098944041
+        }
+      }
+    },
+    {
+      "baseline": "redux",
+      "modified": "redux_slipline",
+      "car": "ETK_drift",
+      "maneuver": "drift",
+      "metric": "slide_duration_s",
+      "baseline_mean": 2.316666701187687,
+      "modified_mean": 2.300000034272668,
+      "baseline_sd": 0.028867513889640505,
+      "modified_sd": 0.05000000074505784,
+      "delta_mean": -0.016666666915019352,
+      "delta_min": -0.05000000074505806,
+      "delta_max": 0.0,
+      "delta_percent": -0.7194244604316555,
+      "max_entry_speed_difference_kmh": 0.058583381500810106,
+      "max_entry_temp_difference_c": 0.014657563044917055,
+      "all_runs_qualified": true,
+      "secondary": {
+        "spin_duration_s": {
+          "baseline": 3.3333333830038665,
+          "modified": 3.3333333830038665,
+          "delta": 0.0
+        },
+        "slide_beta_deg": {
+          "baseline": 27.549616143572173,
+          "modified": 28.221433390592235,
+          "delta": 0.6718172470200621
+        },
+        "slide_speed_kmh": {
+          "baseline": 60.43396670199989,
+          "modified": 61.39299442099522,
+          "delta": 0.9590277189953298
+        },
+        "peak_beta_deg": {
+          "baseline": 179.49598528978,
+          "modified": 179.51288091625668,
+          "delta": 0.016895626476667758
+        }
+      }
+    },
+    {
+      "baseline": "redux",
+      "modified": "redux_slipline",
+      "car": "Sunburst_RS",
+      "maneuver": "corner",
+      "metric": "high_lat_g",
+      "baseline_mean": 0.7883470822566778,
+      "modified_mean": 0.7833683445577467,
+      "baseline_sd": 0.0006314234282755959,
+      "modified_sd": 0.0007631301117988137,
+      "delta_mean": -0.004978737698931128,
+      "delta_min": -0.005080249771238554,
+      "delta_max": -0.00482778618298263,
+      "delta_percent": -0.631541336422439,
+      "max_entry_speed_difference_kmh": 0.01998185806800734,
+      "max_entry_temp_difference_c": 0.0027241071387500426,
+      "all_runs_qualified": true,
+      "secondary": {
+        "low_lat_g": {
+          "baseline": 0.5471671907003143,
+          "modified": 0.5458203357450151,
+          "delta": -0.0013468549552991815
+        },
+        "high_radius_m": {
+          "baseline": 52.05975180403777,
+          "modified": 52.34329943988802,
+          "delta": 0.28354763585025466
+        },
+        "high_speed_kmh": {
+          "baseline": 72.20465865952166,
+          "modified": 72.20806502058846,
+          "delta": 0.003406361066808472
+        },
+        "high_beta_deg": {
+          "baseline": 0.704613820786652,
+          "modified": 0.7183553773199625,
+          "delta": 0.01374155653331044
+        }
+      }
+    },
+    {
+      "baseline": "redux",
+      "modified": "redux_slipline",
+      "car": "Sunburst_RS",
+      "maneuver": "steering",
+      "metric": "step_peak_yaw_deg_s",
+      "baseline_mean": 30.54664819485889,
+      "modified_mean": 30.500017355030433,
+      "baseline_sd": 0.04880753405697364,
+      "modified_sd": 0.21660422579815863,
+      "delta_mean": -0.04663083982845843,
+      "delta_min": -0.2390429605722062,
+      "delta_max": 0.19737880663510765,
+      "delta_percent": -0.1526545221295558,
+      "max_entry_speed_difference_kmh": 0.011261459037598343,
+      "max_entry_temp_difference_c": 0.004219051026499443,
+      "all_runs_qualified": true,
+      "secondary": {
+        "rise_time_s": {
+          "baseline": 0.3000000044700002,
+          "modified": 0.300000004470333,
+          "delta": 3.3278935163139067e-13
+        },
+        "recovery_yaw_rms_deg_s": {
+          "baseline": 0.3326317009641876,
+          "modified": 0.3409248931294417,
+          "delta": 0.008293192165254093
+        },
+        "peak_beta_deg": {
+          "baseline": 1.9695849574170001,
+          "modified": 1.9794509326507668,
+          "delta": 0.009865975233766644
+        }
+      }
+    },
+    {
+      "baseline": "redux",
+      "modified": "redux_slipline",
+      "car": "Sunburst_RS",
+      "maneuver": "brake",
+      "metric": "brake_distance_m",
+      "baseline_mean": 38.721421308837236,
+      "modified_mean": 39.52518347131416,
+      "baseline_sd": 0.034253278973472086,
+      "modified_sd": 0.0730438305344038,
+      "delta_mean": 0.8037621624769239,
+      "delta_min": 0.7400428214324322,
+      "delta_max": 0.8789125217220217,
+      "delta_percent": 2.0757558356812806,
+      "max_entry_speed_difference_kmh": 0.012967693858811913,
+      "max_entry_temp_difference_c": 0.006446064886667102,
+      "all_runs_qualified": true,
+      "secondary": {
+        "distance_at_100_kmh_m": {
+          "baseline": 38.49217507749228,
+          "modified": 39.28810054802832,
+          "delta": 0.7959254705360408
+        },
+        "stop_time_s": {
+          "baseline": 2.700000040233,
+          "modified": 2.7666667078929996,
+          "delta": 0.0666666676599994
+        },
+        "stop_speed_kmh": {
+          "baseline": 1.30132345826706,
+          "modified": 1.1792388820078188,
+          "delta": -0.1220845762592413
+        }
+      }
+    },
+    {
+      "baseline": "redux",
+      "modified": "redux_slipline",
+      "car": "Sunburst_RS",
+      "maneuver": "drift",
+      "metric": "slide_duration_s",
+      "baseline_mean": 0,
+      "modified_mean": 0,
+      "baseline_sd": 0.0,
+      "modified_sd": 0.0,
+      "delta_mean": 0,
+      "delta_min": 0,
+      "delta_max": 0,
+      "delta_percent": null,
+      "max_entry_speed_difference_kmh": 0.10987999487998934,
+      "max_entry_temp_difference_c": 0.005528590521748811,
+      "all_runs_qualified": false,
+      "secondary": {
+        "spin_duration_s": {
+          "baseline": 0,
+          "modified": 0,
+          "delta": 0
+        },
+        "slide_beta_deg": {
+          "baseline": null,
+          "modified": null,
+          "delta": null
+        },
+        "slide_speed_kmh": {
+          "baseline": null,
+          "modified": null,
+          "delta": null
+        },
+        "peak_beta_deg": {
+          "baseline": 6.825669124389534,
+          "modified": 6.9405446742596,
+          "delta": 0.11487554987006643
+        }
+      }
+    },
+    {
+      "baseline": "redux",
+      "modified": "redux_slipline",
+      "car": "Vivace_track",
+      "maneuver": "corner",
+      "metric": "high_lat_g",
+      "baseline_mean": 1.002771528919734,
+      "modified_mean": 0.9997552536318426,
+      "baseline_sd": 0.0004392997017030343,
+      "modified_sd": 0.0001239692899827428,
+      "delta_mean": -0.003016275287891538,
+      "delta_min": -0.0032850077478393525,
+      "delta_max": -0.0025906594602056465,
+      "delta_percent": -0.3007938698799029,
+      "max_entry_speed_difference_kmh": 0.29652673178878786,
+      "max_entry_temp_difference_c": 0.006281831092167067,
+      "all_runs_qualified": true,
+      "secondary": {
+        "low_lat_g": {
+          "baseline": 0.6489767778572966,
+          "modified": 0.6490209417169049,
+          "delta": 4.416385960837044e-05
+        },
+        "high_radius_m": {
+          "baseline": 41.27614984424015,
+          "modified": 41.32861405679058,
+          "delta": 0.05246421255042577
+        },
+        "high_speed_kmh": {
+          "baseline": 72.56775894429461,
+          "modified": 72.56756692690074,
+          "delta": -0.00019201739387142425
+        },
+        "high_beta_deg": {
+          "baseline": 0.3070906441860037,
+          "modified": 0.3220068502171828,
+          "delta": 0.014916206031179102
+        }
+      }
+    },
+    {
+      "baseline": "redux",
+      "modified": "redux_slipline",
+      "car": "Vivace_track",
+      "maneuver": "steering",
+      "metric": "step_peak_yaw_deg_s",
+      "baseline_mean": 35.17958941454054,
+      "modified_mean": 35.39751001510443,
+      "baseline_sd": 1.1970880093969583,
+      "modified_sd": 0.13846726408683854,
+      "delta_mean": 0.21792060056389082,
+      "delta_min": -0.5531053038931901,
+      "delta_max": 1.5406926012689866,
+      "delta_percent": 0.619451801998062,
+      "max_entry_speed_difference_kmh": 0.26772468942240835,
+      "max_entry_temp_difference_c": 0.0047017434711733586,
+      "all_runs_qualified": true,
+      "secondary": {
+        "rise_time_s": {
+          "baseline": 0.21666666989499936,
+          "modified": 0.21666666989499936,
+          "delta": 0.0
+        },
+        "recovery_yaw_rms_deg_s": {
+          "baseline": 0.721824215148482,
+          "modified": 0.7131810886234196,
+          "delta": -0.008643126525062494
+        },
+        "peak_beta_deg": {
+          "baseline": 1.4451451117361,
+          "modified": 1.4383283062813332,
+          "delta": -0.006816805454766817
+        }
+      }
+    },
+    {
+      "baseline": "redux",
+      "modified": "redux_slipline",
+      "car": "Vivace_track",
+      "maneuver": "brake",
+      "metric": "brake_distance_m",
+      "baseline_mean": 28.62262887078976,
+      "modified_mean": 28.980890929634683,
+      "baseline_sd": 0.1669302733395401,
+      "modified_sd": 0.09723242654529902,
+      "delta_mean": 0.35826205884492285,
+      "delta_min": 0.28276932464843085,
+      "delta_max": 0.46251653873180487,
+      "delta_percent": 1.2516741926893369,
+      "max_entry_speed_difference_kmh": 0.05296686971760778,
+      "max_entry_temp_difference_c": 0.005027153958423014,
+      "all_runs_qualified": true,
+      "secondary": {
+        "distance_at_100_kmh_m": {
+          "baseline": 28.2271988852197,
+          "modified": 28.60489629501842,
+          "delta": 0.3776974097987207
+        },
+        "stop_time_s": {
+          "baseline": 2.000000029801999,
+          "modified": 2.000000029801999,
+          "delta": 0.0
+        },
+        "stop_speed_kmh": {
+          "baseline": 0.989587666930032,
+          "modified": 1.127707781097732,
+          "delta": 0.1381201141677001
+        }
+      }
+    },
+    {
+      "baseline": "redux",
+      "modified": "redux_slipline",
+      "car": "Vivace_track",
+      "maneuver": "drift",
+      "metric": "slide_duration_s",
+      "baseline_mean": 0.6833333435157927,
+      "modified_mean": 0.8500000126659859,
+      "baseline_sd": 0.028867513889640695,
+      "modified_sd": 0.050000000745058004,
+      "delta_mean": 0.16666666915019332,
+      "delta_min": 0.10000000149011601,
+      "delta_max": 0.25000000372528997,
+      "delta_percent": 24.39024390243902,
+      "max_entry_speed_difference_kmh": 0.13021788690359415,
+      "max_entry_temp_difference_c": 0.04472234838465283,
+      "all_runs_qualified": true,
+      "secondary": {
+        "spin_duration_s": {
+          "baseline": 0,
+          "modified": 0,
+          "delta": 0
+        },
+        "slide_beta_deg": {
+          "baseline": 17.36622948804571,
+          "modified": 19.549369088260523,
+          "delta": 2.183139600214812
+        },
+        "slide_speed_kmh": {
+          "baseline": 52.012345020134234,
+          "modified": 51.57777254750947,
+          "delta": -0.4345724726247653
+        },
+        "peak_beta_deg": {
+          "baseline": 22.247814693182665,
+          "modified": 25.77773200426333,
+          "delta": 3.5299173110806663
+        }
+      }
+    }
+  ],
+  "unqualified_runs": [
+    {
+      "condition": "stock",
+      "car": "Sunburst_RS",
+      "maneuver": "drift",
+      "repeat": 0
+    },
+    {
+      "condition": "stock",
+      "car": "Sunburst_RS",
+      "maneuver": "drift",
+      "repeat": 1
+    },
+    {
+      "condition": "stock",
+      "car": "Sunburst_RS",
+      "maneuver": "drift",
+      "repeat": 2
+    },
+    {
+      "condition": "slipline",
+      "car": "Sunburst_RS",
+      "maneuver": "drift",
+      "repeat": 0
+    },
+    {
+      "condition": "slipline",
+      "car": "Sunburst_RS",
+      "maneuver": "drift",
+      "repeat": 1
+    },
+    {
+      "condition": "slipline",
+      "car": "Sunburst_RS",
+      "maneuver": "drift",
+      "repeat": 2
+    },
+    {
+      "condition": "redux",
+      "car": "Sunburst_RS",
+      "maneuver": "drift",
+      "repeat": 0
+    },
+    {
+      "condition": "redux",
+      "car": "Sunburst_RS",
+      "maneuver": "drift",
+      "repeat": 1
+    },
+    {
+      "condition": "redux",
+      "car": "Sunburst_RS",
+      "maneuver": "drift",
+      "repeat": 2
+    },
+    {
+      "condition": "redux_slipline",
+      "car": "Sunburst_RS",
+      "maneuver": "drift",
+      "repeat": 0
+    },
+    {
+      "condition": "redux_slipline",
+      "car": "Sunburst_RS",
+      "maneuver": "drift",
+      "repeat": 1
+    },
+    {
+      "condition": "redux_slipline",
+      "car": "Sunburst_RS",
+      "maneuver": "drift",
+      "repeat": 2
+    }
+  ]
+}

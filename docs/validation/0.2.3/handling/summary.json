@@ -1,0 +1,3636 @@
+{
+  "runs": 144,
+  "tyre_failure_samples": 0,
+  "spin_runs": 3,
+  "unqualified_entries": [],
+  "all_wheel_geometry_available": true,
+  "paired": [
+    {
+      "car": "BX_track",
+      "maneuver": "sweep",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.015908699919606306,
+      "max_paired_entry_beta_difference": 0.0115264771795589,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 2.9183134662623003,
+          "slipline": 2.7258114272105,
+          "stock_sd": 0.009624829334189443,
+          "slipline_sd": 0.0036202894465871037,
+          "delta": -0.1925020390518002,
+          "delta_min": -0.19954724623170028,
+          "delta_max": -0.18866069585510026
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 1.513758934452243,
+          "slipline": 1.2858232123054056,
+          "stock_sd": 0.055633865304330225,
+          "slipline_sd": 0.09204724828091149,
+          "delta": -0.22793572214683752,
+          "delta_min": -0.3460336557909294,
+          "delta_max": -0.07046348948453263
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 19.73131943940613,
+          "slipline": 19.079073416694712,
+          "stock_sd": 0.9661080656039891,
+          "slipline_sd": 2.3224803536867507,
+          "delta": -0.6522460227114178,
+          "delta_min": -2.5608511819930726,
+          "delta_max": 3.1319830222326743
+        },
+        "peak_front_alpha_deg": {
+          "stock": 8.884581853890117,
+          "slipline": 8.809157559049233,
+          "stock_sd": 0.008391094124984831,
+          "slipline_sd": 0.021764186651835448,
+          "delta": -0.07542429484088349,
+          "delta_min": -0.10428250543500006,
+          "delta_max": -0.059307410198950805
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 5.79215277003085,
+          "slipline": 5.5372333489297505,
+          "stock_sd": 0.057322211561514604,
+          "slipline_sd": 0.036489035249584745,
+          "delta": -0.2549194211010999,
+          "delta_min": -0.3372826509284499,
+          "delta_max": -0.16429759336324956
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": 0.057054416537687135,
+          "slipline": 0.056371001131280206,
+          "stock_sd": 0.01159048210837482,
+          "slipline_sd": 0.01585987171957657,
+          "delta": -0.0006834154064069309,
+          "delta_min": -0.010503137462622547,
+          "delta_max": 0.014228553242599654
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 2.9183134662623003,
+          "slipline": 2.7258114272105,
+          "stock_sd": 0.009624829334189443,
+          "slipline_sd": 0.0036202894465871037,
+          "delta": -0.1925020390518002,
+          "delta_min": -0.19954724623170028,
+          "delta_max": -0.18866069585510026
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 72.33674902989728,
+          "slipline": 72.3617454851987,
+          "stock_sd": 0.0005531127989270553,
+          "slipline_sd": 0.0005341541600321212,
+          "delta": 0.024996455301419473,
+          "delta_min": 0.024818988607677284,
+          "delta_max": 0.025255299158132516
+        },
+        "recovery_beta_rms_deg": {
+          "stock": 0.43886328679614917,
+          "slipline": 0.45128978243460394,
+          "stock_sd": 0.0006875329655980946,
+          "slipline_sd": 0.0006734283263383154,
+          "delta": 0.01242649563845479,
+          "delta_min": 0.011420664722574358,
+          "delta_max": 0.013567480190221803
+        },
+        "recovery_speed_kmh": {
+          "stock": 72.89459225559001,
+          "slipline": 72.89541401614024,
+          "stock_sd": 0.00028014785421353385,
+          "slipline_sd": 0.0004275312206305916,
+          "delta": 0.0008217605502143973,
+          "delta_min": 1.7084858384919244e-05,
+          "delta_max": 0.0013472959392544226
+        },
+        "peak_event_g": {
+          "stock": 1.421006278906286,
+          "slipline": 1.386032589009514,
+          "stock_sd": 0.015215873811171897,
+          "slipline_sd": 0.005645761883313163,
+          "delta": -0.034973689896772,
+          "delta_min": -0.04164577378154943,
+          "delta_max": -0.022490663557594326
+        }
+      }
+    },
+    {
+      "car": "BX_track",
+      "maneuver": "hold",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.021162783427215004,
+      "max_paired_entry_beta_difference": 0.021016257265240035,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 0.50204642490436,
+          "slipline": 0.5206744591274534,
+          "stock_sd": 0.0016561390554110885,
+          "slipline_sd": 0.005090108001971402,
+          "delta": 0.018628034223093337,
+          "delta_min": 0.012313336300769917,
+          "delta_max": 0.02559241982165006
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 0.3965256488367946,
+          "slipline": 0.4025583609875199,
+          "stock_sd": 0.048448985863760875,
+          "slipline_sd": 0.03344939293697733,
+          "delta": 0.0060327121507252985,
+          "delta_min": -0.03443438724806369,
+          "delta_max": 0.06822544850462825
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 13.915689826248059,
+          "slipline": 12.984074856694654,
+          "stock_sd": 0.4109907794826178,
+          "slipline_sd": 0.9010288739623907,
+          "delta": -0.9316149695534056,
+          "delta_min": -1.697182360311471,
+          "delta_max": 0.5818125477962841
+        },
+        "peak_front_alpha_deg": {
+          "stock": 3.7419494818909165,
+          "slipline": 3.7781568473152833,
+          "stock_sd": 0.024247719113404464,
+          "slipline_sd": 0.02953546090901928,
+          "delta": 0.03620736542436672,
+          "delta_min": -0.02446924600330025,
+          "delta_max": 0.07672278804200028
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 2.504159154430017,
+          "slipline": 2.4699981539267832,
+          "stock_sd": 0.021709901115211337,
+          "slipline_sd": 0.006844745201938712,
+          "delta": -0.03416100050323342,
+          "delta_min": -0.046222850651850056,
+          "delta_max": -0.015819667307500396
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": -1.0978099129333998,
+          "slipline": -1.1148774466206999,
+          "stock_sd": 0.022334216524401956,
+          "slipline_sd": 0.007793528704442428,
+          "delta": -0.017067533687300074,
+          "delta_min": -0.04540505687160046,
+          "delta_max": 0.014440001922799706
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 0.5291327128233466,
+          "slipline": 0.5424170440400867,
+          "stock_sd": 0.005072420329724473,
+          "slipline_sd": 0.003982749665776391,
+          "delta": 0.013284331216740034,
+          "delta_min": 0.011059625122240013,
+          "delta_max": 0.014540255136720082
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 72.63206447660545,
+          "slipline": 72.63186339901024,
+          "stock_sd": 0.00026535103229782125,
+          "slipline_sd": 0.0002976334986902498,
+          "delta": -0.00020107759521200327,
+          "delta_min": -0.00046817562694911885,
+          "delta_max": 7.354377115120769e-05
+        },
+        "recovery_beta_rms_deg": {
+          "stock": 0.013407355370941515,
+          "slipline": 0.012908104658067654,
+          "stock_sd": 0.00018079171581898544,
+          "slipline_sd": 0.0009261902358509629,
+          "delta": -0.0004992507128738598,
+          "delta_min": -0.0010639070301105124,
+          "delta_max": 0.00046853220214795877
+        },
+        "recovery_speed_kmh": {
+          "stock": 53.232210774998464,
+          "slipline": 53.234789509505724,
+          "stock_sd": 0.002908846464787648,
+          "slipline_sd": 0.011785449423008078,
+          "delta": 0.0025787345072648313,
+          "delta_min": -0.011957902042070145,
+          "delta_max": 0.01724756884018319
+        },
+        "peak_event_g": {
+          "stock": 1.0532659756965002,
+          "slipline": 1.0573610827843016,
+          "stock_sd": 0.007969929353472373,
+          "slipline_sd": 0.005557218207740661,
+          "delta": 0.004095107087801549,
+          "delta_min": -0.0024548044300714,
+          "delta_max": 0.010844904993476234
+        }
+      }
+    },
+    {
+      "car": "BX_track",
+      "maneuver": "trail_mild",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.02371496004718665,
+      "max_paired_entry_beta_difference": 0.023212529082809963,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 3.4331752948318335,
+          "slipline": 3.4315886450361335,
+          "stock_sd": 0.03384337769914971,
+          "slipline_sd": 0.06284137824107854,
+          "delta": -0.0015866497956998533,
+          "delta_min": -0.027866082157999905,
+          "delta_max": 0.033494984959100194
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 3.515315451353313,
+          "slipline": 4.066578329068532,
+          "stock_sd": 0.1525975112707585,
+          "slipline_sd": 0.5042472074301013,
+          "delta": 0.5512628777152196,
+          "delta_min": -0.07008850492637952,
+          "delta_max": 1.1686882095783835
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 31.883924122252715,
+          "slipline": 35.96644742851684,
+          "stock_sd": 4.965833321509577,
+          "slipline_sd": 0.6013292013424066,
+          "delta": 4.082523306264123,
+          "delta_min": -0.9126668877715431,
+          "delta_max": 7.3771501965924
+        },
+        "peak_front_alpha_deg": {
+          "stock": 3.7025155582223666,
+          "slipline": 3.732499943261667,
+          "stock_sd": 0.023177577788354827,
+          "slipline_sd": 0.0442418279865589,
+          "delta": 0.029984385039300083,
+          "delta_min": -0.012360270165249432,
+          "delta_max": 0.10762151292569966
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 2.8302712227044666,
+          "slipline": 2.8563325547006833,
+          "stock_sd": 0.03230124895675345,
+          "slipline_sd": 0.08228015735491749,
+          "delta": 0.026061331996216925,
+          "delta_min": -0.05705494579894976,
+          "delta_max": 0.13927114297635024
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": 0.3592653619588318,
+          "slipline": 0.23786140601782638,
+          "stock_sd": 0.05996408428575483,
+          "slipline_sd": 0.09397514458761082,
+          "delta": -0.12140395594100539,
+          "delta_min": -0.15146340971873495,
+          "delta_max": -0.06874741243629645
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 3.4331752948318335,
+          "slipline": 3.4315886450361335,
+          "stock_sd": 0.03384337769914971,
+          "slipline_sd": 0.06284137824107854,
+          "delta": -0.0015866497956998533,
+          "delta_min": -0.027866082157999905,
+          "delta_max": 0.033494984959100194
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 45.02918098942171,
+          "slipline": 45.014355520001345,
+          "stock_sd": 0.0075443095870762,
+          "slipline_sd": 0.01700208491423689,
+          "delta": -0.014825469420368146,
+          "delta_min": -0.021748831302950578,
+          "delta_max": -0.003923074966692752
+        },
+        "peak_event_g": {
+          "stock": 1.08616126163211,
+          "slipline": 1.0605617285908595,
+          "stock_sd": 0.040134027495488084,
+          "slipline_sd": 0.014317787722418459,
+          "delta": -0.0255995330412504,
+          "delta_min": -0.07720631936472988,
+          "delta_max": 0.025893667288583
+        }
+      }
+    },
+    {
+      "car": "BX_track",
+      "maneuver": "trail_hard",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.023373504759604202,
+      "max_paired_entry_beta_difference": 0.027856969999909997,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 3.3182138155985332,
+          "slipline": 3.4543238098657,
+          "stock_sd": 0.07731155131346995,
+          "slipline_sd": 0.04102064722372658,
+          "delta": 0.1361099942671665,
+          "delta_min": 0.11273956096449966,
+          "delta_max": 0.1800541863995
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 6.920920804339749,
+          "slipline": 6.819152428459174,
+          "stock_sd": 0.5933615984878328,
+          "slipline_sd": 0.4543624004038906,
+          "delta": -0.10176837588057512,
+          "delta_min": -0.8773587904428659,
+          "delta_max": 0.8004731205852567
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 43.53907477941037,
+          "slipline": 40.7200196977702,
+          "stock_sd": 5.475014964807236,
+          "slipline_sd": 2.076737254375306,
+          "delta": -2.8190550816401676,
+          "delta_min": -7.188679677526196,
+          "delta_max": 0.0380612264546798
+        },
+        "peak_front_alpha_deg": {
+          "stock": 3.830418179592667,
+          "slipline": 3.8230881608164333,
+          "stock_sd": 0.11071694763501544,
+          "slipline_sd": 0.06998757647321052,
+          "delta": -0.007330018776233516,
+          "delta_min": -0.09468831468350025,
+          "delta_max": 0.11352311140054994
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 3.4359797272977666,
+          "slipline": 3.4734070003967337,
+          "stock_sd": 0.01620256102557581,
+          "slipline_sd": 0.01346380770526701,
+          "delta": 0.0374272730989668,
+          "delta_min": 0.02546619100875036,
+          "delta_max": 0.06080698138470009
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": 0.3579024995775966,
+          "slipline": 0.3419166891987831,
+          "stock_sd": 0.2142599983760357,
+          "slipline_sd": 0.05383892181365492,
+          "delta": -0.015985810378813525,
+          "delta_min": -0.20149606768119055,
+          "delta_max": 0.09607970767820007
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 3.3182138155985332,
+          "slipline": 3.4543238098657,
+          "stock_sd": 0.07731155131346995,
+          "slipline_sd": 0.04102064722372658,
+          "delta": 0.1361099942671665,
+          "delta_min": 0.11273956096449966,
+          "delta_max": 0.1800541863995
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 47.75616579607791,
+          "slipline": 47.73426718365735,
+          "stock_sd": 0.046892706986650635,
+          "slipline_sd": 0.16196154637933627,
+          "delta": -0.02189861242055713,
+          "delta_min": -0.24648969588351832,
+          "delta_max": 0.16610068505048048
+        },
+        "peak_event_g": {
+          "stock": 1.0657391374589875,
+          "slipline": 1.0480852577427116,
+          "stock_sd": 0.010291923322137483,
+          "slipline_sd": 0.006185478323058107,
+          "delta": -0.017653879716275966,
+          "delta_min": -0.026942252332416095,
+          "delta_max": -0.01146972086248721
+        }
+      }
+    },
+    {
+      "car": "BX_track",
+      "maneuver": "lift",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.025358336413205507,
+      "max_paired_entry_beta_difference": 0.023059077887970014,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 0.94377553684248,
+          "slipline": 0.9250449274081733,
+          "stock_sd": 0.0026565080960067595,
+          "slipline_sd": 0.008479530940908173,
+          "delta": -0.018730609434306638,
+          "delta_min": -0.025061828094809946,
+          "delta_max": -0.008795113297629942
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 1.2369023518413604,
+          "slipline": 1.3200018544974672,
+          "stock_sd": 0.04525704298673968,
+          "slipline_sd": 0.03645124109560156,
+          "delta": 0.0830995026561067,
+          "delta_min": 0.043768212442269805,
+          "delta_max": 0.11521938425635958
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 18.52299929659543,
+          "slipline": 16.88676498666899,
+          "stock_sd": 1.9166146428185982,
+          "slipline_sd": 0.9320395059713652,
+          "delta": -1.6362343099264411,
+          "delta_min": -3.4525920791681237,
+          "delta_max": -0.441861981601825
+        },
+        "peak_front_alpha_deg": {
+          "stock": 3.7239426150112833,
+          "slipline": 3.7083662583818167,
+          "stock_sd": 0.023357441498163142,
+          "slipline_sd": 0.031032202136578396,
+          "delta": -0.015576356629466806,
+          "delta_min": -0.0728789170950499,
+          "delta_max": 0.02463908513189983
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 2.57445760350205,
+          "slipline": 2.54201173567025,
+          "stock_sd": 0.020196685673918247,
+          "slipline_sd": 0.012072458467237668,
+          "delta": -0.03244586783180011,
+          "delta_min": -0.03843532975720043,
+          "delta_max": -0.023156616384049755
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": -0.6173913912002168,
+          "slipline": -0.5760147322091501,
+          "stock_sd": 0.05426707529068268,
+          "slipline_sd": 0.05722030308702418,
+          "delta": 0.04137665899106661,
+          "delta_min": 0.005389506338199679,
+          "delta_max": 0.07178484981704991
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 1.0762015035174666,
+          "slipline": 1.059070324544,
+          "stock_sd": 0.00754919625803078,
+          "slipline_sd": 0.001664415250688871,
+          "delta": -0.01713117897346657,
+          "delta_min": -0.02205298842220005,
+          "delta_max": -0.009563766945399843
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 63.25804542426976,
+          "slipline": 63.25190334564192,
+          "stock_sd": 0.00022117852097526,
+          "slipline_sd": 0.0024899089691110027,
+          "delta": -0.006142078627841367,
+          "delta_min": -0.007809592067907545,
+          "delta_max": -0.003015939080015073
+        },
+        "recovery_beta_rms_deg": {
+          "stock": 0.03620299243420875,
+          "slipline": 0.04660053062535753,
+          "stock_sd": 0.004691018162093296,
+          "slipline_sd": 0.003592873569415228,
+          "delta": 0.010397538191148782,
+          "delta_min": 0.0030536301620107537,
+          "delta_max": 0.019377309666474288
+        },
+        "recovery_speed_kmh": {
+          "stock": 34.856094385619485,
+          "slipline": 34.81879019169461,
+          "stock_sd": 0.013981668446350735,
+          "slipline_sd": 0.07515273837400115,
+          "delta": -0.03730419392487505,
+          "delta_min": -0.09259201637747339,
+          "delta_max": 0.06178565388022861
+        },
+        "peak_event_g": {
+          "stock": 1.098100895087054,
+          "slipline": 1.100889777424159,
+          "stock_sd": 0.01192423021304099,
+          "slipline_sd": 0.004520626014862342,
+          "delta": 0.0027888823371049476,
+          "delta_min": -0.005702390101834931,
+          "delta_max": 0.013693033230886886
+        }
+      }
+    },
+    {
+      "car": "BX_track",
+      "maneuver": "lift_reversal",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.2068011016883986,
+      "max_paired_entry_beta_difference": 0.17615720828649994,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 3.5484455733151,
+          "slipline": 3.5726404009368333,
+          "stock_sd": 0.03230238165112653,
+          "slipline_sd": 0.014656042567717187,
+          "delta": 0.024194827621733417,
+          "delta_min": -0.010656309433999755,
+          "delta_max": 0.05420846156440007
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 13.39019163175312,
+          "slipline": 12.959392258351382,
+          "stock_sd": 0.13406484359420753,
+          "slipline_sd": 0.08188312630050769,
+          "delta": -0.43079937340173896,
+          "delta_min": -0.6059493470369972,
+          "delta_max": -0.19692304373287683
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 322.7531983179178,
+          "slipline": 315.4168784201155,
+          "stock_sd": 4.014766205207376,
+          "slipline_sd": 3.6340132672013925,
+          "delta": -7.336319897802298,
+          "delta_min": -15.67603435643889,
+          "delta_max": -0.9032156141774408
+        },
+        "peak_front_alpha_deg": {
+          "stock": 9.85280531566915,
+          "slipline": 9.904422184944917,
+          "stock_sd": 0.019980487214505807,
+          "slipline_sd": 0.027013436137868937,
+          "delta": 0.05161686927576762,
+          "delta_min": 0.012511433485052237,
+          "delta_max": 0.09847258093479994
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 7.4993136742734,
+          "slipline": 7.466001653195667,
+          "stock_sd": 0.019690730939264253,
+          "slipline_sd": 0.0033561545487664998,
+          "delta": -0.03331202107773349,
+          "delta_min": -0.05245857562264966,
+          "delta_max": -0.022393638167650387
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": 4.905657155797662,
+          "slipline": 4.655009590592017,
+          "stock_sd": 0.029378365830421964,
+          "slipline_sd": 0.1488752006540776,
+          "delta": -0.2506475652056448,
+          "delta_min": -0.37685055824137503,
+          "delta_max": -0.10550324983922454
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 3.5484455733151,
+          "slipline": 3.5726404009368333,
+          "stock_sd": 0.03230238165112653,
+          "slipline_sd": 0.014656042567717187,
+          "delta": 0.024194827621733417,
+          "delta_min": -0.010656309433999755,
+          "delta_max": 0.05420846156440007
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 58.80322060344843,
+          "slipline": 59.018973147843866,
+          "stock_sd": 0.022700623856668368,
+          "slipline_sd": 0.02557570287074938,
+          "delta": 0.2157525443954332,
+          "delta_min": 0.21068340342883118,
+          "delta_max": 0.22445433845952323
+        },
+        "recovery_beta_rms_deg": {
+          "stock": 0.1112735322175035,
+          "slipline": 0.1273762992810674,
+          "stock_sd": 0.006517568601563242,
+          "slipline_sd": 0.012016402188919738,
+          "delta": 0.016102767063563898,
+          "delta_min": -0.004579660344363648,
+          "delta_max": 0.03076903724869605
+        },
+        "recovery_speed_kmh": {
+          "stock": 23.700420903313933,
+          "slipline": 23.819552620729663,
+          "stock_sd": 0.007474830713421899,
+          "slipline_sd": 0.02540798078071046,
+          "delta": 0.11913171741572981,
+          "delta_min": 0.1018503321992199,
+          "delta_max": 0.1468581149443473
+        },
+        "peak_event_g": {
+          "stock": 1.4850299711802581,
+          "slipline": 1.494349140059497,
+          "stock_sd": 0.006590542434722271,
+          "slipline_sd": 0.006041703778562521,
+          "delta": 0.009319168879238745,
+          "delta_min": -0.004620295327115276,
+          "delta_max": 0.01932670876921483
+        }
+      }
+    },
+    {
+      "car": "ETK_drift",
+      "maneuver": "sweep",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.05350171413600435,
+      "max_paired_entry_beta_difference": 0.035438413230526,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 3.1001545876338,
+          "slipline": 3.0137306111105,
+          "stock_sd": 0.0045993045652796905,
+          "slipline_sd": 0.010304313103241137,
+          "delta": -0.08642397652330007,
+          "delta_min": -0.09243760469549978,
+          "delta_max": -0.07830442947580041
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 1.144777330942295,
+          "slipline": 1.1330084297776393,
+          "stock_sd": 0.023554024320984135,
+          "slipline_sd": 0.05170392296017647,
+          "delta": -0.011768901164655787,
+          "delta_min": -0.0626745656321761,
+          "delta_max": 0.06944218459112239
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 22.711691482695755,
+          "slipline": 24.9487454748758,
+          "stock_sd": 3.664720410479712,
+          "slipline_sd": 1.8684325599014668,
+          "delta": 2.2370539921800465,
+          "delta_min": -3.9559876575453465,
+          "delta_max": 5.507021055435594
+        },
+        "peak_front_alpha_deg": {
+          "stock": 10.5125566511985,
+          "slipline": 10.448165860937166,
+          "stock_sd": 0.052918070122890744,
+          "slipline_sd": 0.02317977494131287,
+          "delta": -0.06439079026133321,
+          "delta_min": -0.100854620542,
+          "delta_max": -0.03579947162200092
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 5.082708461205933,
+          "slipline": 4.974624133794883,
+          "stock_sd": 0.002100642297192175,
+          "slipline_sd": 0.005539817606696252,
+          "delta": -0.10808432741104983,
+          "delta_min": -0.11533706951620015,
+          "delta_max": -0.10382728617819925
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": 0.17896931065250835,
+          "slipline": 0.16621087842100152,
+          "stock_sd": 0.01990900900676806,
+          "slipline_sd": 0.04675470902254494,
+          "delta": -0.012758432231506828,
+          "delta_min": -0.041285918292554985,
+          "delta_max": 0.01944529901123504
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 3.1001545876338,
+          "slipline": 3.0137306111105,
+          "stock_sd": 0.0045993045652796905,
+          "slipline_sd": 0.010304313103241137,
+          "delta": -0.08642397652330007,
+          "delta_min": -0.09243760469549978,
+          "delta_max": -0.07830442947580041
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 71.83008458298062,
+          "slipline": 71.85606740216069,
+          "stock_sd": 0.00014045980397589308,
+          "slipline_sd": 0.00010393358467747914,
+          "delta": 0.025982819180081645,
+          "delta_min": 0.025846637926605354,
+          "delta_max": 0.026070388686079582
+        },
+        "recovery_beta_rms_deg": {
+          "stock": 1.6547607323699687,
+          "slipline": 1.631215690271139,
+          "stock_sd": 0.00027549956528691603,
+          "slipline_sd": 6.935280946412324e-05,
+          "delta": -0.023545042098829683,
+          "delta_min": -0.02387897462341937,
+          "delta_max": -0.023279093859227773
+        },
+        "recovery_speed_kmh": {
+          "stock": 72.36312450303865,
+          "slipline": 72.37340511907898,
+          "stock_sd": 0.00020350082779622392,
+          "slipline_sd": 0.00024707173006983946,
+          "delta": 0.01028061604032852,
+          "delta_min": 0.009771925031486717,
+          "delta_max": 0.01060940774199537
+        },
+        "peak_event_g": {
+          "stock": 0.9810412043826232,
+          "slipline": 0.9610002369716921,
+          "stock_sd": 0.004865296748433229,
+          "slipline_sd": 0.0047858331792255265,
+          "delta": -0.02004096741093105,
+          "delta_min": -0.026345803796768652,
+          "delta_max": -0.016701290839041816
+        }
+      }
+    },
+    {
+      "car": "ETK_drift",
+      "maneuver": "hold",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.06339527268839618,
+      "max_paired_entry_beta_difference": 0.036569576028300244,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 2.3574607127890332,
+          "slipline": 2.3834524559131665,
+          "stock_sd": 0.004123286992231,
+          "slipline_sd": 0.0023912985736476975,
+          "delta": 0.025991743124133364,
+          "delta_min": 0.0219778353183,
+          "delta_max": 0.03154876227980008
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 0.367479215675472,
+          "slipline": 0.38826169119552767,
+          "stock_sd": 0.02243157317435975,
+          "slipline_sd": 0.024538462176656232,
+          "delta": 0.02078247552005565,
+          "delta_min": -0.016290727595842103,
+          "delta_max": 0.07237637284498488
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 12.242191145208484,
+          "slipline": 11.088139697389828,
+          "stock_sd": 1.269001813837556,
+          "slipline_sd": 0.29591132044287555,
+          "delta": -1.1540514478186559,
+          "delta_min": -2.6242780217920583,
+          "delta_max": 0.32443396260858215
+        },
+        "peak_front_alpha_deg": {
+          "stock": 6.536027536554167,
+          "slipline": 6.567399196856517,
+          "stock_sd": 0.010815672951411654,
+          "slipline_sd": 0.012094661351051814,
+          "delta": 0.031371660302349724,
+          "delta_min": 0.02929986780379945,
+          "delta_max": 0.03452945972464949
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 4.268506695690783,
+          "slipline": 4.2883509253033,
+          "stock_sd": 0.004256605091980674,
+          "slipline_sd": 0.003551785418325335,
+          "delta": 0.019844229612516823,
+          "delta_min": 0.015359080101950084,
+          "delta_max": 0.027757730742600017
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": -1.9615268305846,
+          "slipline": -1.9775784772227334,
+          "stock_sd": 0.005584730881112127,
+          "slipline_sd": 0.03318458165034076,
+          "delta": -0.0160516466381333,
+          "delta_min": -0.04710501045429982,
+          "delta_max": 0.005683644669800536
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 2.3574607127890332,
+          "slipline": 2.3834524559131665,
+          "stock_sd": 0.004123286992231,
+          "slipline_sd": 0.0023912985736476975,
+          "delta": 0.025991743124133364,
+          "delta_min": 0.0219778353183,
+          "delta_max": 0.03154876227980008
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 71.80749229093756,
+          "slipline": 71.81639239726869,
+          "stock_sd": 0.00041728104847032604,
+          "slipline_sd": 0.00014871421866768431,
+          "delta": 0.008900106331125812,
+          "delta_min": 0.008499990715293393,
+          "delta_max": 0.009474087939935316
+        },
+        "recovery_beta_rms_deg": {
+          "stock": 0.03814862804693632,
+          "slipline": 0.019659880619205598,
+          "stock_sd": 0.0007412553114204725,
+          "slipline_sd": 0.0004145313379990089,
+          "delta": -0.018488747427730722,
+          "delta_min": -0.019264673911360792,
+          "delta_max": -0.017713429200805198
+        },
+        "recovery_speed_kmh": {
+          "stock": 53.33430351263733,
+          "slipline": 53.34528808126436,
+          "stock_sd": 0.008134837457480998,
+          "slipline_sd": 0.01293156480847704,
+          "delta": 0.010984568627025718,
+          "delta_min": 0.006122339459786019,
+          "delta_max": 0.02005365845120366
+        },
+        "peak_event_g": {
+          "stock": 0.9463123951262453,
+          "slipline": 0.9302076126920183,
+          "stock_sd": 0.003384703087253913,
+          "slipline_sd": 0.00669080002676785,
+          "delta": -0.01610478243422701,
+          "delta_min": -0.024122779131865446,
+          "delta_max": -0.011673620770183413
+        }
+      }
+    },
+    {
+      "car": "ETK_drift",
+      "maneuver": "trail_mild",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.035855095010404625,
+      "max_paired_entry_beta_difference": 0.028611411945000054,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 4.9742904173654,
+          "slipline": 4.952952808114866,
+          "stock_sd": 0.03804938652863669,
+          "slipline_sd": 0.015902850948301843,
+          "delta": -0.021337609250533518,
+          "delta_min": -0.056229921806400185,
+          "delta_max": 0.016289588834499824
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 5.290111061706864,
+          "slipline": 5.499696867030196,
+          "stock_sd": 0.12365471470925958,
+          "slipline_sd": 0.21267233281390613,
+          "delta": 0.20958580532333185,
+          "delta_min": 0.009270704953868503,
+          "delta_max": 0.3704639651626094
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 28.565966445735082,
+          "slipline": 24.417480592228845,
+          "stock_sd": 6.747362419790766,
+          "slipline_sd": 0.41622791442422197,
+          "delta": -4.148485853506238,
+          "delta_min": -11.465735295314847,
+          "delta_max": 0.7238633969976718
+        },
+        "peak_front_alpha_deg": {
+          "stock": 6.734792668001466,
+          "slipline": 6.823387397659284,
+          "stock_sd": 0.050333356532663805,
+          "slipline_sd": 0.019843425047217825,
+          "delta": 0.08859472965781705,
+          "delta_min": 0.02003801933820082,
+          "delta_max": 0.14702212264065118
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 4.844880826394584,
+          "slipline": 4.873456487630567,
+          "stock_sd": 0.03061470139760097,
+          "slipline_sd": 0.022573926098503786,
+          "delta": 0.02857566123598332,
+          "delta_min": -0.004298674115349677,
+          "delta_max": 0.04842921583429938
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": -1.5654422626246165,
+          "slipline": -1.5798821184663334,
+          "stock_sd": 0.11802631293707283,
+          "slipline_sd": 0.08141894745420486,
+          "delta": -0.01443985584171692,
+          "delta_min": -0.06160333947629981,
+          "delta_max": 0.07549385288119925
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 5.3344787192532,
+          "slipline": 5.268535525480034,
+          "stock_sd": 0.03556013165080907,
+          "slipline_sd": 0.01823612758143488,
+          "delta": -0.06594319377316656,
+          "delta_min": -0.10855483607939931,
+          "delta_max": -0.01662267810090068
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 49.411806101245105,
+          "slipline": 49.45544313439951,
+          "stock_sd": 0.003782279125444908,
+          "slipline_sd": 0.005179109233038023,
+          "delta": 0.043637033154408776,
+          "delta_min": 0.03893744069238636,
+          "delta_max": 0.047685860352466136
+        },
+        "peak_event_g": {
+          "stock": 0.9420432588534556,
+          "slipline": 0.9221343180295889,
+          "stock_sd": 0.005513203798765094,
+          "slipline_sd": 0.010837068477491328,
+          "delta": -0.019908940823866777,
+          "delta_min": -0.025982612388297577,
+          "delta_max": -0.014274150290723764
+        }
+      }
+    },
+    {
+      "car": "ETK_drift",
+      "maneuver": "trail_hard",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.014023843268404335,
+      "max_paired_entry_beta_difference": 0.02181138357100032,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 6.4308773359222,
+          "slipline": 6.393177982682433,
+          "stock_sd": 0.12198948339084748,
+          "slipline_sd": 0.14173427107159411,
+          "delta": -0.03769935323976684,
+          "delta_min": -0.1354095743628001,
+          "delta_max": 0.03553832708939986
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 19.356207393905343,
+          "slipline": 17.606366271987657,
+          "stock_sd": 1.1378282728070606,
+          "slipline_sd": 0.9917464763258085,
+          "delta": -1.7498411219176877,
+          "delta_min": -1.928055348099317,
+          "delta_max": -1.548275839768177
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 66.69713687972177,
+          "slipline": 58.677698506340064,
+          "stock_sd": 5.193343816807775,
+          "slipline_sd": 2.38897997111406,
+          "delta": -8.019438373381698,
+          "delta_min": -14.890776100879393,
+          "delta_max": 0.1072510378525493
+        },
+        "peak_front_alpha_deg": {
+          "stock": 9.36640487877975,
+          "slipline": 9.469001743997467,
+          "stock_sd": 0.06270268969422338,
+          "slipline_sd": 0.0868183211574378,
+          "delta": 0.10259686521771627,
+          "delta_min": 0.05195455366574819,
+          "delta_max": 0.14820238579585165
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 4.958009695390433,
+          "slipline": 4.948101056338617,
+          "stock_sd": 0.009445360003355573,
+          "slipline_sd": 0.012611600301958532,
+          "delta": -0.009908639051816751,
+          "delta_min": -0.013829132900100127,
+          "delta_max": -0.007227496651900367
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": -0.6620962653118193,
+          "slipline": -1.1260347863100966,
+          "stock_sd": 0.11907812253084774,
+          "slipline_sd": 0.06186401839724354,
+          "delta": -0.4639385209982772,
+          "delta_min": -0.5913169897988096,
+          "delta_max": -0.33075613773888524
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 6.4308773359222,
+          "slipline": 6.393177982682433,
+          "stock_sd": 0.12198948339084748,
+          "slipline_sd": 0.14173427107159411,
+          "delta": -0.03769935323976684,
+          "delta_min": -0.1354095743628001,
+          "delta_max": 0.03553832708939986
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 46.04074755463314,
+          "slipline": 46.01969143339883,
+          "stock_sd": 0.021964550776784567,
+          "slipline_sd": 0.038419580938128944,
+          "delta": -0.021056121234311814,
+          "delta_min": -0.06760195065051988,
+          "delta_max": 0.009805668741719842
+        },
+        "peak_event_g": {
+          "stock": 0.919388549710027,
+          "slipline": 0.9123645038592083,
+          "stock_sd": 0.010972495247621691,
+          "slipline_sd": 0.01667254294366772,
+          "delta": -0.007024045850818801,
+          "delta_min": -0.022143342275208866,
+          "delta_max": 0.009434299176870664
+        }
+      }
+    },
+    {
+      "car": "ETK_drift",
+      "maneuver": "lift",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.021781556370001454,
+      "max_paired_entry_beta_difference": 0.048982181242399836,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 2.3516885467595334,
+          "slipline": 2.3731190611663666,
+          "stock_sd": 0.011319759421687744,
+          "slipline_sd": 0.005965329545924237,
+          "delta": 0.02143051440683319,
+          "delta_min": 0.014834256409200108,
+          "delta_max": 0.02591642434339958
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 1.683104445987229,
+          "slipline": 1.6416514899492654,
+          "stock_sd": 0.009076189025368917,
+          "slipline_sd": 0.06009644583296667,
+          "delta": -0.04145295603796365,
+          "delta_min": -0.10864489126095922,
+          "delta_max": 0.029239815049223683
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 31.8337051598337,
+          "slipline": 30.04499827122349,
+          "stock_sd": 2.8903919783862206,
+          "slipline_sd": 1.141470453191553,
+          "delta": -1.7887068886102082,
+          "delta_min": -6.056208780080635,
+          "delta_max": 1.863924341918679
+        },
+        "peak_front_alpha_deg": {
+          "stock": 6.468883775675133,
+          "slipline": 6.536152366943884,
+          "stock_sd": 0.022163718514404594,
+          "slipline_sd": 0.013669318483303912,
+          "delta": 0.06726859126875044,
+          "delta_min": 0.03498050065689995,
+          "delta_max": 0.09655913718275055
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 4.24216673804435,
+          "slipline": 4.226185645029734,
+          "stock_sd": 0.04016607602098275,
+          "slipline_sd": 0.028373614441817217,
+          "delta": -0.015981093014616476,
+          "delta_min": -0.07661577607199987,
+          "delta_max": 0.0470129842662006
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": -1.9390478160253004,
+          "slipline": -1.9527983238560997,
+          "stock_sd": 0.030525175252974455,
+          "slipline_sd": 0.04679892965141588,
+          "delta": -0.013750507830799267,
+          "delta_min": -0.09976031978984956,
+          "delta_max": 0.04148366683505067
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 2.3516885467595334,
+          "slipline": 2.3731190611663666,
+          "stock_sd": 0.011319759421687744,
+          "slipline_sd": 0.005965329545924237,
+          "delta": 0.02143051440683319,
+          "delta_min": 0.014834256409200108,
+          "delta_max": 0.02591642434339958
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 61.681321883456796,
+          "slipline": 61.723509493623595,
+          "stock_sd": 0.004729650352422934,
+          "slipline_sd": 0.0053745735572695765,
+          "delta": 0.04218761016679906,
+          "delta_min": 0.03954226535869765,
+          "delta_max": 0.04521043337320663
+        },
+        "recovery_beta_rms_deg": {
+          "stock": 0.06231447448928588,
+          "slipline": 0.06649654357981778,
+          "stock_sd": 0.002463251213082863,
+          "slipline_sd": 0.0025743984524174484,
+          "delta": 0.004182069090531902,
+          "delta_min": 0.001157984529061587,
+          "delta_max": 0.009953003408481487
+        },
+        "recovery_speed_kmh": {
+          "stock": 31.626173677006076,
+          "slipline": 31.726812448335295,
+          "stock_sd": 0.009495747092369564,
+          "slipline_sd": 0.04345786891868508,
+          "delta": 0.10063877132921799,
+          "delta_min": 0.05344010500907004,
+          "delta_max": 0.15534742923910727
+        },
+        "peak_event_g": {
+          "stock": 0.9277913008632109,
+          "slipline": 0.9360660838009276,
+          "stock_sd": 0.008272831158860048,
+          "slipline_sd": 0.01698160216369643,
+          "delta": 0.008274782937716626,
+          "delta_min": -0.016623671756951897,
+          "delta_max": 0.03322324588284398
+        }
+      }
+    },
+    {
+      "car": "ETK_drift",
+      "maneuver": "lift_reversal",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.08201068552799029,
+      "max_paired_entry_beta_difference": 0.11847578358139987,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 6.6555695417046,
+          "slipline": 6.3335219969454,
+          "stock_sd": 0.023955163400142452,
+          "slipline_sd": 0.01064010837484356,
+          "delta": -0.3220475447592002,
+          "delta_min": -0.3386307221041003,
+          "delta_max": -0.2956778682756003
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 20.47171815022201,
+          "slipline": 20.008686218301268,
+          "stock_sd": 0.25264303324852083,
+          "slipline_sd": 0.2146373203921611,
+          "delta": -0.4630319319207423,
+          "delta_min": -0.6974685568193841,
+          "delta_max": -0.2103702235704823
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 269.8655493008857,
+          "slipline": 265.38457484245646,
+          "stock_sd": 3.2719286673632646,
+          "slipline_sd": 3.9188933838009374,
+          "delta": -4.480974458429235,
+          "delta_min": -11.337754634817259,
+          "delta_max": 1.6106534746136845
+        },
+        "peak_front_alpha_deg": {
+          "stock": 14.890441481408333,
+          "slipline": 14.726713241029499,
+          "stock_sd": 0.04568775248487126,
+          "slipline_sd": 0.12167024461480966,
+          "delta": -0.16372824037883404,
+          "delta_min": -0.23634770103750213,
+          "delta_max": -0.06253938893249966
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 9.427967719367016,
+          "slipline": 9.005262251501467,
+          "stock_sd": 0.04508836740635712,
+          "slipline_sd": 0.02423290353924757,
+          "delta": -0.42270546786555013,
+          "delta_min": -0.47276122723170033,
+          "delta_max": -0.3589391074472008
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": 4.355853516317756,
+          "slipline": 4.173633180420633,
+          "stock_sd": 0.06067595241302428,
+          "slipline_sd": 0.056941602230654344,
+          "delta": -0.18222033589712408,
+          "delta_min": -0.2567965760646329,
+          "delta_max": -0.09872018521616877
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 6.6555695417046,
+          "slipline": 6.3335219969454,
+          "stock_sd": 0.023955163400142452,
+          "slipline_sd": 0.01064010837484356,
+          "delta": -0.3220475447592002,
+          "delta_min": -0.3386307221041003,
+          "delta_max": -0.2956778682756003
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 59.730103098354505,
+          "slipline": 59.944352198524236,
+          "stock_sd": 0.02003999717415801,
+          "slipline_sd": 0.01499603946193315,
+          "delta": 0.2142491001697285,
+          "delta_min": 0.17941656811697015,
+          "delta_max": 0.24541127869456858
+        },
+        "recovery_beta_rms_deg": {
+          "stock": 0.08461419201170775,
+          "slipline": 0.07728811592172688,
+          "stock_sd": 0.008887157492794331,
+          "slipline_sd": 0.009407024357062655,
+          "delta": -0.007326076089980871,
+          "delta_min": -0.01874062943212161,
+          "delta_max": -0.0012072912925104873
+        },
+        "recovery_speed_kmh": {
+          "stock": 23.469782344111852,
+          "slipline": 23.767664446171956,
+          "stock_sd": 0.05733415467921481,
+          "slipline_sd": 0.040768566056943824,
+          "delta": 0.29788210206010274,
+          "delta_min": 0.2795753138622743,
+          "delta_max": 0.32820580046833214
+        },
+        "peak_event_g": {
+          "stock": 1.060583068096602,
+          "slipline": 1.0337899884644002,
+          "stock_sd": 0.0085730495267097,
+          "slipline_sd": 0.029220077227737222,
+          "delta": -0.02679307963220179,
+          "delta_min": -0.05170637065307826,
+          "delta_max": -0.012595004430886902
+        }
+      }
+    },
+    {
+      "car": "Sunburst_RS",
+      "maneuver": "sweep",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.01615507293598739,
+      "max_paired_entry_beta_difference": 0.0061994314404879985,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 1.4577972890404,
+          "slipline": 1.4182365395884666,
+          "stock_sd": 0.005965699812708535,
+          "slipline_sd": 0.0005847749260783871,
+          "delta": -0.039560749451933365,
+          "delta_min": -0.04287310587729998,
+          "delta_max": -0.03296166628980002
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 0.5874599349670734,
+          "slipline": 0.6251375593370335,
+          "stock_sd": 0.044445449212626484,
+          "slipline_sd": 0.06319260046182679,
+          "delta": 0.03767762436996017,
+          "delta_min": -0.08308685560691231,
+          "delta_max": 0.1119685550963353
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 20.340512506094697,
+          "slipline": 20.157309770049768,
+          "stock_sd": 1.0487806096773682,
+          "slipline_sd": 2.029570445650499,
+          "delta": -0.18320273604493073,
+          "delta_min": -1.213596463565917,
+          "delta_max": 1.3537348599454226
+        },
+        "peak_front_alpha_deg": {
+          "stock": 7.875649801438267,
+          "slipline": 7.936833432087383,
+          "stock_sd": 0.0169724982629031,
+          "slipline_sd": 0.02645944595411279,
+          "delta": 0.061183630649116395,
+          "delta_min": 0.016968462847550825,
+          "delta_max": 0.09453776048974927
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 3.6984359097940667,
+          "slipline": 3.640826305626,
+          "stock_sd": 0.0015532323274737836,
+          "slipline_sd": 0.013856921603428348,
+          "delta": -0.05760960416806663,
+          "delta_min": -0.0715104164037994,
+          "delta_max": -0.048045507419000266
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": 0.050642138255984175,
+          "slipline": 0.1245612342153995,
+          "stock_sd": 0.019376143493950067,
+          "slipline_sd": 0.03267642765512575,
+          "delta": 0.07391909595941533,
+          "delta_min": 0.03262944702731051,
+          "delta_max": 0.09744518379383449
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 1.4577972890404,
+          "slipline": 1.4182365395884666,
+          "stock_sd": 0.005965699812708535,
+          "slipline_sd": 0.0005847749260783871,
+          "delta": -0.039560749451933365,
+          "delta_min": -0.04287310587729998,
+          "delta_max": -0.03296166628980002
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 72.00490880345532,
+          "slipline": 72.01800087204026,
+          "stock_sd": 0.00038168355090682456,
+          "slipline_sd": 0.00037851353069555464,
+          "delta": 0.01309206858492947,
+          "delta_min": 0.012283338061351401,
+          "delta_max": 0.013505880929159275
+        },
+        "recovery_beta_rms_deg": {
+          "stock": 0.4887230365326676,
+          "slipline": 0.49747662295280515,
+          "stock_sd": 0.000951421855890276,
+          "slipline_sd": 0.0001250513901254435,
+          "delta": 0.008753586420137535,
+          "delta_min": 0.007632978058267792,
+          "delta_max": 0.009584788145940715
+        },
+        "recovery_speed_kmh": {
+          "stock": 72.62986414336517,
+          "slipline": 72.63237743976003,
+          "stock_sd": 0.00010635850404954544,
+          "slipline_sd": 8.015472709409391e-05,
+          "delta": 0.0025132963948616784,
+          "delta_min": 0.0023913356932894203,
+          "delta_max": 0.002656455984265449
+        },
+        "peak_event_g": {
+          "stock": 0.9964593434101324,
+          "slipline": 0.9858235762712232,
+          "stock_sd": 0.004735109600468669,
+          "slipline_sd": 0.008980702359052531,
+          "delta": -0.0106357671389092,
+          "delta_min": -0.02474907230826706,
+          "delta_max": 0.002222878537359918
+        }
+      }
+    },
+    {
+      "car": "Sunburst_RS",
+      "maneuver": "hold",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.05073481219319831,
+      "max_paired_entry_beta_difference": 0.03836785764361006,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 0.7110240072587467,
+          "slipline": 0.7253711885536033,
+          "stock_sd": 0.000988140114390801,
+          "slipline_sd": 0.004506231883446495,
+          "delta": 0.014347181294856645,
+          "delta_min": 0.010093462526879926,
+          "delta_max": 0.017955411031950086
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 0.38880684736421717,
+          "slipline": 0.41136540798469584,
+          "stock_sd": 0.015284149071347364,
+          "slipline_sd": 0.02971171577129594,
+          "delta": 0.022558560620478636,
+          "delta_min": -0.013162291334551435,
+          "delta_max": 0.07140579255673413
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 10.703366709593395,
+          "slipline": 12.719979919305686,
+          "stock_sd": 0.49818775171691076,
+          "slipline_sd": 1.353566369375058,
+          "delta": 2.016613209712292,
+          "delta_min": 0.013165188693228913,
+          "delta_max": 3.615509154825455
+        },
+        "peak_front_alpha_deg": {
+          "stock": 4.063990436810183,
+          "slipline": 4.080685064793667,
+          "stock_sd": 0.004892030015135315,
+          "slipline_sd": 0.011079818581229183,
+          "delta": 0.016694627983483794,
+          "delta_min": 0.0030982776645505083,
+          "delta_max": 0.026841096689699917
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 2.53353703604155,
+          "slipline": 2.5430486722212833,
+          "stock_sd": 0.0022977814845662635,
+          "slipline_sd": 0.00859241250024881,
+          "delta": 0.009511636179733163,
+          "delta_min": -0.002606331427450037,
+          "delta_max": 0.017898831866799636
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": -1.3052568062613332,
+          "slipline": -1.3139679287867667,
+          "stock_sd": 0.023013516882018588,
+          "slipline_sd": 0.023385926604749377,
+          "delta": -0.008711122525433415,
+          "delta_min": -0.04183747839400054,
+          "delta_max": 0.026422114423000576
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 0.8197990180417167,
+          "slipline": 0.8326384106614533,
+          "stock_sd": 0.01608082631065415,
+          "slipline_sd": 0.015114614912524579,
+          "delta": 0.01283939261973662,
+          "delta_min": -0.002874044376070084,
+          "delta_max": 0.029684281705529947
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 72.19840834075912,
+          "slipline": 72.20154208786178,
+          "stock_sd": 0.0006906020193677173,
+          "slipline_sd": 0.0006084140925698715,
+          "delta": 0.003133747102666007,
+          "delta_min": 0.0024989018563701393,
+          "delta_max": 0.004301643466178007
+        },
+        "recovery_beta_rms_deg": {
+          "stock": 0.012554386744327675,
+          "slipline": 0.01484894515411236,
+          "stock_sd": 0.00027480519108345427,
+          "slipline_sd": 0.00045516530414206385,
+          "delta": 0.0022945584097846857,
+          "delta_min": 0.0020983689068825775,
+          "delta_max": 0.0024700453257874844
+        },
+        "recovery_speed_kmh": {
+          "stock": 60.40953956903071,
+          "slipline": 60.41576027575724,
+          "stock_sd": 0.0024700381820539916,
+          "slipline_sd": 0.005309624118250032,
+          "delta": 0.0062207067265328915,
+          "delta_min": 0.0027602882322455002,
+          "delta_max": 0.010680366882013459
+        },
+        "peak_event_g": {
+          "stock": 0.8538934184494971,
+          "slipline": 0.8457714120092727,
+          "stock_sd": 0.01087301131673141,
+          "slipline_sd": 0.005145030144683781,
+          "delta": -0.00812200644022428,
+          "delta_min": -0.019236560112150802,
+          "delta_max": 0.008888418148776722
+        }
+      }
+    },
+    {
+      "car": "Sunburst_RS",
+      "maneuver": "trail_mild",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.07100658457919451,
+      "max_paired_entry_beta_difference": 0.03818597875433993,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 3.585281052198133,
+          "slipline": 3.5675935977724,
+          "stock_sd": 0.047879776556759006,
+          "slipline_sd": 0.02014439091783589,
+          "delta": -0.0176874544257332,
+          "delta_min": -0.0591197228075,
+          "delta_max": 0.03934024547150017
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 5.303975012599672,
+          "slipline": 5.488758828380091,
+          "stock_sd": 0.18827340981208507,
+          "slipline_sd": 0.08518564337645662,
+          "delta": 0.184783815780419,
+          "delta_min": -0.08466451117335971,
+          "delta_max": 0.4610115559223473
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 25.766203801226208,
+          "slipline": 23.40517263517033,
+          "stock_sd": 1.3179367350248012,
+          "slipline_sd": 0.66472568479024,
+          "delta": -2.361031166055875,
+          "delta_min": -3.5783700038432293,
+          "delta_max": -0.3130275475048734
+        },
+        "peak_front_alpha_deg": {
+          "stock": 4.434366612860466,
+          "slipline": 4.4618075708308,
+          "stock_sd": 0.07469285203716247,
+          "slipline_sd": 0.05283393998249153,
+          "delta": 0.027440957970333635,
+          "delta_min": -0.06219672518269981,
+          "delta_max": 0.1729844155941498
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 4.7775450711665,
+          "slipline": 4.8668036728591835,
+          "stock_sd": 0.019519314563060084,
+          "slipline_sd": 0.013045980228448911,
+          "delta": 0.089258601692683,
+          "delta_min": 0.059601223875899834,
+          "delta_max": 0.11678580581314968
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": 0.6104187977861999,
+          "slipline": 0.6045442044113338,
+          "stock_sd": 0.04281945295753372,
+          "slipline_sd": 0.02811428526960054,
+          "delta": -0.005874593374866066,
+          "delta_min": -0.052465848936899206,
+          "delta_max": 0.0732188001986005
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 3.6508311392613,
+          "slipline": 3.6612759157726003,
+          "stock_sd": 0.012548598141678314,
+          "slipline_sd": 0.028470557482972857,
+          "delta": 0.010444776511300121,
+          "delta_min": -0.031160927195099664,
+          "delta_max": 0.044687498977100226
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 48.71834586888683,
+          "slipline": 48.69384580979092,
+          "stock_sd": 0.042981941214907185,
+          "slipline_sd": 0.043148597780375685,
+          "delta": -0.02450005909590421,
+          "delta_min": -0.12160111528111628,
+          "delta_max": 0.03375311765100264
+        },
+        "recovery_beta_rms_deg": {
+          "stock": 0.07046546003484887,
+          "slipline": 0.07849729542064202,
+          "stock_sd": 0.0076488584013495444,
+          "slipline_sd": 0.017046813684431856,
+          "delta": 0.008031835385793147,
+          "delta_min": -0.013155718020392358,
+          "delta_max": 0.018847973844329638
+        },
+        "recovery_speed_kmh": {
+          "stock": 18.99419977198368,
+          "slipline": 19.03191762237112,
+          "stock_sd": 0.02378691590845993,
+          "slipline_sd": 0.025855565209601864,
+          "delta": 0.03771785038744232,
+          "delta_min": 0.016080999916450622,
+          "delta_max": 0.0644905797912152
+        },
+        "peak_event_g": {
+          "stock": 0.9998997099216547,
+          "slipline": 0.9980102372144444,
+          "stock_sd": 0.04143700338863675,
+          "slipline_sd": 0.015647704983494177,
+          "delta": -0.0018894727072102935,
+          "delta_min": -0.025482401679694067,
+          "delta_max": 0.03348048177040763
+        }
+      }
+    },
+    {
+      "car": "Sunburst_RS",
+      "maneuver": "trail_hard",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.03567287407319952,
+      "max_paired_entry_beta_difference": 0.043322111601360014,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 4.300728816991366,
+          "slipline": 4.080186814787099,
+          "stock_sd": 0.07260353980153493,
+          "slipline_sd": 0.05885611619269693,
+          "delta": -0.220542002204267,
+          "delta_min": -0.25834754609420063,
+          "delta_max": -0.19981689714060025
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 7.779512723584978,
+          "slipline": 8.147141327415266,
+          "stock_sd": 0.5140575606431803,
+          "slipline_sd": 0.4552125194721748,
+          "delta": 0.36762860383028784,
+          "delta_min": 0.10142732829224776,
+          "delta_max": 0.6758673485138589
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 51.32481255505398,
+          "slipline": 52.284152398850566,
+          "stock_sd": 6.033352918891249,
+          "slipline_sd": 5.6458575954585175,
+          "delta": 0.9593398437965845,
+          "delta_min": -6.569454771198281,
+          "delta_max": 12.223698409342681
+        },
+        "peak_front_alpha_deg": {
+          "stock": 4.79152993034355,
+          "slipline": 4.860288732679933,
+          "stock_sd": 0.046873335760308936,
+          "slipline_sd": 0.06996320552035348,
+          "delta": 0.06875880233638298,
+          "delta_min": 0.049009417978350456,
+          "delta_max": 0.09466407655409981
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 4.8658698377841,
+          "slipline": 4.900289383004333,
+          "stock_sd": 0.030179234694944778,
+          "slipline_sd": 0.05392614139834964,
+          "delta": 0.03441954522023346,
+          "delta_min": -0.0550481521618007,
+          "delta_max": 0.11047823450775063
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": 0.8363714755386332,
+          "slipline": 0.9752186876145067,
+          "stock_sd": 0.025291971996165327,
+          "slipline_sd": 0.10067890558674748,
+          "delta": 0.1388472120758734,
+          "delta_min": 0.02589361016768499,
+          "delta_max": 0.22580439050885026
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 4.300728816991366,
+          "slipline": 4.080186814787099,
+          "stock_sd": 0.07260353980153493,
+          "slipline_sd": 0.05885611619269693,
+          "delta": -0.220542002204267,
+          "delta_min": -0.25834754609420063,
+          "delta_max": -0.19981689714060025
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 47.530918373465404,
+          "slipline": 47.49039103939328,
+          "stock_sd": 0.11785408873130418,
+          "slipline_sd": 0.17807999578468267,
+          "delta": -0.04052733407212372,
+          "delta_min": -0.32547663608205113,
+          "delta_max": 0.1375252976890593
+        },
+        "peak_event_g": {
+          "stock": 1.2370888760604823,
+          "slipline": 1.108614532777309,
+          "stock_sd": 0.115704467312308,
+          "slipline_sd": 0.12755437643000928,
+          "delta": -0.12847434328317356,
+          "delta_min": -0.377488015283058,
+          "delta_max": 0.011611966101529037
+        }
+      }
+    },
+    {
+      "car": "Sunburst_RS",
+      "maneuver": "lift",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.010571349960002863,
+      "max_paired_entry_beta_difference": 0.04361585025994996,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 0.8590122957986933,
+          "slipline": 0.8772117756374167,
+          "stock_sd": 0.003652053885433083,
+          "slipline_sd": 0.014976265995104007,
+          "delta": 0.018199479838723314,
+          "delta_min": 0.0020041735116499426,
+          "delta_max": 0.03852021579946996
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 1.0011711008326236,
+          "slipline": 0.9986384612095667,
+          "stock_sd": 0.06959786958913772,
+          "slipline_sd": 0.11578691389889836,
+          "delta": -0.0025326396230569057,
+          "delta_min": -0.07613412149722054,
+          "delta_max": 0.042076229127459897
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 17.730287597634046,
+          "slipline": 17.666590396310113,
+          "stock_sd": 1.2702927028905826,
+          "slipline_sd": 2.7149716431441178,
+          "delta": -0.06369720132393475,
+          "delta_min": -1.7009731150320402,
+          "delta_max": 1.3479377372980288
+        },
+        "peak_front_alpha_deg": {
+          "stock": 3.994908429523767,
+          "slipline": 4.042356216455733,
+          "stock_sd": 0.03290539611538361,
+          "slipline_sd": 0.03106844555018666,
+          "delta": 0.04744778693196672,
+          "delta_min": 0.04563469814984966,
+          "delta_max": 0.04935596898040018
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 2.83279296780815,
+          "slipline": 2.8459969411878165,
+          "stock_sd": 0.00614077789412005,
+          "slipline_sd": 0.011868894629240638,
+          "delta": 0.013203973379666648,
+          "delta_min": -0.003346791048000064,
+          "delta_max": 0.026386429655500088
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": -0.7223602677579835,
+          "slipline": -0.69461556999275,
+          "stock_sd": 0.04678632317640249,
+          "slipline_sd": 0.02554137025204275,
+          "delta": 0.02774469776523351,
+          "delta_min": -0.002759275742049816,
+          "delta_max": 0.04507907262555033
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 0.8590122957986933,
+          "slipline": 0.8772117756374167,
+          "stock_sd": 0.003652053885433083,
+          "slipline_sd": 0.014976265995104007,
+          "delta": 0.018199479838723314,
+          "delta_min": 0.0020041735116499426,
+          "delta_max": 0.03852021579946996
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 65.57342412019553,
+          "slipline": 65.581966087712,
+          "stock_sd": 0.00699894718262406,
+          "slipline_sd": 0.0006068973542881708,
+          "delta": 0.008541967516483359,
+          "delta_min": 0.0010599958796007058,
+          "delta_max": 0.014003240762306746
+        },
+        "recovery_beta_rms_deg": {
+          "stock": 0.022275174888399907,
+          "slipline": 0.014227971267187785,
+          "stock_sd": 0.0013734579890552073,
+          "slipline_sd": 0.0007299294549800387,
+          "delta": -0.008047203621212121,
+          "delta_min": -0.009435254283294241,
+          "delta_max": -0.005690328479610407
+        },
+        "recovery_speed_kmh": {
+          "stock": 48.234408562895815,
+          "slipline": 48.23556547298367,
+          "stock_sd": 0.011389670501759165,
+          "slipline_sd": 0.002017517599874731,
+          "delta": 0.0011569100878574545,
+          "delta_min": -0.013668384057822891,
+          "delta_max": 0.010121069275697891
+        },
+        "peak_event_g": {
+          "stock": 0.8623655630690418,
+          "slipline": 0.8647854349078219,
+          "stock_sd": 0.005061938501628498,
+          "slipline_sd": 0.011024255536769252,
+          "delta": 0.002419871838780119,
+          "delta_min": -0.003023262996350695,
+          "delta_max": 0.009187768925871476
+        }
+      }
+    },
+    {
+      "car": "Sunburst_RS",
+      "maneuver": "lift_reversal",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.12027154381199523,
+      "max_paired_entry_beta_difference": 0.06312478447379988,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 5.2952102672578665,
+          "slipline": 5.144803358881567,
+          "stock_sd": 0.03134094280104912,
+          "slipline_sd": 0.030206345322486085,
+          "delta": -0.15040690837630008,
+          "delta_min": -0.21474592809510007,
+          "delta_max": -0.09401935872759992
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 11.877194631424448,
+          "slipline": 11.852542775199282,
+          "stock_sd": 0.13250509518295644,
+          "slipline_sd": 0.13856876316920566,
+          "delta": -0.02465185622516645,
+          "delta_min": -0.13653234213853338,
+          "delta_max": 0.048904043032161226
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 249.26218801109718,
+          "slipline": 244.06887538759636,
+          "stock_sd": 0.737705992386363,
+          "slipline_sd": 1.3934463964833927,
+          "delta": -5.193312623500826,
+          "delta_min": -5.946981256389421,
+          "delta_max": -4.702380005057222
+        },
+        "peak_front_alpha_deg": {
+          "stock": 11.731355621032167,
+          "slipline": 11.6415735724,
+          "stock_sd": 0.036597156258104,
+          "slipline_sd": 0.026999181499922944,
+          "delta": -0.08978204863216692,
+          "delta_min": -0.16112659150000042,
+          "delta_max": -0.04206853650000042
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 8.497589817500666,
+          "slipline": 8.243482830896832,
+          "stock_sd": 0.026869224788940226,
+          "slipline_sd": 0.02497542042767902,
+          "delta": -0.25410698660383346,
+          "delta_min": -0.3070266739703005,
+          "delta_max": -0.2108348429165492
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": 3.5409744317340186,
+          "slipline": 3.505841734280121,
+          "stock_sd": 0.03236019867372348,
+          "slipline_sd": 0.040933147928869096,
+          "delta": -0.03513269745389769,
+          "delta_min": -0.11737660964502172,
+          "delta_max": 0.006378629386719403
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 5.2952102672578665,
+          "slipline": 5.144803358881567,
+          "stock_sd": 0.03134094280104912,
+          "slipline_sd": 0.030206345322486085,
+          "delta": -0.15040690837630008,
+          "delta_min": -0.21474592809510007,
+          "delta_max": -0.09401935872759992
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 62.15931097048456,
+          "slipline": 62.41153746822531,
+          "stock_sd": 0.01772635401060349,
+          "slipline_sd": 0.006518992870719602,
+          "delta": 0.25222649774075495,
+          "delta_min": 0.23490836871641108,
+          "delta_max": 0.2659216345412645
+        },
+        "recovery_beta_rms_deg": {
+          "stock": 0.02228453029515544,
+          "slipline": 0.03311001819969813,
+          "stock_sd": 0.0009434625495848836,
+          "slipline_sd": 0.0011100161022539823,
+          "delta": 0.010825487904542696,
+          "delta_min": 0.00979260326799506,
+          "delta_max": 0.01141441282289924
+        },
+        "recovery_speed_kmh": {
+          "stock": 38.35305706991207,
+          "slipline": 38.80944356707693,
+          "stock_sd": 0.03505021153461982,
+          "slipline_sd": 0.00930902022215645,
+          "delta": 0.45638649716486884,
+          "delta_min": 0.4075626645624908,
+          "delta_max": 0.49383641964589486
+        },
+        "peak_event_g": {
+          "stock": 1.151839657643459,
+          "slipline": 1.1162935878139313,
+          "stock_sd": 0.004860791857943679,
+          "slipline_sd": 0.007421020801313242,
+          "delta": -0.03554606982952765,
+          "delta_min": -0.046014420921610455,
+          "delta_max": -0.024536918067074476
+        }
+      }
+    },
+    {
+      "car": "Vivace_track",
+      "maneuver": "sweep",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.26848473390720073,
+      "max_paired_entry_beta_difference": 0.0345810590162923,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 3.9648386225016665,
+          "slipline": 3.8158159411633332,
+          "stock_sd": 0.008406018981007016,
+          "slipline_sd": 0.003283961455675999,
+          "delta": -0.14902268133833343,
+          "delta_min": -0.1565412341960002,
+          "delta_max": -0.1358254176457998
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 2.3316919429850222,
+          "slipline": 2.3643203199131064,
+          "stock_sd": 0.08405973953360175,
+          "slipline_sd": 0.1151548791248439,
+          "delta": 0.03262837692808448,
+          "delta_min": -0.08915313894981258,
+          "delta_max": 0.17501968351418684
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 49.03599355888862,
+          "slipline": 54.41023645773436,
+          "stock_sd": 2.851034023227149,
+          "slipline_sd": 1.2245147159657588,
+          "delta": 5.374242898845739,
+          "delta_min": 4.072141419459463,
+          "delta_max": 7.2629835926976085
+        },
+        "peak_front_alpha_deg": {
+          "stock": 10.186427884709067,
+          "slipline": 10.14418126983735,
+          "stock_sd": 0.03811602980925001,
+          "slipline_sd": 0.010312797508147255,
+          "delta": -0.04224661487171725,
+          "delta_min": -0.08643437090045047,
+          "delta_max": -0.0034129294605502736
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 7.659814570878384,
+          "slipline": 7.464680888065417,
+          "stock_sd": 0.013879141533162985,
+          "slipline_sd": 0.013552678472237739,
+          "delta": -0.1951336828129667,
+          "delta_min": -0.2138866564529991,
+          "delta_max": -0.18283460788130057
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": 0.18583168718647983,
+          "slipline": 0.2256587632586483,
+          "stock_sd": 0.022255448411992184,
+          "slipline_sd": 0.01711551246234905,
+          "delta": 0.0398270760721685,
+          "delta_min": 0.032724673625110556,
+          "delta_max": 0.05185320223335502
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 3.9648386225016665,
+          "slipline": 3.8158159411633332,
+          "stock_sd": 0.008406018981007016,
+          "slipline_sd": 0.003283961455675999,
+          "delta": -0.14902268133833343,
+          "delta_min": -0.1565412341960002,
+          "delta_max": -0.1358254176457998
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 71.56347154673756,
+          "slipline": 71.58849329224043,
+          "stock_sd": 0.0013100589953375867,
+          "slipline_sd": 0.004276148366927875,
+          "delta": 0.025021745502859478,
+          "delta_min": 0.021504473254594814,
+          "delta_max": 0.02682359889817576
+        },
+        "recovery_beta_rms_deg": {
+          "stock": 1.0597167358686748,
+          "slipline": 1.061145056750795,
+          "stock_sd": 0.005469035880181341,
+          "slipline_sd": 0.0023696881405889042,
+          "delta": 0.0014283208821203412,
+          "delta_min": -0.006734681336899806,
+          "delta_max": 0.006858279839734749
+        },
+        "recovery_speed_kmh": {
+          "stock": 72.80499724157158,
+          "slipline": 72.80522049038788,
+          "stock_sd": 0.0011021677927638036,
+          "slipline_sd": 0.0006351833642854802,
+          "delta": 0.00022324881628795387,
+          "delta_min": -0.0009739149609373499,
+          "delta_max": 0.002110547243503902
+        },
+        "peak_event_g": {
+          "stock": 1.4437891993719674,
+          "slipline": 1.4336767109906556,
+          "stock_sd": 0.006577934278460477,
+          "slipline_sd": 0.007171268660421268,
+          "delta": -0.010112488381311588,
+          "delta_min": -0.025265748863200654,
+          "delta_max": -0.00010274803058130111
+        }
+      }
+    },
+    {
+      "car": "Vivace_track",
+      "maneuver": "hold",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.08431138333081378,
+      "max_paired_entry_beta_difference": 0.09129673848269998,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 0.38757802990217666,
+          "slipline": 0.40345108950295,
+          "stock_sd": 0.0069591176634317695,
+          "slipline_sd": 0.009812706399014541,
+          "delta": 0.015873059600773343,
+          "delta_min": 0.0025201232790399986,
+          "delta_max": 0.025737496024630047
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 0.9238941868686955,
+          "slipline": 0.8843505281769143,
+          "stock_sd": 0.08337274778648734,
+          "slipline_sd": 0.02328920453496552,
+          "delta": -0.0395436586917813,
+          "delta_min": -0.12000984001513137,
+          "delta_max": 0.0752064875348305
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 30.32290726523387,
+          "slipline": 30.785908680823514,
+          "stock_sd": 0.5730131328585584,
+          "slipline_sd": 1.3359251264750096,
+          "delta": 0.4630014155896447,
+          "delta_min": -1.5942855677514274,
+          "delta_max": 1.8699178321967622
+        },
+        "peak_front_alpha_deg": {
+          "stock": 3.8867763345230832,
+          "slipline": 3.912747355070117,
+          "stock_sd": 0.027164590897728238,
+          "slipline_sd": 0.004632539067868363,
+          "delta": 0.025971020547033596,
+          "delta_min": -0.009857205357099996,
+          "delta_max": 0.04964727543025038
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 2.7900057239049665,
+          "slipline": 2.7984145485465,
+          "stock_sd": 0.008424361685685578,
+          "slipline_sd": 0.0030454547649260547,
+          "delta": 0.008408824641533327,
+          "delta_min": -0.00469454510879963,
+          "delta_max": 0.01614995682339959
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": -0.8066350534260834,
+          "slipline": -0.8169203761210001,
+          "stock_sd": 0.017601162525385038,
+          "slipline_sd": 0.012030031586034417,
+          "delta": -0.010285322694916665,
+          "delta_min": -0.03845993329319963,
+          "delta_max": 0.019419426805549644
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 0.6761195613167067,
+          "slipline": 0.7066472017692766,
+          "stock_sd": 0.03964190731313001,
+          "slipline_sd": 0.010036503172615228,
+          "delta": 0.03052764045257002,
+          "delta_min": -0.016307661211489966,
+          "delta_max": 0.06388473148055995
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 72.56373755249923,
+          "slipline": 72.56360817067362,
+          "stock_sd": 0.00032723827950030776,
+          "slipline_sd": 0.0008984865134404678,
+          "delta": -0.00012938182561583744,
+          "delta_min": -0.0015260461344865917,
+          "delta_max": 0.0006381060164670771
+        },
+        "recovery_beta_rms_deg": {
+          "stock": 0.033469012412691394,
+          "slipline": 0.035248864111051006,
+          "stock_sd": 0.0019758026636285658,
+          "slipline_sd": 0.002000066417216988,
+          "delta": 0.0017798516983596098,
+          "delta_min": -4.185052750406426e-05,
+          "delta_max": 0.004471321931867868
+        },
+        "recovery_speed_kmh": {
+          "stock": 59.73098016051067,
+          "slipline": 59.72077146795085,
+          "stock_sd": 0.009963606951861827,
+          "slipline_sd": 0.004756667377586529,
+          "delta": -0.010208692559819118,
+          "delta_min": -0.018062453560418135,
+          "delta_max": -0.002393269638233164
+        },
+        "peak_event_g": {
+          "stock": 1.133544843514577,
+          "slipline": 1.13269568354825,
+          "stock_sd": 0.003916261956060033,
+          "slipline_sd": 0.0012424883386256207,
+          "delta": -0.0008491599663268771,
+          "delta_min": -0.0037984855166157683,
+          "delta_max": 0.0015934749329256093
+        }
+      }
+    },
+    {
+      "car": "Vivace_track",
+      "maneuver": "trail_mild",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.05228401167720165,
+      "max_paired_entry_beta_difference": 0.07846518178737999,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 4.197443901728067,
+          "slipline": 4.178720906858533,
+          "stock_sd": 0.022091140092220327,
+          "slipline_sd": 0.04883408151900099,
+          "delta": -0.018722994869533476,
+          "delta_min": -0.06220007336620004,
+          "delta_max": 0.03205719679369956
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 5.599371206007223,
+          "slipline": 5.368012058264725,
+          "stock_sd": 0.23208793524650323,
+          "slipline_sd": 0.11336647482035428,
+          "delta": -0.23135914774249824,
+          "delta_min": -0.5863767085254432,
+          "delta_max": 0.10176212855545685
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 59.44228405747136,
+          "slipline": 57.90792770343057,
+          "stock_sd": 12.230738123202325,
+          "slipline_sd": 0.7214059019166825,
+          "delta": -1.5343563540407885,
+          "delta_min": -13.084182655539173,
+          "delta_max": 12.306309540919443
+        },
+        "peak_front_alpha_deg": {
+          "stock": 4.1689555589269,
+          "slipline": 4.194995106002667,
+          "stock_sd": 0.02581182920547514,
+          "slipline_sd": 0.04840744004182558,
+          "delta": 0.02603954707576654,
+          "delta_min": -0.050563276030549886,
+          "delta_max": 0.09695721688429959
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 4.96663955354105,
+          "slipline": 4.970231546754016,
+          "stock_sd": 0.02238784081784544,
+          "slipline_sd": 0.0270469974216105,
+          "delta": 0.003591993212966512,
+          "delta_min": -0.03239244091339977,
+          "delta_max": 0.05948722227564929
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": 1.0570223068108167,
+          "slipline": 0.9910274151237163,
+          "stock_sd": 0.050508169993446754,
+          "slipline_sd": 0.044603125846160344,
+          "delta": -0.06599489168710033,
+          "delta_min": -0.07302215048099958,
+          "delta_max": -0.06115145636760122
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 4.210272508402367,
+          "slipline": 4.1867569581072,
+          "stock_sd": 0.04430167021432331,
+          "slipline_sd": 0.035283197559318524,
+          "delta": -0.023515550295166793,
+          "delta_min": -0.06451192805899986,
+          "delta_max": 0.03205719679369956
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 45.415498239030214,
+          "slipline": 45.41515692918132,
+          "stock_sd": 0.023665520481094035,
+          "slipline_sd": 0.052138425768711326,
+          "delta": -0.0003413098488920241,
+          "delta_min": -0.08020780526305771,
+          "delta_max": 0.06679975414090933
+        },
+        "peak_event_g": {
+          "stock": 1.2898423041490314,
+          "slipline": 1.2368978608408085,
+          "stock_sd": 0.07058043551898081,
+          "slipline_sd": 0.006598740506284507,
+          "delta": -0.0529444433082229,
+          "delta_min": -0.12937575884006103,
+          "delta_max": 0.024934298475535188
+        }
+      }
+    },
+    {
+      "car": "Vivace_track",
+      "maneuver": "trail_hard",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.05439445483320071,
+      "max_paired_entry_beta_difference": 0.025472331687249994,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 4.179607697052633,
+          "slipline": 4.316388998549334,
+          "stock_sd": 0.03773265106322388,
+          "slipline_sd": 0.1210824664127439,
+          "delta": 0.13678130149670023,
+          "delta_min": -0.046322870361399815,
+          "delta_max": 0.23710048529910033
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 8.150455267565505,
+          "slipline": 7.739613840024381,
+          "stock_sd": 0.5629199365252091,
+          "slipline_sd": 0.5451517372144045,
+          "delta": -0.41084142754112474,
+          "delta_min": -0.9695602314640794,
+          "delta_max": 0.19321115793720534
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 67.5627636888279,
+          "slipline": 82.86637062319568,
+          "stock_sd": 5.4005185218599365,
+          "slipline_sd": 15.310555764879183,
+          "delta": 15.303606934367783,
+          "delta_min": -5.470605477563566,
+          "delta_max": 26.244214556449933
+        },
+        "peak_front_alpha_deg": {
+          "stock": 4.34292874339635,
+          "slipline": 4.478190811040917,
+          "stock_sd": 0.11996019808932713,
+          "slipline_sd": 0.10860052197523942,
+          "delta": 0.1352620676445667,
+          "delta_min": -0.07972773497685104,
+          "delta_max": 0.3697269012999511
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 4.833485987911983,
+          "slipline": 4.8360376999455665,
+          "stock_sd": 0.021928212473083908,
+          "slipline_sd": 0.04102083014385648,
+          "delta": 0.0025517120335836196,
+          "delta_min": -0.017800692625949743,
+          "delta_max": 0.021334132931850824
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": 0.9824968105855633,
+          "slipline": 1.0372805245110566,
+          "stock_sd": 0.01188202004796313,
+          "slipline_sd": 0.06898490970338608,
+          "delta": 0.054783713925493194,
+          "delta_min": -0.005646591813400326,
+          "delta_max": 0.13512257262796967
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 4.179607697052633,
+          "slipline": 4.316388998549334,
+          "stock_sd": 0.03773265106322388,
+          "slipline_sd": 0.1210824664127439,
+          "delta": 0.13678130149670023,
+          "delta_min": -0.046322870361399815,
+          "delta_max": 0.23710048529910033
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 48.84046492063304,
+          "slipline": 48.75303668176727,
+          "stock_sd": 0.11039302058451106,
+          "slipline_sd": 0.03526774258040599,
+          "delta": -0.08742823886576427,
+          "delta_min": -0.17707856239896813,
+          "delta_max": -0.011483583512777784
+        },
+        "peak_event_g": {
+          "stock": 1.3287821530461092,
+          "slipline": 1.4290466593637106,
+          "stock_sd": 0.10528554660854128,
+          "slipline_sd": 0.14068797361463467,
+          "delta": 0.10026450631760116,
+          "delta_min": 0.055893533646585114,
+          "delta_max": 0.14637692407308878
+        }
+      }
+    },
+    {
+      "car": "Vivace_track",
+      "maneuver": "lift",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.09729326539799388,
+      "max_paired_entry_beta_difference": 0.07555726236955002,
+      "runs_over_10_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "runs_over_30_deg": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 0
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 0.9316749932853233,
+          "slipline": 0.9557676759819533,
+          "stock_sd": 0.005380814093484605,
+          "slipline_sd": 0.011255510335995986,
+          "delta": 0.024092682696630008,
+          "delta_min": 0.011721078006480035,
+          "delta_max": 0.03182367518488993
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 2.360255562754646,
+          "slipline": 2.411939780282512,
+          "stock_sd": 0.09086846312401224,
+          "slipline_sd": 0.09809864205715248,
+          "delta": 0.05168421752786623,
+          "delta_min": -0.16020584439742036,
+          "delta_max": 0.20245788953812793
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 50.94177272760046,
+          "slipline": 58.723867735950485,
+          "stock_sd": 5.088698123128311,
+          "slipline_sd": 7.433868989799885,
+          "delta": 7.782095008350022,
+          "delta_min": 3.916003306088001,
+          "delta_max": 9.717275293445638
+        },
+        "peak_front_alpha_deg": {
+          "stock": 3.9603579002653,
+          "slipline": 3.9892681585777168,
+          "stock_sd": 0.028367853605833163,
+          "slipline_sd": 0.04210067896487422,
+          "delta": 0.02891025831241656,
+          "delta_min": 0.01772860120629982,
+          "delta_max": 0.04436738583294986
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 3.6527432931680166,
+          "slipline": 3.68796784626435,
+          "stock_sd": 0.007855814204538882,
+          "slipline_sd": 0.015515657224634286,
+          "delta": 0.0352245530963334,
+          "delta_min": 0.02132035537610033,
+          "delta_max": 0.05990688942209976
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": 0.059877927477983484,
+          "slipline": 0.07731326187854955,
+          "stock_sd": 0.03813893545182917,
+          "slipline_sd": 0.013406929504061648,
+          "delta": 0.017435334400566067,
+          "delta_min": -0.04144486441470052,
+          "delta_max": 0.05142362408549994
+        },
+        "time_over_10_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 0.9316749932853233,
+          "slipline": 0.9557676759819533,
+          "stock_sd": 0.005380814093484605,
+          "slipline_sd": 0.011255510335995986,
+          "delta": 0.024092682696630008,
+          "delta_min": 0.011721078006480035,
+          "delta_max": 0.03182367518488993
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.0,
+          "delta": 0,
+          "delta_min": 0,
+          "delta_max": 0
+        },
+        "mean_event_kmh": {
+          "stock": 65.15031760913837,
+          "slipline": 65.13782949174723,
+          "stock_sd": 0.0010877611425075954,
+          "slipline_sd": 0.007236120786386912,
+          "delta": -0.012488117391143305,
+          "delta_min": -0.020579271541507183,
+          "delta_max": -0.006668147506246669
+        },
+        "recovery_beta_rms_deg": {
+          "stock": 0.04566120601564668,
+          "slipline": 0.0174788188206981,
+          "stock_sd": 0.0038769512463499756,
+          "slipline_sd": 0.002470778726944314,
+          "delta": -0.028182387194948578,
+          "delta_min": -0.02987760589722185,
+          "delta_max": -0.02732372202329715
+        },
+        "recovery_speed_kmh": {
+          "stock": 46.30307204128881,
+          "slipline": 46.27421393021077,
+          "stock_sd": 0.005768115924763547,
+          "slipline_sd": 0.010374150026010612,
+          "delta": -0.02885811107803941,
+          "delta_min": -0.03893935163785045,
+          "delta_max": -0.01912567047700975
+        },
+        "peak_event_g": {
+          "stock": 1.2180076201624193,
+          "slipline": 1.2925141326496092,
+          "stock_sd": 0.021653472034757867,
+          "slipline_sd": 0.056109885575919206,
+          "delta": 0.07450651248718998,
+          "delta_min": 0.03044597477288491,
+          "delta_max": 0.11633642201753314
+        }
+      }
+    },
+    {
+      "car": "Vivace_track",
+      "maneuver": "lift_reversal",
+      "all_entries_qualified": true,
+      "max_paired_entry_kmh_difference": 0.12879333650880653,
+      "max_paired_entry_beta_difference": 0.050522134234200156,
+      "runs_over_10_deg": {
+        "stock": 3,
+        "slipline": 3
+      },
+      "runs_over_30_deg": {
+        "stock": 3,
+        "slipline": 3
+      },
+      "spin_runs": {
+        "stock": 0,
+        "slipline": 3
+      },
+      "metrics": {
+        "peak_beta_deg": {
+          "stock": 51.09994067551867,
+          "slipline": 62.815574862890664,
+          "stock_sd": 0.2667020521800261,
+          "slipline_sd": 0.5561046103917051,
+          "delta": 11.715634187371998,
+          "delta_min": 11.078641334305999,
+          "delta_max": 12.556899313396997
+        },
+        "peak_beta_rate_deg_s": {
+          "stock": 35.49312293117327,
+          "slipline": 48.77679707999855,
+          "stock_sd": 1.4867153814351088,
+          "slipline_sd": 0.4691115744790737,
+          "delta": 13.283674148825284,
+          "delta_min": 12.133701579526686,
+          "delta_max": 14.094193687314444
+        },
+        "peak_yaw_accel_deg_s2": {
+          "stock": 356.551447882465,
+          "slipline": 362.02714185060285,
+          "stock_sd": 17.197149056005973,
+          "slipline_sd": 17.40084859331912,
+          "delta": 5.475693968137857,
+          "delta_min": -29.45583757876915,
+          "delta_max": 31.514678430033314
+        },
+        "peak_front_alpha_deg": {
+          "stock": 53.4037166252695,
+          "slipline": 70.77673907526284,
+          "stock_sd": 0.36751329011389816,
+          "slipline_sd": 0.8984212398946066,
+          "delta": 17.373022449993332,
+          "delta_min": 16.207996444999992,
+          "delta_max": 18.718240419856002
+        },
+        "peak_rear_alpha_deg": {
+          "stock": 67.81403136916383,
+          "slipline": 74.73152455790283,
+          "stock_sd": 0.3560884345802306,
+          "slipline_sd": 0.5508745093717576,
+          "delta": 6.917493188738997,
+          "delta_min": 6.671968126501,
+          "delta_max": 7.144087572679496
+        },
+        "front_rear_slip_gap_deg": {
+          "stock": 15.18003588837616,
+          "slipline": 12.562912557446666,
+          "stock_sd": 0.30806239032572863,
+          "slipline_sd": 0.05036028059106847,
+          "delta": -2.617123330929495,
+          "delta_min": -2.797255906593996,
+          "delta_max": -2.279697422052486
+        },
+        "time_over_10_deg_s": {
+          "stock": 1.7133334546039234,
+          "slipline": 1.70000012032685,
+          "stock_sd": 0.011547006201095382,
+          "slipline_sd": 0.0,
+          "delta": -0.013333334277073394,
+          "delta_min": -0.02000000141561009,
+          "delta_max": 0.0
+        },
+        "time_over_30_deg_s": {
+          "stock": 0.74000005237757,
+          "slipline": 0.8733333951483033,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.011547006201095318,
+          "delta": 0.1333333427707333,
+          "delta_min": 0.12000000849366,
+          "delta_max": 0.14000000990926997
+        },
+        "time_over_60_deg_s": {
+          "stock": 0,
+          "slipline": 0.06666667138536667,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.02309401240219066,
+          "delta": 0.06666667138536667,
+          "delta_min": 0.04000000283122,
+          "delta_max": 0.08000000566244
+        },
+        "post_event_peak_beta_deg": {
+          "stock": 51.09994067551867,
+          "slipline": 62.815574862890664,
+          "stock_sd": 0.2667020521800261,
+          "slipline_sd": 0.5561046103917051,
+          "delta": 11.715634187371998,
+          "delta_min": 11.078641334305999,
+          "delta_max": 12.556899313396997
+        },
+        "post_event_spin_time_s": {
+          "stock": 0,
+          "slipline": 0.06666667138536667,
+          "stock_sd": 0.0,
+          "slipline_sd": 0.02309401240219066,
+          "delta": 0.06666667138536667,
+          "delta_min": 0.04000000283122,
+          "delta_max": 0.08000000566244
+        },
+        "time_to_10_deg_s": {
+          "stock": 1.1733346904316662,
+          "slipline": 1.1400013547389989,
+          "stock_sd": 0.011547006200742711,
+          "slipline_sd": 0.0,
+          "delta": -0.033333335692667276,
+          "delta_min": -0.04000000283100036,
+          "delta_max": -0.020000001416001112
+        },
+        "time_to_30_deg_s": {
+          "stock": 2.1466680926583344,
+          "slipline": 1.9666680799176675,
+          "stock_sd": 0.011547006200742711,
+          "slipline_sd": 0.011547006201321139,
+          "delta": -0.1800000127406669,
+          "delta_min": -0.2000000141560001,
+          "delta_max": -0.16000001132499975
+        },
+        "transition_10_to_30_s": {
+          "stock": 0.9733334022266682,
+          "slipline": 0.8266667251786686,
+          "stock_sd": 0.011547006200742711,
+          "slipline_sd": 0.011547006201321139,
+          "delta": -0.14666667704799963,
+          "delta_min": -0.16000001132499975,
+          "delta_max": -0.12000000849399939
+        },
+        "mean_event_kmh": {
+          "stock": 52.86765581490671,
+          "slipline": 53.03377336736377,
+          "stock_sd": 0.0994421344712176,
+          "slipline_sd": 0.07149775296067319,
+          "delta": 0.16611755245705714,
+          "delta_min": 0.08301942384263583,
+          "delta_max": 0.23226189675694542
+        },
+        "peak_event_g": {
+          "stock": 1.8269355578733606,
+          "slipline": 1.6941326934102956,
+          "stock_sd": 0.12086078679131108,
+          "slipline_sd": 0.13862056311395204,
+          "delta": -0.132802864463065,
+          "delta_min": -0.30396243026799197,
+          "delta_max": 0.07790607401233429
+        }
+      }
+    }
+  ]
+}

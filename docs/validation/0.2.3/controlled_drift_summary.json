@@ -1,0 +1,63 @@
+{
+  "runs": 12,
+  "qualified": 10,
+  "tyre_failure_samples": 0,
+  "paired": [
+    {
+      "car": "BX_track",
+      "all_qualified": true,
+      "slide_time_s": {
+        "stock": 10.050000149756658,
+        "slipline": 10.050000149756658
+      },
+      "longest_slide_s": {
+        "stock": 10.050000149756668,
+        "slipline": 10.050000149756668
+      },
+      "tracking_error_rms_deg": {
+        "stock": 4.876442407574512,
+        "slipline": 6.435965338855862
+      },
+      "mean_speed_kmh": {
+        "stock": 50.528549516858696,
+        "slipline": 50.3306875861213
+      },
+      "steer_rms": {
+        "stock": 0.05027745658250544,
+        "slipline": 0.07188448856440893
+      },
+      "mean_throttle": {
+        "stock": 0.32719414538830865,
+        "slipline": 0.31356973230728163
+      }
+    },
+    {
+      "car": "ETK_drift",
+      "all_qualified": false,
+      "slide_time_s": {
+        "stock": 5.5500000827014375,
+        "slipline": 4.866666739185645
+      },
+      "longest_slide_s": {
+        "stock": 2.4166667026778046,
+        "slipline": 1.8500000275671464
+      },
+      "tracking_error_rms_deg": {
+        "stock": 11.476062421247123,
+        "slipline": 12.163073438032107
+      },
+      "mean_speed_kmh": {
+        "stock": 76.89060279991423,
+        "slipline": 77.46604839891067
+      },
+      "steer_rms": {
+        "stock": 0.40385070071879553,
+        "slipline": 0.4295707627215594
+      },
+      "mean_throttle": {
+        "stock": 0.32296115885141363,
+        "slipline": 0.3290167284525876
+      }
+    }
+  ]
+}

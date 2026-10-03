@@ -1,0 +1,14 @@
+{
+  "runs": 168,
+  "tyre_failures": 0,
+  "matched_active_parts": true,
+  "expected_tyres_loaded": true,
+  "cold_setpoint_psi": 28,
+  "wheel_ray_counts": [
+    16
+  ],
+  "factor_violations": 0,
+  "max_paired_entry_speed_difference_kmh": 0.5530164834059974,
+  "vehicle_samples": 67859,
+  "wheel_samples": 271436
+}
