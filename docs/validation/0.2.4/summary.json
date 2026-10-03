@@ -1,0 +1,380 @@
+{
+  "runs": 84,
+  "vehicle_samples": 50898,
+  "wheel_samples": 203592,
+  "tyre_failure_samples": 0,
+  "non_neutral_factor_samples": 0,
+  "ray_counts": [
+    16
+  ],
+  "matched_parts": true,
+  "esc_active_samples": 0,
+  "tc_active_samples": 0,
+  "sample_steps": {
+    "braking": {
+      "min": 0.050000000745058,
+      "max": 0.050000000745058
+    },
+    "handling": {
+      "min": 0.02000000141561,
+      "max": 0.02000000141561
+    },
+    "controlled": {
+      "min": 0.050000000745058,
+      "max": 0.050000000745058
+    }
+  },
+  "tested_zip_sha256": "4bbe708203ab0f7f76af28fde248776b1665c08d6a05d59e09023e4c7b80799e",
+  "braking": [
+    {
+      "baseline": "stock",
+      "car": "BX_track",
+      "stock_m": 28.52984543975053,
+      "revision_m": 28.52984543975053,
+      "revision_delta_percent": 0.0,
+      "old_delta_percent": 1.984810595666442,
+      "pairs": [
+        {
+          "repeat": 0,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        },
+        {
+          "repeat": 1,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        },
+        {
+          "repeat": 2,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        }
+      ]
+    },
+    {
+      "baseline": "stock",
+      "car": "ETK_drift",
+      "stock_m": 50.9146290946139,
+      "revision_m": 50.9146290946139,
+      "revision_delta_percent": 0.0,
+      "old_delta_percent": 3.435467649733015,
+      "pairs": [
+        {
+          "repeat": 0,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        },
+        {
+          "repeat": 1,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        },
+        {
+          "repeat": 2,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        }
+      ]
+    },
+    {
+      "baseline": "stock",
+      "car": "Vivace_track",
+      "stock_m": 28.38199385610276,
+      "revision_m": 28.38199385610276,
+      "revision_delta_percent": 0.0,
+      "old_delta_percent": 2.8569478366212486,
+      "pairs": [
+        {
+          "repeat": 0,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        },
+        {
+          "repeat": 1,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        },
+        {
+          "repeat": 2,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        }
+      ]
+    },
+    {
+      "baseline": "stock",
+      "car": "Sunburst_RS",
+      "stock_m": 37.36197625988208,
+      "revision_m": 37.36197625988208,
+      "revision_delta_percent": 0.0,
+      "old_delta_percent": 2.017798427531381,
+      "pairs": [
+        {
+          "repeat": 0,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        },
+        {
+          "repeat": 1,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        },
+        {
+          "repeat": 2,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        }
+      ]
+    },
+    {
+      "baseline": "redux",
+      "car": "BX_track",
+      "stock_m": 28.43451958327125,
+      "revision_m": 28.43451958327125,
+      "revision_delta_percent": 0.0,
+      "old_delta_percent": 1.7211064448752644,
+      "pairs": [
+        {
+          "repeat": 0,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        },
+        {
+          "repeat": 1,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        },
+        {
+          "repeat": 2,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        }
+      ]
+    },
+    {
+      "baseline": "redux",
+      "car": "ETK_drift",
+      "stock_m": 51.91177387098652,
+      "revision_m": 51.91177387098652,
+      "revision_delta_percent": 0.0,
+      "old_delta_percent": 3.3574698822704363,
+      "pairs": [
+        {
+          "repeat": 0,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        },
+        {
+          "repeat": 1,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        },
+        {
+          "repeat": 2,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        }
+      ]
+    },
+    {
+      "baseline": "redux",
+      "car": "Vivace_track",
+      "stock_m": 28.532829152547276,
+      "revision_m": 28.532829152547276,
+      "revision_delta_percent": 0.0,
+      "old_delta_percent": 1.2516741926893227,
+      "pairs": [
+        {
+          "repeat": 0,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        },
+        {
+          "repeat": 1,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        },
+        {
+          "repeat": 2,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        }
+      ]
+    },
+    {
+      "baseline": "redux",
+      "car": "Sunburst_RS",
+      "stock_m": 38.619062238383975,
+      "revision_m": 38.619062238383975,
+      "revision_delta_percent": 0.0,
+      "old_delta_percent": 2.07575583568127,
+      "pairs": [
+        {
+          "repeat": 0,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        },
+        {
+          "repeat": 1,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        },
+        {
+          "repeat": 2,
+          "distance_delta_percent": 0.0,
+          "entry_speed_delta_kmh": 0.0
+        }
+      ]
+    }
+  ],
+  "handling": [
+    {
+      "car": "BX_track",
+      "maneuver": "trail_hard",
+      "peak_beta_deg": {
+        "stock": 3.3766167870000667,
+        "revision": 3.3766167870000667,
+        "old_stock": 3.3182138155985332,
+        "old_release": 3.4543238098657
+      },
+      "peak_beta_rate_deg_s": {
+        "stock": 6.641700839588216,
+        "revision": 6.641700839588216,
+        "old_stock": 6.920920804339749,
+        "old_release": 6.819152428459174
+      },
+      "peak_front_alpha_deg": {
+        "stock": 3.7525920246867,
+        "revision": 3.7525920246867,
+        "old_stock": 3.830418179592667,
+        "old_release": 3.8230881608164333
+      },
+      "peak_rear_alpha_deg": {
+        "stock": 3.4389615934894833,
+        "revision": 3.4389615934894833,
+        "old_stock": 3.4359797272977666,
+        "old_release": 3.4734070003967337
+      }
+    },
+    {
+      "car": "BX_track",
+      "maneuver": "lift_reversal",
+      "peak_beta_deg": {
+        "stock": 3.5425158332476334,
+        "revision": 3.5425158332476334,
+        "old_stock": 3.5484455733151,
+        "old_release": 3.5726404009368333
+      },
+      "peak_beta_rate_deg_s": {
+        "stock": 13.503063868258732,
+        "revision": 13.503063868258732,
+        "old_stock": 13.39019163175312,
+        "old_release": 12.959392258351382
+      },
+      "peak_front_alpha_deg": {
+        "stock": 9.863061914047083,
+        "revision": 9.863061914047083,
+        "old_stock": 9.85280531566915,
+        "old_release": 9.904422184944917
+      },
+      "peak_rear_alpha_deg": {
+        "stock": 7.505304480527767,
+        "revision": 7.505304480527767,
+        "old_stock": 7.4993136742734,
+        "old_release": 7.466001653195667
+      }
+    },
+    {
+      "car": "Vivace_track",
+      "maneuver": "trail_hard",
+      "peak_beta_deg": {
+        "stock": 4.188146814194133,
+        "revision": 4.188146814194133,
+        "old_stock": 4.179607697052633,
+        "old_release": 4.316388998549334
+      },
+      "peak_beta_rate_deg_s": {
+        "stock": 8.027092783751343,
+        "revision": 8.027092783751343,
+        "old_stock": 8.150455267565505,
+        "old_release": 7.739613840024381
+      },
+      "peak_front_alpha_deg": {
+        "stock": 4.32510509618005,
+        "revision": 4.32510509618005,
+        "old_stock": 4.34292874339635,
+        "old_release": 4.478190811040917
+      },
+      "peak_rear_alpha_deg": {
+        "stock": 4.81816795634415,
+        "revision": 4.81816795634415,
+        "old_stock": 4.833485987911983,
+        "old_release": 4.8360376999455665
+      }
+    },
+    {
+      "car": "Vivace_track",
+      "maneuver": "lift_reversal",
+      "peak_beta_deg": {
+        "stock": 51.410518646326,
+        "revision": 51.410518646326,
+        "old_stock": 51.09994067551867,
+        "old_release": 62.815574862890664
+      },
+      "peak_beta_rate_deg_s": {
+        "stock": 37.020891054587636,
+        "revision": 37.020891054587636,
+        "old_stock": 35.49312293117327,
+        "old_release": 48.77679707999855
+      },
+      "peak_front_alpha_deg": {
+        "stock": 53.845702368725334,
+        "revision": 53.845702368725334,
+        "old_stock": 53.4037166252695,
+        "old_release": 70.77673907526284
+      },
+      "peak_rear_alpha_deg": {
+        "stock": 67.880540867569,
+        "revision": 67.880540867569,
+        "old_stock": 67.81403136916383,
+        "old_release": 74.73152455790283
+      },
+      "transition_10_to_30_s": {
+        "stock": 0.9733334022266682,
+        "revision": 0.9733334022266682,
+        "old_stock": 0.9733334022266682,
+        "old_release": 0.8266667251786686
+      }
+    }
+  ],
+  "controlled": [
+    {
+      "car": "BX_track",
+      "stock": {
+        "qualified": 3,
+        "tracking_rms_deg": 4.876442407574512,
+        "longest_slide_s": 10.050000149756668
+      },
+      "slipline": {
+        "qualified": 3,
+        "tracking_rms_deg": 4.867622097506474,
+        "longest_slide_s": 10.050000149756668
+      },
+      "old_qualified": 3
+    },
+    {
+      "car": "ETK_drift",
+      "stock": {
+        "qualified": 3,
+        "tracking_rms_deg": 11.476062421247123,
+        "longest_slide_s": 2.4166667026778046
+      },
+      "slipline": {
+        "qualified": 3,
+        "tracking_rms_deg": 11.565007815403492,
+        "longest_slide_s": 2.300000034272669
+      },
+      "old_qualified": 1
+    }
+  ]
+}

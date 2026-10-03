@@ -1,5 +1,5 @@
 from pathlib import Path
-import sys, json, shutil, subprocess, zipfile, argparse, time, faulthandler
+import sys, json, shutil, subprocess, zipfile, argparse, time, faulthandler, hashlib
 
 
 ROOT=None
@@ -39,7 +39,7 @@ def run(condition,repeats,pilot):
     cmd=[s for s in cmd if s!='-console']
     proc=subprocess.Popen(cmd,cwd=str(HOME),creationflags=subprocess.CREATE_NO_WINDOW)
     (ROOT/'owned_process.json').write_text(json.dumps({'pid':proc.pid,'condition':condition,'profile':str(user)}))
-    result={'condition':condition,'sliplineVersion':'0.2.3','game':'0.39.4.0','track':'smallgrid','runs':[],'started':time.time()}
+    result={'condition':condition,'sliplineVersion':VERSION,'sliplineSHA256':DIGEST,'game':'0.39.4.0','track':'smallgrid','runs':[],'started':time.time()}
     results=ROOT/'results';results.mkdir(exist_ok=True)
     try:
         bng.open(launch=False)
@@ -55,7 +55,7 @@ def run(condition,repeats,pilot):
         bng.scenario.load(scene);print('Loaded',flush=True)
         bng.scenario.start();bng.control.pause();bng.vehicles.switch(cars[0]);bng.control.queue_lua_command("extensions.ui_router.navigate('play')",True);print('Visible game paused and ready',flush=True)
         for repeat in range(repeats):
-            for maneuver in (['corner'] if pilot else ['corner','steering','brake','drift']):
+            for maneuver in (args.maneuvers or (['corner'] if pilot else ['corner','steering','brake','drift'])):
                 if result['runs']:bng.scenario.restart();bng.control.pause()
                 for car in cars:
                     print('Configure',car.vid,flush=True)
@@ -95,6 +95,8 @@ def run(condition,repeats,pilot):
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
+    parser.add_argument('--cars',nargs='+',choices=[s[0] for s in SPECS],help='Limit the factory cars; omitted means all')
+    parser.add_argument('--maneuvers',nargs='+',choices=['corner', 'steering', 'brake', 'drift'],help='Limit inputs; omitted means the original protocol')
     parser.add_argument('--condition',choices=['stock','slipline','redux','redux_slipline'],required=True)
     parser.add_argument('--repeats',type=int,default=3)
     parser.add_argument('--pilot',action='store_true')
@@ -112,6 +114,12 @@ if __name__=='__main__':
     if any('redux' in c for c in conditions) and (not REDUX_ZIP or not REDUX_ZIP.is_file()):parser.error('--redux-zip is required for these conditions')
     if not (HOME/'Bin64/BeamNG.drive.x64.exe').is_file():parser.error('BeamNG executable not found')
     if args.repeats!=3 and args.suite:parser.error('The documented full comparison uses three repeats')
+    VERSION=None;DIGEST=None
+    if SLIPLINE_ZIP:
+        with zipfile.ZipFile(SLIPLINE_ZIP) as archive:
+            VERSION=json.loads(archive.read('ui/modules/apps/automaticTyresMonitor/app.json'))['version']
+        DIGEST=hashlib.sha256(SLIPLINE_ZIP.read_bytes()).hexdigest()
+    if args.cars:SPECS=[s for s in SPECS if s[0] in args.cars]
     ROOT.mkdir(parents=True,exist_ok=True)
     for condition in (['stock','slipline','redux','redux_slipline'] if args.suite else [args.condition]):
         run(condition,args.repeats,args.pilot)

@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.4 — Native grip correction
+
+- Remove the experimental slip/history grip multiplier after the 0.2.3 tests found longer braking and harsher Vivace breakaway.
+- Stop writing tyre friction on update, reset or unload. BeamNG and thermal mods retain complete control of grip.
+- Keep the Redux base-grip bridge read-only, without changing Redux's execution order. An unknown interface only removes that reading.
+- Keep automatic loading, tyre audio, the responsive dash and stock wheel construction.
+
 ## 0.2.3 — Responsive dashboard pre-release
 
 - Lower the dash minimum from 240 × 280 to 160 × 180.

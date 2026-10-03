@@ -2,6 +2,8 @@
 
 Original test-only driver and telemetry recorder for the Slipline 0.2.3 study. They are not included in the mod ZIP and do not write tyre friction, pressure or thermal state. The comparison report is in `docs/validation/0.2.3/Grip-response-validation.md`.
 
+The runners also accept newer release ZIPs: version and SHA-256 are read from the supplied archive. Use a fresh workspace for each revision. `--cars` selects factory configurations; `--maneuvers` selects inputs in the core and handling runners. These filters preserve the original driver inputs and timing. A focused subset is not the full 0.2.3 study. The native-grip correction is documented in `docs/validation/0.2.4/Native-grip-correction.md`.
+
 Requires Windows, BeamNG.drive 0.39.4, Python 3.12 and `beamngpy==1.35.1`. Supply Slipline and Redux ZIPs separately; no game files or Redux code are redistributed here. The known Redux interface is version 0.20.
 
 Use a separate test workspace. The runner creates four isolated user profiles and opens a **visible Direct3D11 game window** for each condition. It does not offer a headless option. Optional online features and telemetry are declined in these test profiles to keep the first-run consent screen out of the driving view. Avoid manually driving the test cars during measurement. It quits only the game process it started.

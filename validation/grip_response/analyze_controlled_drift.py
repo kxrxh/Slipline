@@ -10,6 +10,7 @@ parser.add_argument('--out',type=Path,required=True)
 args=parser.parse_args();RESULTS=args.results.resolve();OUT=args.out.resolve()
 OUT.mkdir(parents=True,exist_ok=True)
 datasets={c:json.loads((RESULTS/('controlled_'+c+'.json')).read_text()) for c in ['stock','slipline']}
+version=datasets['slipline'].get('sliplineVersion','unknown')
 assert all(len(d['runs'])==6 for d in datasets.values())
 rows=[]
 def longest(samples,predicate):
@@ -59,24 +60,24 @@ for col,car in enumerate(['BX_track','ETK_drift']):
     axes[1,col].set_ylabel('Speed (km/h)')
     for ax in axes[:,col]:ax.grid(alpha=.2);ax.set_xlabel('Seconds after slide entry')
 axes[0,0].legend(frameon=False)
-fig.suptitle('Feedback-driven RWD slide follow-up вЂ” three fresh repeats\nFrozen driver settings; dotted line is the в€’20В° angle target')
+fig.suptitle('Feedback-driven RWD slide follow-up — three fresh repeats\nFrozen driver settings; dotted line is the −20° angle target')
 fig.savefig(OUT/'controlled_drift_traces.png',dpi=160);plt.close(fig)
-table=['| Car | Slide time s: stock в†’ Slipline | Longest continuous slide s | Angle error RMS В° | Qualified / 6 |','| --- | --- | --- | --- | --- |']
+table=['| Car | Slide time s: stock → Slipline | Longest continuous slide s | Angle error RMS ° | Qualified / 6 |','| --- | --- | --- | --- | --- |']
 for p in paired:
-    table.append('| '+p['car']+' | '+' | '.join(f"{p[k]['stock']:.2f} в†’ {p[k]['slipline']:.2f}" for k in ['slide_time_s','longest_slide_s','tracking_error_rms_deg'])+' | '+str(sum(r['qualified'] for r in rows if r['car']==p['car']))+' |')
-text='''# Feedback-driven drift follow-up
+    table.append('| '+p['car']+' | '+' | '.join(f"{p[k]['stock']:.2f} → {p[k]['slipline']:.2f}" for k in ['slide_time_s','longest_slide_s','tracking_error_rms_deg'])+' | '+str(sum(r['qualified'] for r in rows if r['car']==p['car']))+' |')
+text=f'''# Feedback-driven drift follow-up
 
-Twelve additional visible runs: BX track and ETK I-Series drift, stock versus Slipline 0.2.3, three fresh repeats each. Redux was not included in this follow-up. Mod coefficients remained unchanged.
+Twelve additional visible runs: BX track and ETK I-Series drift, stock versus Slipline {version}, three fresh repeats each. Redux was not included in this follow-up. Mod coefficients remained unchanged.
 
-The original aggressive input spins these cars. A separate stock-only pilot qualified a feedback driver; its settings were frozen before these fresh stock and Slipline runs. The driver targets в€’20В° body sideslip and uses the same steering feedback and rear-rim-speed throttle rule for both cars and both conditions. Feedforward = 0.12; rim ratio = 1.25; other gains are in `slipline_drift_driver.lua`. Closed-loop inputs can differ in response to the changed car state. This compares the resulting state and required control, not identical pedal histories.
+The original aggressive input spins these cars. A separate stock-only pilot qualified a feedback driver; its settings were frozen before these fresh stock and Slipline runs. The driver targets −20° body sideslip and uses the same steering feedback and rear-rim-speed throttle rule for both cars and both conditions. Feedforward = 0.12; rim ratio = 1.25; other gains are in `slipline_drift_driver.lua`. Closed-loop inputs can differ in response to the changed car state. This compares the resulting state and required control, not identical pedal histories.
 
-After the two-second slide-entry period, qualification requires a continuous 2 s with speed above 10 m/s and body sideslip between 10В° and 40В°, less than 0.25 s above 60В°, and mean rear-rim overdrive above 1.10. It is a limited sustained-slide criterion, not proof of skilled human drifting or realistic forces.
+After the two-second slide-entry period, qualification requires a continuous 2 s with speed above 10 m/s and body sideslip between 10° and 40°, less than 0.25 s above 60°, and mean rear-rim overdrive above 1.10. It is a limited sustained-slide criterion, not proof of skilled human drifting or realistic forces.
 
 '''+ '\n'.join(table)+f'''
 
 {summary['qualified']} of 12 runs qualify; {summary['tyre_failure_samples']} failed tyre observations. Mean speed differs between conditions and must be considered alongside the angle/control measurements. Longer sliding duration alone is not an improvement score. These runs provide a repeatable sustained-slide comparison, while human feel, sound and real-world tyre-force accuracy remain unvalidated.
 
-BX qualifies in all six runs, but its mean angle-tracking RMS error increases from 4.88В° to 6.44В° with Slipline and it requires more steering correction. ETK stock qualifies in all three repeats; Slipline qualifies in one of three. The two failed Slipline repeats remain in every aggregate and plot. Neither car spins under this driver. This follow-up provides no drift-control benefit for the current modifier under the tested control rule.
+Qualification counts, angle-tracking error and control effort must be read together. A lower tracking error or longer slide in one setup does not establish a general handling or realism improvement. Consult the per-run CSV for variation and failed qualifications.
 
 ![All repeats of the RWD slide follow-up](controlled_drift_traces.png)
 
