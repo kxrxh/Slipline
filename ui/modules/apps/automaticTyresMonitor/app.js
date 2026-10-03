@@ -8,17 +8,17 @@
       var labels={FL:'Front left',FR:'Front right',RL:'Rear left',RR:'Rear right',RL2:'Rear left, axle 2',RR2:'Rear right, axle 2'};
       function numeric(n){return typeof n==='number'&&isFinite(n)?n:null;}
       function mean(values){var a=values.filter(function(x){return x!==null;});return a.length?a.reduce(function(x,y){return x+y;},0)/a.length:null;}
-      function blank(name){return {name:name,label:labels[name]||name,temps:[null,null,null],average:null,pressure:null,placeholder:true,status:{tone:'neutral'}};}
-      scope.selected=null;scope.live=false;scope.wheels=[];scope.displayWheels=positions.map(blank);
+      function blank(name){return {name:name,label:labels[name]||name,temps:[null,null,null],average:null,pressure:null,condition:null,placeholder:true,status:{tone:'neutral'}};}
+      scope.selected=null;scope.live=false;scope.hasWear=false;scope.wheels=[];scope.displayWheels=positions.map(blank);
       // Measure the app itself: the game viewport does not change when a UI app resizes.
-      var host=element[0],lastWidth=0,lastHeight=0,resizeObserver;
+      var host=element[0],lastWidth=0,lastHeight=0,lastWear=false,resizeObserver;
       function resize(){
         var width=host.clientWidth,height=host.clientHeight;
-        if(!width||!height||(width===lastWidth&&height===lastHeight))return;
-        lastWidth=width;lastHeight=height;
+        if(!width||!height||(width===lastWidth&&height===lastHeight&&scope.hasWear===lastWear))return;
+        lastWidth=width;lastHeight=height;lastWear=scope.hasWear;
         var compact=width<230||height<270;
         var scale=compact?Math.max(.7,Math.min(1,(width-14)/216,(height-38)/196)):
-          Math.max(.65,Math.min(2,(width-24)/276,(height-32)/319));
+          Math.max(.65,Math.min(2,(width-24)/276,(height-32)/(scope.hasWear?351:319)));
         host.classList.toggle('tdash-compact',compact);
         host.classList.toggle('tdash-large',!compact&&scale>=1.3);
         host.style.setProperty('--td-scale',scale.toFixed(4));
@@ -44,7 +44,7 @@
       function rank(name){var i=positions.indexOf(name);return i<0?100:i;}
       function build(){
         var now=Date.now(),tf=now-thermalTime<1800,vf=now-telemetryTime<1800;
-        if(!tf&&!vf){scope.live=false;return;}
+        if(!tf&&!vf){scope.live=false;scope.hasWear=false;resize();return;}
         var names={};Object.keys(tf?thermal:{}).forEach(function(n){names[n]=true;});Object.keys(vf?telemetry:{}).forEach(function(n){names[n]=true;});
         var selected=scope.selected&&scope.selected.name;
         scope.wheels=Object.keys(names).sort(function(a,b){return rank(a)-rank(b)||a.localeCompare(b);}).map(function(name){
@@ -56,12 +56,14 @@
           if(w.average===null)w.average=mean(temperatures);w.status=status(w);return w;
         });
         scope.live=scope.wheels.length>0;
+        scope.hasWear=scope.wheels.some(function(w){return w.condition!==null;});
         scope.displayWheels=scope.live?scope.wheels:positions.map(blank);
         scope.selected=scope.wheels.find(function(w){return w.name===selected;})||null;
+        resize();
       }
       scope.select=function(w){if(!w.placeholder)scope.selected=w;};
       scope.back=function(){scope.selected=null;};
-      function clear(){thermal={};telemetry={};thermalTime=0;telemetryTime=0;scope.wheels=[];scope.displayWheels=positions.map(blank);scope.selected=null;scope.live=false;}
+      function clear(){thermal={};telemetry={};thermalTime=0;telemetryTime=0;scope.wheels=[];scope.displayWheels=positions.map(blank);scope.selected=null;scope.live=false;scope.hasWear=false;resize();}
       StreamsManager.add(streams);
       scope.$on('streamsUpdate',function(event,values){
         if(values.TyreWearThermals){thermal={};(values.TyreWearThermals.data||[]).forEach(function(w){if(w.name)thermal[w.name]=w;});thermalTime=Date.now();}

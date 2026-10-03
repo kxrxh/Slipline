@@ -1,7 +1,7 @@
 {
   "domElement": "<automatic-tyres-monitor></automatic-tyres-monitor>",
   "name": "Tyre Dash",
-  "description": "Top-down tyre temperatures and live pressure. Tap a tyre for its core temperature, remaining life and brake readings.",
+  "description": "Top-down tyre temperatures, live pressure and remaining life when available. Tap a tyre for its core temperature and brake readings.",
   "types": [
     "ui.apps.categories.vehicle_info",
     "ui.apps.categories.racing"
@@ -16,6 +16,6 @@
   },
   "author": "Slipline contributors / OpenAI Codex",
   "preserveAspectRatio": false,
-  "version": "0.2.4",
+  "version": "0.2.5",
   "directive": "automaticTyresMonitor"
 }

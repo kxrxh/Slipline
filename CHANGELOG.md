@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.5 — Wear on the dashboard
+
+- Show remaining tyre life as a percentage and a thin bar in the overview when wear telemetry is available.
+- Hide unavailable or stale wear readings; keep zero life visible.
+- Fit the extra reading in compact, medium and large layouts without changing saved app dimensions.
+- Retain the 0.2.4 Lua, grip, telemetry and audio unchanged.
+
 ## 0.2.4 — Native grip correction
 
 - Remove the experimental slip/history grip multiplier after the 0.2.3 tests found longer braking and harsher Vivace breakaway.
