@@ -1,0 +1,862 @@
+{
+  "game": "BeamNG.drive 0.39.4.0 build 20972",
+  "visible": true,
+  "renderer": "DX11",
+  "map": "Small Grid",
+  "modes": [
+    "native",
+    "legacy 0.2.6",
+    "candidate 0.3.0"
+  ],
+  "runs": [
+    {
+      "redux": false,
+      "mode": "native",
+      "configuration": "BX_race",
+      "samples": 660,
+      "tyreParts": [
+        "tire_R_245_35_17_race",
+        "tire_F_245_35_17_race"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 1.5e-05,
+          "zeroSkidFraction": 0.998611
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0,
+          "zeroSkidFraction": 1.0
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.006928,
+          "zeroSkidFraction": 0.495
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.078239,
+          "zeroSkidFraction": 0.121875
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.048632,
+          "zeroSkidFraction": 0.55625
+        }
+      }
+    },
+    {
+      "redux": false,
+      "mode": "native",
+      "configuration": "BX_sport",
+      "samples": 660,
+      "tyreParts": [
+        "tire_R_195_60_15_sport",
+        "tire_F_195_60_15_sport"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 0.000283,
+          "zeroSkidFraction": 0.988889
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0,
+          "zeroSkidFraction": 1.0
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.020013,
+          "zeroSkidFraction": 0.075
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.139891,
+          "zeroSkidFraction": 0.05
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.068724,
+          "zeroSkidFraction": 0.371875
+        }
+      }
+    },
+    {
+      "redux": false,
+      "mode": "native",
+      "configuration": "ETK_drift",
+      "samples": 660,
+      "tyreParts": [
+        "tire_F_225_40_17_drift",
+        "tire_R_225_40_17_drift"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 0.015814,
+          "zeroSkidFraction": 0.819444
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0.000101,
+          "zeroSkidFraction": 0.99
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.032541,
+          "zeroSkidFraction": 0.06
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.220268,
+          "zeroSkidFraction": 0.115625
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.127077,
+          "zeroSkidFraction": 0.278125
+        }
+      }
+    },
+    {
+      "redux": false,
+      "mode": "native",
+      "configuration": "Vivace_race",
+      "samples": 660,
+      "tyreParts": [
+        "tire_F_245_35_19_race",
+        "tire_R_245_35_19_race"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 0.000623,
+          "zeroSkidFraction": 0.976389
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0,
+          "zeroSkidFraction": 1.0
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.014343,
+          "zeroSkidFraction": 0.0875
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.01965,
+          "zeroSkidFraction": 0.296875
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.016068,
+          "zeroSkidFraction": 0.4625
+        }
+      }
+    },
+    {
+      "redux": false,
+      "mode": "legacy",
+      "configuration": "BX_race",
+      "samples": 660,
+      "tyreParts": [
+        "tire_R_245_35_17_race",
+        "tire_F_245_35_17_race"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 0.000182,
+          "zeroSkidFraction": 0.983333
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0,
+          "zeroSkidFraction": 1.0
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.017881,
+          "zeroSkidFraction": 0.1175
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.140366,
+          "zeroSkidFraction": 0.065625
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.070992,
+          "zeroSkidFraction": 0.55625
+        }
+      }
+    },
+    {
+      "redux": false,
+      "mode": "legacy",
+      "configuration": "BX_sport",
+      "samples": 660,
+      "tyreParts": [
+        "tire_R_195_60_15_sport",
+        "tire_F_195_60_15_sport"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 0.000513,
+          "zeroSkidFraction": 0.976389
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0,
+          "zeroSkidFraction": 1.0
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.03444,
+          "zeroSkidFraction": 0.065
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.251412,
+          "zeroSkidFraction": 0.040625
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.104643,
+          "zeroSkidFraction": 0.353125
+        }
+      }
+    },
+    {
+      "redux": false,
+      "mode": "legacy",
+      "configuration": "ETK_drift",
+      "samples": 660,
+      "tyreParts": [
+        "tire_F_225_40_17_drift",
+        "tire_R_225_40_17_drift"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 0.028111,
+          "zeroSkidFraction": 0.801389
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0.002999,
+          "zeroSkidFraction": 0.7975
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.057899,
+          "zeroSkidFraction": 0.0425
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.394096,
+          "zeroSkidFraction": 0.09375
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.179141,
+          "zeroSkidFraction": 0.278125
+        }
+      }
+    },
+    {
+      "redux": false,
+      "mode": "legacy",
+      "configuration": "Vivace_race",
+      "samples": 660,
+      "tyreParts": [
+        "tire_F_245_35_19_race",
+        "tire_R_245_35_19_race"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 0.002188,
+          "zeroSkidFraction": 0.916667
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0,
+          "zeroSkidFraction": 1.0
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.024495,
+          "zeroSkidFraction": 0.075
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.035935,
+          "zeroSkidFraction": 0.121875
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.026766,
+          "zeroSkidFraction": 0.44375
+        }
+      }
+    },
+    {
+      "redux": false,
+      "mode": "candidate",
+      "configuration": "BX_race",
+      "samples": 660,
+      "tyreParts": [
+        "tire_R_245_35_17_race",
+        "tire_F_245_35_17_race"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 6e-05,
+          "zeroSkidFraction": 0.994444
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0,
+          "zeroSkidFraction": 1.0
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.03224,
+          "zeroSkidFraction": 0.4025
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.155683,
+          "zeroSkidFraction": 0.053125
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.08001,
+          "zeroSkidFraction": 0.54375
+        }
+      },
+      "frontHardCorner": {
+        "nativeInputMean": 0.012812,
+        "enhancedOutputMean": 0.058419
+      },
+      "bridgeReadyEveryFrame": true,
+      "soundCoefficientUnchanged": true
+    },
+    {
+      "redux": false,
+      "mode": "candidate",
+      "configuration": "BX_sport",
+      "samples": 660,
+      "tyreParts": [
+        "tire_R_195_60_15_sport",
+        "tire_F_195_60_15_sport"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 0.000296,
+          "zeroSkidFraction": 0.988889
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0,
+          "zeroSkidFraction": 1.0
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.051522,
+          "zeroSkidFraction": 0.075
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.234575,
+          "zeroSkidFraction": 0.0
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.109127,
+          "zeroSkidFraction": 0.3625
+        }
+      },
+      "frontHardCorner": {
+        "nativeInputMean": 0.024823,
+        "enhancedOutputMean": 0.084266
+      },
+      "bridgeReadyEveryFrame": true,
+      "soundCoefficientUnchanged": true
+    },
+    {
+      "redux": false,
+      "mode": "candidate",
+      "configuration": "ETK_drift",
+      "samples": 660,
+      "tyreParts": [
+        "tire_F_225_40_17_drift",
+        "tire_R_225_40_17_drift"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 0.018363,
+          "zeroSkidFraction": 0.819444
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0.000201,
+          "zeroSkidFraction": 0.98
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.103024,
+          "zeroSkidFraction": 0.06
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.310565,
+          "zeroSkidFraction": 0.075
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.165529,
+          "zeroSkidFraction": 0.278125
+        }
+      },
+      "frontHardCorner": {
+        "nativeInputMean": 0.041598,
+        "enhancedOutputMean": 0.14663
+      },
+      "bridgeReadyEveryFrame": true,
+      "soundCoefficientUnchanged": true
+    },
+    {
+      "redux": false,
+      "mode": "candidate",
+      "configuration": "Vivace_race",
+      "samples": 660,
+      "tyreParts": [
+        "tire_F_245_35_19_race",
+        "tire_R_245_35_19_race"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 0.000965,
+          "zeroSkidFraction": 0.966667
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0,
+          "zeroSkidFraction": 1.0
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.061351,
+          "zeroSkidFraction": 0.085
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.052144,
+          "zeroSkidFraction": 0.203125
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.022189,
+          "zeroSkidFraction": 0.453125
+        }
+      },
+      "frontHardCorner": {
+        "nativeInputMean": 0.017236,
+        "enhancedOutputMean": 0.088273
+      },
+      "bridgeReadyEveryFrame": true,
+      "soundCoefficientUnchanged": true
+    },
+    {
+      "redux": true,
+      "mode": "native",
+      "configuration": "BX_race",
+      "samples": 660,
+      "tyreParts": [
+        "tire_R_245_35_17_race",
+        "tire_F_245_35_17_race"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 1.5e-05,
+          "zeroSkidFraction": 0.998611
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0,
+          "zeroSkidFraction": 1.0
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.006891,
+          "zeroSkidFraction": 0.495
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.080693,
+          "zeroSkidFraction": 0.121875
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.047343,
+          "zeroSkidFraction": 0.56875
+        }
+      }
+    },
+    {
+      "redux": true,
+      "mode": "native",
+      "configuration": "BX_sport",
+      "samples": 660,
+      "tyreParts": [
+        "tire_R_195_60_15_sport",
+        "tire_F_195_60_15_sport"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 0.000292,
+          "zeroSkidFraction": 0.988889
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0,
+          "zeroSkidFraction": 1.0
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.019613,
+          "zeroSkidFraction": 0.075
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.144122,
+          "zeroSkidFraction": 0.05
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.070017,
+          "zeroSkidFraction": 0.36875
+        }
+      }
+    },
+    {
+      "redux": true,
+      "mode": "native",
+      "configuration": "ETK_drift",
+      "samples": 660,
+      "tyreParts": [
+        "tire_F_225_40_17_drift",
+        "tire_R_225_40_17_drift"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 0.016807,
+          "zeroSkidFraction": 0.813889
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0.000408,
+          "zeroSkidFraction": 0.96
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.03225,
+          "zeroSkidFraction": 0.06
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.215403,
+          "zeroSkidFraction": 0.10625
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.131243,
+          "zeroSkidFraction": 0.26875
+        }
+      }
+    },
+    {
+      "redux": true,
+      "mode": "native",
+      "configuration": "Vivace_race",
+      "samples": 660,
+      "tyreParts": [
+        "tire_F_245_35_19_race",
+        "tire_R_245_35_19_race"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 0.000638,
+          "zeroSkidFraction": 0.975
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0,
+          "zeroSkidFraction": 1.0
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.01444,
+          "zeroSkidFraction": 0.0875
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.019641,
+          "zeroSkidFraction": 0.30625
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.016453,
+          "zeroSkidFraction": 0.465625
+        }
+      }
+    },
+    {
+      "redux": true,
+      "mode": "legacy",
+      "configuration": "BX_race",
+      "samples": 660,
+      "tyreParts": [
+        "tire_R_245_35_17_race",
+        "tire_F_245_35_17_race"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 0.000161,
+          "zeroSkidFraction": 0.986111
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0,
+          "zeroSkidFraction": 1.0
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.018016,
+          "zeroSkidFraction": 0.1275
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.14277,
+          "zeroSkidFraction": 0.065625
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.069949,
+          "zeroSkidFraction": 0.5625
+        }
+      }
+    },
+    {
+      "redux": true,
+      "mode": "legacy",
+      "configuration": "BX_sport",
+      "samples": 660,
+      "tyreParts": [
+        "tire_R_195_60_15_sport",
+        "tire_F_195_60_15_sport"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 0.00064,
+          "zeroSkidFraction": 0.966667
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0,
+          "zeroSkidFraction": 1.0
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.034893,
+          "zeroSkidFraction": 0.065
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.259477,
+          "zeroSkidFraction": 0.040625
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.107472,
+          "zeroSkidFraction": 0.346875
+        }
+      }
+    },
+    {
+      "redux": true,
+      "mode": "legacy",
+      "configuration": "ETK_drift",
+      "samples": 660,
+      "tyreParts": [
+        "tire_F_225_40_17_drift",
+        "tire_R_225_40_17_drift"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 0.030536,
+          "zeroSkidFraction": 0.7875
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0.003114,
+          "zeroSkidFraction": 0.7975
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.057308,
+          "zeroSkidFraction": 0.0425
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.385371,
+          "zeroSkidFraction": 0.096875
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.182438,
+          "zeroSkidFraction": 0.275
+        }
+      }
+    },
+    {
+      "redux": true,
+      "mode": "legacy",
+      "configuration": "Vivace_race",
+      "samples": 660,
+      "tyreParts": [
+        "tire_F_245_35_19_race",
+        "tire_R_245_35_19_race"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 0.002212,
+          "zeroSkidFraction": 0.915278
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0,
+          "zeroSkidFraction": 1.0
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.024608,
+          "zeroSkidFraction": 0.075
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.03603,
+          "zeroSkidFraction": 0.115625
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.027351,
+          "zeroSkidFraction": 0.446875
+        }
+      }
+    },
+    {
+      "redux": true,
+      "mode": "candidate",
+      "configuration": "BX_race",
+      "samples": 660,
+      "tyreParts": [
+        "tire_R_245_35_17_race",
+        "tire_F_245_35_17_race"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 1.6e-05,
+          "zeroSkidFraction": 0.998611
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0,
+          "zeroSkidFraction": 1.0
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.032614,
+          "zeroSkidFraction": 0.405
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.157169,
+          "zeroSkidFraction": 0.046875
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.079808,
+          "zeroSkidFraction": 0.55
+        }
+      },
+      "frontHardCorner": {
+        "nativeInputMean": 0.012831,
+        "enhancedOutputMean": 0.058638
+      },
+      "bridgeReadyEveryFrame": true,
+      "soundCoefficientUnchanged": true
+    },
+    {
+      "redux": true,
+      "mode": "candidate",
+      "configuration": "BX_sport",
+      "samples": 660,
+      "tyreParts": [
+        "tire_R_195_60_15_sport",
+        "tire_F_195_60_15_sport"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 0.000304,
+          "zeroSkidFraction": 0.988889
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0,
+          "zeroSkidFraction": 1.0
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.053374,
+          "zeroSkidFraction": 0.075
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.240169,
+          "zeroSkidFraction": 0.0
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.108865,
+          "zeroSkidFraction": 0.340625
+        }
+      },
+      "frontHardCorner": {
+        "nativeInputMean": 0.025385,
+        "enhancedOutputMean": 0.087662
+      },
+      "bridgeReadyEveryFrame": true,
+      "soundCoefficientUnchanged": true
+    },
+    {
+      "redux": true,
+      "mode": "candidate",
+      "configuration": "ETK_drift",
+      "samples": 660,
+      "tyreParts": [
+        "tire_F_225_40_17_drift",
+        "tire_R_225_40_17_drift"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 0.019283,
+          "zeroSkidFraction": 0.822222
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0.000456,
+          "zeroSkidFraction": 0.955
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.100639,
+          "zeroSkidFraction": 0.06
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.308103,
+          "zeroSkidFraction": 0.078125
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.169256,
+          "zeroSkidFraction": 0.275
+        }
+      },
+      "frontHardCorner": {
+        "nativeInputMean": 0.04152,
+        "enhancedOutputMean": 0.146708
+      },
+      "bridgeReadyEveryFrame": true,
+      "soundCoefficientUnchanged": true
+    },
+    {
+      "redux": true,
+      "mode": "candidate",
+      "configuration": "Vivace_race",
+      "samples": 660,
+      "tyreParts": [
+        "tire_F_245_35_19_race",
+        "tire_R_245_35_19_race"
+      ],
+      "failures": 0,
+      "phases": {
+        "straight": {
+          "meanSkidEventVolume": 0.000964,
+          "zeroSkidFraction": 0.968056
+        },
+        "gentle_corner": {
+          "meanSkidEventVolume": 0,
+          "zeroSkidFraction": 1.0
+        },
+        "hard_corner": {
+          "meanSkidEventVolume": 0.061901,
+          "zeroSkidFraction": 0.085
+        },
+        "powered_slide": {
+          "meanSkidEventVolume": 0.051942,
+          "zeroSkidFraction": 0.203125
+        },
+        "brake": {
+          "meanSkidEventVolume": 0.021242,
+          "zeroSkidFraction": 0.446875
+        }
+      },
+      "frontHardCorner": {
+        "nativeInputMean": 0.017242,
+        "enhancedOutputMean": 0.088809
+      },
+      "bridgeReadyEveryFrame": true,
+      "soundCoefficientUnchanged": true
+    }
+  ],
+  "limitations": [
+    "Event volumes are not calibrated perceived loudness.",
+    "Audio readings lag native sound updates by one graphics frame.",
+    "Simulation time can differ from recording wall time.",
+    "Short asphalt tests do not establish handling realism, every surface or long-session compatibility."
+  ],
+  "totalRuns": 24,
+  "graphicsSamples": 15840,
+  "wheelSamples": 63360
+}

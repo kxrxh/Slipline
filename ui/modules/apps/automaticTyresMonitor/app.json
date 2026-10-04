@@ -16,6 +16,6 @@
   },
   "author": "Slipline contributors / OpenAI Codex",
   "preserveAspectRatio": false,
-  "version": "0.2.6",
+  "version": "0.3.0",
   "directive": "automaticTyresMonitor"
 }

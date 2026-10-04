@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.0 — Progressive skid audio
+
+- Raise the existing spatial rigid-skid cue smoothly from sideways slip and road speed, including scrub from locked wheels.
+- Replace the shared tyre-volume coefficient boost; native rolling, loose-surface and kick-up sounds remain untouched.
+- Preserve native pitch, sound colour, texture and tyre-specific parameters. Cap added gain and the quiet-event floor; leave already louder native events intact.
+- Gate the enhancement by speed, load, tyre condition and supported road contact; retain intentional muting.
+- Restore owned sound methods on reset, unload and wheel replacement; fall back to native audio when the bridge is unavailable.
+- Preserve native grip, wheel construction, Redux heat/wear ownership and the 0.2.6 dashboard.
+
 ## 0.2.6 — Minimal tyre map
 
 - Replace the overview with four tyre blocks, front/rear pressure placement and no weather panel.
