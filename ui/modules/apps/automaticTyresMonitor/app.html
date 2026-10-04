@@ -1,25 +1,37 @@
 <section class="tdash" ng-class="{'tdash-stale':!live}" aria-label="Tyre dash">
   <link rel="stylesheet" href="/ui/modules/apps/automaticTyresMonitor/app.css">
-  <header class="tdash-header">
-    <div><button class="tdash-back" type="button" ng-if="selected" ng-click="back()" aria-label="Back to all tyres">←</button><span>{{selected ? selected.name : 'TYRES'}}</span></div>
+  <header class="tdash-header" ng-if="selected">
+    <div><button class="tdash-back" type="button" ng-click="back()" aria-label="Back to all tyres">←</button><span>{{selected.name}}</span></div>
     <div class="tdash-controls"><span class="tdash-state" ng-if="!live">NO DATA</span><button type="button" ng-click="toggleTemperature()" aria-label="Change temperature unit">{{tempUnit}}</button><button type="button" ng-click="togglePressure()" aria-label="Change pressure unit">{{pressureUnit}}</button></div>
   </header>
   <div class="tdash-body" ng-if="!selected">
     <div class="tdash-plan" ng-class="{'tdash-extra':displayWheels.length>4}">
-      <svg class="tdash-car" viewBox="0 0 90 230" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M45 14l-3 5h6z" fill="currentColor" stroke="none"/><path d="M22 24Q45 15 68 24L75 66L75 190Q73 213 65 217H25Q17 213 15 190V66Z"/><path d="M25 71Q45 66 65 71L67 98H23Z M23 155H67L65 185Q45 190 25 185Z M24 104V148 M66 104V148"/><path class="tdash-axle" d="M3 60H87 M3 193H87"/></svg>
+      <div class="tdash-centre"><span class="tdash-state" ng-if="!live">NO DATA</span><span ng-if="live">SLIPLINE</span></div>
       <div class="tdash-wheels">
-        <button type="button" class="tdash-wheel" ng-repeat="w in displayWheels track by w.name" ng-click="select(w)" ng-disabled="w.placeholder" ng-class="{'tdash-flat':w.deflated}" ng-attr-aria-label="{{w.label + ', open tyre details'}}">
-          <span class="tdash-position">{{w.name}}<span class="tdash-alert" ng-if="w.deflated"> FLAT</span></span>
-          <span class="tdash-tyre" aria-label="Three tread temperature zones"><i ng-repeat="t in w.temps track by $index" ng-style="{'background-color':zoneColor(t,w.target)}" ng-attr-title="{{'Zone ' + ($index+1) + ': ' + temperature(t) + tempUnit}}"></i></span>
-          <strong class="tdash-temp" ng-class="{'tdash-hot':w.status.tone==='hot' || w.status.tone==='danger'}">{{temperature(w.average)}}<em ng-if="w.average !== null">{{tempUnit}}</em></strong>
-          <span class="tdash-pressure" ng-class="{'tdash-hot':w.deflated || w.status.label==='LOW PSI'}">{{pressure(w.pressure)}}<em ng-if="w.pressure !== null">{{pressureUnit}}</em></span>
-          <span class="tdash-life" ng-if="live && w.condition !== null" ng-attr-title="{{'Remaining tyre life: ' + number(w.condition,0) + '%'}}"><span>LIFE</span><span class="tdash-life-track" aria-hidden="true"><i ng-style="{'width':w.condition + '%'}"></i></span><span>{{number(w.condition,0)}}%</span></span>
+        <button type="button" class="tdash-wheel" ng-repeat="w in displayWheels track by w.name" ng-click="select(w)" ng-disabled="w.placeholder" ng-class="{'tdash-flat':w.deflated,'tdash-rear':$index>=2,'tdash-left':$index%2===0,'tdash-right':$index%2===1,'tdash-wear-missing':!live || w.condition===null}" ng-attr-aria-label="{{w.label + ', open tyre details'}}" ng-attr-title="{{tyreTitle(w)}}">
+          <span class="tdash-position" ng-if="displayWheels.length>4">{{w.name}}</span>
+          <span class="tdash-pressure" ng-class="{'tdash-hot':w.deflated || w.status.label==='LOW PSI'}"><span ng-if="w.deflated">FLAT</span><span ng-if="!w.deflated">{{pressure(w.pressure)}}<em ng-if="w.pressure !== null">{{pressureUnit}}</em></span></span>
+          <span class="tdash-glyph">
+            <span class="tdash-tyre" aria-label="Tread temperature and remaining life"><i class="tdash-band" ng-repeat="t in w.temps track by $index"><i class="tdash-fill" ng-style="{'background-color':zoneColor(t,w.target),'height':lifeHeight(w)}"></i></i></span>
+            <span class="tdash-brake" ng-if="live && w.brake !== null" ng-style="{'background-color':brakeColor(w)}" ng-attr-title="{{'Brake: ' + temperature(w.brake) + tempUnit}}" aria-label="Brake temperature"></span>
+          </span>
+          <span class="tdash-contact" aria-label="Estimated contact bias"><i ng-if="live && w.contactBias !== null" ng-style="{'left':contactPosition(w)}" ng-attr-title="{{'Estimated contact bias: ' + contactLabel(w) + ' across displayed tread'}}"></i></span>
         </button>
       </div>
     </div>
   </div>
   <div class="tdash-details tdash-body" ng-if="selected">
     <div class="tdash-zone-values"><span ng-repeat="t in selected.temps track by $index" ng-style="{'border-top-color':zoneColor(t,selected.target)}">{{temperature(t)}}<em>{{t !== null ? tempUnit : ''}}</em></span></div>
-    <dl><div><dt>TREAD</dt><dd>{{temperature(selected.average)}} {{selected.average !== null ? tempUnit : ''}}</dd></div><div><dt>CORE</dt><dd>{{temperature(selected.core)}} {{selected.core !== null ? tempUnit : ''}}</dd></div><div><dt>PRESSURE</dt><dd>{{pressure(selected.pressure)}} {{selected.pressure !== null ? pressureUnit : ''}}</dd></div><div><dt>COLD SET</dt><dd>{{pressure(selected.targetPressure)}} {{selected.targetPressure !== null ? pressureUnit : ''}}</dd></div><div ng-if="live && selected.condition !== null"><dt>LIFE</dt><dd>{{number(selected.condition,0)}}{{selected.condition !== null ? '%' : ''}}</dd></div><div><dt>BRAKE</dt><dd>{{temperature(selected.brake)}} {{selected.brake !== null ? tempUnit : ''}}</dd></div><div><dt>SIDE SLIP</dt><dd>{{number(selected.sideSlip,2)}} {{selected.sideSlip !== null ? 'm/s' : ''}}</dd></div></dl>
+    <dl>
+      <div><dt>TREAD</dt><dd>{{temperature(selected.average)}} {{selected.average !== null ? tempUnit : ''}}</dd></div>
+      <div><dt>PRESSURE</dt><dd>{{pressure(selected.pressure)}} {{selected.pressure !== null ? pressureUnit : ''}}</dd></div>
+      <div ng-if="live && selected.condition !== null"><dt>LIFE</dt><dd>{{number(selected.condition,0)}}%</dd></div>
+      <div ng-if="live && selected.camber !== null"><dt>CAMBER</dt><dd>{{number(selected.camber,1)}}°</dd></div>
+      <div ng-if="live && selected.contactBias !== null"><dt>CONTACT EST.</dt><dd>{{contactLabel(selected)}}</dd></div>
+      <div><dt>CORE</dt><dd>{{temperature(selected.core)}} {{selected.core !== null ? tempUnit : ''}}</dd></div>
+      <div><dt>COLD SET</dt><dd>{{pressure(selected.targetPressure)}} {{selected.targetPressure !== null ? pressureUnit : ''}}</dd></div>
+      <div><dt>BRAKE</dt><dd>{{temperature(selected.brake)}} {{selected.brake !== null ? tempUnit : ''}}</dd></div>
+      <div><dt>SIDE SLIP</dt><dd>{{number(selected.sideSlip,2)}} {{selected.sideSlip !== null ? 'm/s' : ''}}</dd></div>
+    </dl>
   </div>
 </section>

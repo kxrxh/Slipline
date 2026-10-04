@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.2.6 — Minimal tyre map
+
+- Replace the overview with four tyre blocks, front/rear pressure placement and no weather panel.
+- Show temperature with three coloured tread bands and remaining life with bottom-up fill.
+- Read Redux's estimated load bias for contact markers and camber for per-tyre details; hide unavailable or stale readings.
+- Add small inner brake-temperature strips when fresh data exists.
+- Keep unit controls and numerical readings in the detail view; preserve independent resizing down to 160 × 180.
+- Preserve wheel positions when an individual standard wheel reading is missing.
+- Keep all Lua, physics, thermals, audio and automatic loading identical to 0.2.5.
+
 ## 0.2.5 — Wear on the dashboard
 
 - Show remaining tyre life as a percentage and a thin bar in the overview when wear telemetry is available.

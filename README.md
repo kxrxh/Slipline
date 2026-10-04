@@ -2,7 +2,7 @@
 
 Clearer tyre audio and a compact racing dash for **BeamNG.drive 0.39.x**, with native tyre grip preserved.
 
-**Version 0.2.5 preserves native grip and restores wear on the dashboard.** The grip modifier was removed in 0.2.4 after the 0.2.3 comparison found longer braking and sharper breakaway in one stress test. Tested with BeamNG.drive 0.39.4.0 (build 20972); 0.2.5 changes only the UI. Slipline does not replace the native tyre physics model.
+**Version 0.2.6 preserves native grip and adds the minimal tyre map.** The grip modifier was removed in 0.2.4 after the 0.2.3 comparison found longer braking and sharper breakaway in one stress test. Tested with BeamNG.drive 0.39.4.0 (build 20972); 0.2.6 changes only the UI. Slipline does not replace the native tyre physics model.
 
 ![Tyre Dash with sample readings](docs/images/tyre-dash.png)
 
@@ -12,22 +12,24 @@ Clearer tyre audio and a compact racing dash for **BeamNG.drive 0.39.x**, with n
 
 - Loads automatically, with no tuning part or activation required. Tyre grip remains under BeamNG or your thermal mod's control.
 - Native tyre audio grows with measured slip, helping make sliding more audible.
-- **Tyre Dash:** three tread-temperature bands per tyre, live pressure and remaining life when available, with compact and larger layouts. Tap a tyre for details; switch between °C/°F and PSI/kPa.
+- **Tyre Dash:** four tyre blocks with temperature colours, live pressure, wear fill, small brake-temperature strips and estimated contact markers when available. Tap a tyre for detailed readings and °C/°F or PSI/kPa controls.
 - Optional integration with [Tyre Wear and Thermals Redux](https://www.beamng.com/resources/tyre-wear-and-thermals-redux.29934/). Redux supplies temperature, wear and grip; Slipline reads telemetry without applying another grip multiplier.
 
 Wheel construction stays stock. Slipline does not increase polygon or physics-node counts.
 
 ## Resizing the dash
 
-Drag the app resize handle in BeamNG's UI Apps editor. Suggested sizes: **small 160 × 180**, **medium 300 × 360**, **large 440 × 500**. Small or short apps use compact two-column readings; larger apps scale the car outline and tyre graphics. Width and height are independent, and temperature/pressure stay visible. Small detail views scroll vertically.
+Drag the app resize handle in BeamNG's UI Apps editor. Suggested sizes: **small 160 × 180**, **medium 300 × 360**, **large 440 × 500**. Four tyres keep a two-column layout at every size. Width and height are independent; the graphics scale to fit both. Extra axles and small detail views scroll vertically.
 
 ## Readings and behaviour
 
-The main temperature is the average tread temperature. The detail view adds the three tread zones, core temperature, pressure, cold setpoint, remaining life, brake temperature and measured sideways slip. Pressure is live gauge pressure, not the configured cold pressure.
+Pressure sits above the front tyres and below the rear tyres. It is live gauge pressure, not the configured cold pressure. The overview uses colour for the three tread temperatures and small inner strips for brake temperature. Tap a tyre for numerical tread/core temperatures, pressure, cold setpoint, life, camber, estimated contact side, brake temperature and measured sideways slip. Unit controls are in that detail view.
 
-Each tyre shows a small **LIFE** percentage and bar when fresh wear telemetry is available. **100% means new; 0% means exhausted.** Missing or stale wear data is hidden, without assuming the tyre is new. Redux supplies wear readings.
+Tyre blocks fill from the bottom with remaining life: **100% means new; 0% means exhausted.** The three bands share one life reading; this is not separate shoulder wear. Missing or stale wear uses a hatched temperature graphic, without assuming the tyre is new. The exact percentage is in the detail view. Redux supplies wear readings.
 
-Temperature colours use Redux's **wear temperature target** as their reference; that target is not necessarily the temperature of maximum grip. Redux owns heat, wear, brake heat transfer and its wear-related punctures. Slipline does not run a second thermal or wear simulation.
+The white triangle shows Redux's **estimated load bias** across the displayed tread. Positive bias moves right; negative bias moves left, following Redux's left/centre/right temperature-ring weighting. On the left wheels, right is inner; on the right wheels, left is inner. The marker is an estimate based on camber and lateral acceleration, not a measured contact patch. Missing or stale bias hides the marker; unavailable camber and wear details are also hidden.
+
+Tread colours run from cool teal through green and yellow to hot orange/red, using Redux's **wear temperature target** as their reference; that target is not necessarily the temperature of maximum grip. Brake strips use Redux's brake reference temperature, or 800°C if that field is absent; they are a heat cue, not a calibrated brake-performance meter. Redux owns heat, wear, brake heat transfer and its wear-related punctures. Slipline does not run a second thermal or wear simulation.
 
 Slipline's grip factor is **1.00**. It does not write friction coefficients, alter Redux's update order or change wheel construction. The optional base-grip reading uses Redux's latest available computed value and can lag its update by one frame. Tyre sound gain is capped at **1.8×** its existing coefficient and returns to baseline at rest, when unloaded or deflated. The shared native coefficient can also raise rolling and scrub sounds; intentionally muted tyres remain muted.
 
